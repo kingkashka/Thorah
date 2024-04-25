@@ -1,0 +1,117 @@
+/* *body{
+    height: 100vh;
+    width: 100%;
+} */
+.calendar{
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 800px;
+    width: 1000px;
+    color: black;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.year{
+    position: absolute;
+    font-size: 45px;
+    top: -45px;
+}
+.month{
+    position: absolute;
+    font-size: 45px;
+    top: 0;
+}
+.buttonLeft{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.buttonRight{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.days{
+    position: absolute;
+    top: 50px;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.days > li{
+    margin: 20px;
+}
+/* .dates{
+    height: 80px;
+    width:80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid black 3px;
+    border-radius: 5px;
+} */
+.evenDay--container{
+    position: absolute;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* gap: 10px; */
+    height: 630px;
+    width: 950px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.evenDay--container{
+    position: absolute;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* gap: 10px; */
+    height: 630px;
+    width: 950px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.oddDay--container{
+    position: absolute;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* gap: 10px; */
+    height: 630px;
+    width: 950px;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.evenDay--container > div{
+    height: 100%;
+    width: 100%;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.oddDay--container > div{
+    height: 100%;
+    width: 100%;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: inline-block;
+}

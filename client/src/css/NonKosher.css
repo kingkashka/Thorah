@@ -1,0 +1,208 @@
+.kosher--page--light{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #202124;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+.kosher--page--dark{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  background-color: #202124;
+  font-family: 'Times New Roman', Times, serif;
+}
+.uncleanAnimals--page--dark{
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  color: whitesmoke;
+  background-color: #202124;
+  font-family: 'Times New Roman', Times, serif;
+}
+.uncleanAnimals--page--light{
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #202124;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  }
+
+.page-light{
+    background-color: whitesmoke;
+    color-scheme: light dark;
+    color: #242424;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+  }
+  .icon-light{
+    color: black;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    transition: linear 1s ease;
+  }
+  .icon-dark{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: linear 1s ease;
+  }
+  .icon-light:hover {
+    scale: 1.2;
+  }
+  .icon-dark:hover {
+    scale: 1.2;
+  }
+  .header{
+    align-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .header > h2{
+    font-size: 30px;
+  }
+  .header > h1{
+    font-size: 45px;
+    letter-spacing: 0.5px;
+  }
+  .header > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    list-style-type: none;
+  }
+  .card--container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25 saturation, lightness, alpha) ;
+  
+  }
+  .card {
+    position: relative;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 800px;
+    margin: 10px;
+    box-shadow: #282d2e;
+    display: flex;
+    height: 500px;
+    max-width: 800px;
+    background-color:bisque;
+    color: black;
+    font-size: 16;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: start;
+    transform: translateY(0);
+  }
+  .card > img{
+    position: absolute;
+    top: 20px;
+    justify-self: center;
+    height: 450px;
+    width: 775px;
+    max-width: 800px;
+    border-radius: 20px;
+    transition: 1s ease;
+    z-index: 1;
+  }
+  .card:hover .card--image{
+    transform: translateY(-300px);
+  }
+  .card > p{
+    position: absolute;
+    font-size: 14px;
+    top: 195px; 
+    width: 700px;
+  }
+  .card > h2{
+    position: absolute;
+    top: 440px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font: 'Times New Roman', Times, serif;
+  }
+  .card > label{
+    position: absolute;
+    top: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font: bold;
+    font-style: italic;
+    text-decoration-line: underline;
+  }
+  
+  .Lilcard{
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    height: 340px;
+    width: 200px;
+    background-color:bisque;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    transition: transform 250ms ease-in-out;
+  }
+  .Lilcard:hover {
+    z-index: 10;
+    transform: scale(1.1);
+  }
+  .Lilcard > h2{
+    padding-top: 20px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Lilcard > label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 6px;
+    font: bold;
+    font-style: italic;
+    text-decoration-line: underline;
+  }
+  .Lilcard--image{
+    border-radius: 20px;
+    height: 175px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 250ms ease-out;
+  }
+  .lilCardContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  .creeperCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .animal--paragraph p{
+    margin: 0;
+    /* max-width: 80%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }

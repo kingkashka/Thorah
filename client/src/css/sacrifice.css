@@ -1,4 +1,26 @@
 .sacrifice--page--light{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #202124;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .sacrifice--page--dark{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    background-color: #202124;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+/* .sacrifice--page--light{
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -11,7 +33,7 @@
     text-align: center;
     color: whitesmoke;
     background-color: #202124;
-}
+} */
 .sacrificePage--small--light{
     width: 100%;
     margin: 0 auto;
@@ -24,29 +46,31 @@
     background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
 }
-.sacrficePage--small--dark{
+.sacrificePage--small--dark{
     width: 100%;
-    padding: 1%;
     margin: 0 auto;
     text-align: center;
-    color: #202124;
+    color: whitesmoke;
     background-color: #202124;
-    
     font-family: 'Times New Roman', Times, serif;
 }
-.sacrficePage--small--light > h1{
+.sacrificePage--small--light > h1{
     font-size: 40px;
     color: #202124;
 }
-.sacrficePage--small--dark > h1{
+.sacrificePage--small--dark > h1{
     font-size: 40px;
     color: whitesmoke;
 }
 .sacrifice--header--light{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 100%;
     text-align: center;
     color: black;
     background-color: whitesmoke;
-    padding: 1%;
+    
     font-size: 18px;
 }
 .sacrifice--header--light > h1{
@@ -56,8 +80,6 @@
     text-align: center;
     color: whitesmoke;
     background-color: #202124;
-    margin: 0%;
-    padding: 1%;
     font-size: 18px;
 }
 .sacrifice--header--dark > h1{
@@ -70,7 +92,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     font-size: 18px;
     color: #202124;
 }

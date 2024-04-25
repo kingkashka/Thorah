@@ -2,8 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useContext } from "react";
 import { ThemeContext } from "/src/components/themeContext.jsx";
-import { CiMenuFries } from "react-icons/ci";
-import { FaRegLightbulb } from "react-icons/fa";
 import Button from "/src/components/Button.jsx";
 
 function HomeHeader() {
@@ -38,11 +36,11 @@ function HomeHeader() {
             Kosher
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link className={`link--${context.color}`} to={"/sacrifices"}>
             Sacrifices
           </Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link className={`link--${context.color}`} to={"/language"}>
             Language

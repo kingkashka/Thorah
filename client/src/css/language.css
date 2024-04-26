@@ -10,6 +10,23 @@
   margin: auto;
   background-color: #202124;
 }
+.language--header--light{
+  color: #202124;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+.language--header--dark{
+  color: whitesmoke;
+  background-color: #202124;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 .language--page--light{
     width: 80%;
     height: 100%;

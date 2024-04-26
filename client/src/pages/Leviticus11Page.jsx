@@ -11,7 +11,6 @@ function Leviticus11Page(){
         <div className={`kosher--page--${context.color}`}>
         <HomeHeader />
         <Leveticus11SmallPage />
-        <Footer />
         </div>
     )
 }

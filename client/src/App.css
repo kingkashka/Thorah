@@ -146,7 +146,7 @@
 .theName{
   align-items: center;
   margin: 0 auto;
-  background: linear-gradient(150deg, #ff0000, #ffff00, #ffa500, #0033ff, #ff00c4, #800080,  #ff0000);
+  background: linear-gradient(150deg, #ff00c4, #ff0000, #ffff00, #0033ff, #ff00c4, #800080);
   background-size: 400%;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 300;

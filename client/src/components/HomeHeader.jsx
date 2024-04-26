@@ -36,14 +36,14 @@ function HomeHeader() {
             Kosher
           </Link>
         </li>
+        <li>
+          <Link className={`link--${context.color}`} to={"/language"}>
+            Language
+          </Link>
+        </li>
         {/* <li>
           <Link className={`link--${context.color}`} to={"/sacrifices"}>
             Sacrifices
-          </Link>
-        </li> */}
-        {/* <li>
-          <Link className={`link--${context.color}`} to={"/language"}>
-            Language
           </Link>
         </li> */}
         {/* <li>

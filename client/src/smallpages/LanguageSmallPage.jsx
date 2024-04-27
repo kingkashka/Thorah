@@ -17,6 +17,7 @@ function LanguageSmallPage() {
       number={item.number}
     />
   ));
+  
   return (
     <div className={`bigLanguage--page--${context.color}`}>
       <div className={`language--page--${context.color}`}>

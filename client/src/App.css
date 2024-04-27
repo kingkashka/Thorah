@@ -100,7 +100,7 @@
 }
 .navbar--container--dark > ul > li{
   display: block;
-  margin: 8px;
+  margin: 2%;
   font-family: 'Times New Roman', Times, serif;
   border: solid 3px transparent;
   border-radius: 4px;
@@ -112,7 +112,7 @@
 .navbar--container--light > ul > li{
   display: flex;
   align-items: center;
-  margin: 8px;
+  margin: 2%;
   font-family: 'Times New Roman', Times, serif;
   border: solid 3px transparent;
   border-radius: 4px;

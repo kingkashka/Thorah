@@ -7,7 +7,6 @@ import SacrificePage from "./pages/SacrificePage";
 import LanguagePage from "./pages/LanguagePage.jsx"
 // import LuminariesPage from "./pages/LuminariesPage.jsx"
 // import CalendarPage from "./pages/CalendarPage.jsx";
-import Contact from "./pages/ContactPage.jsx";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
         {/* <Route path="/sacrifices" element={<SacrificePage />} /> */}
         {/* <Route path="/luminaries" element={<LuminariesPage />} /> */}
         {/* <Route path="/calendar" element={<CalendarPage />} /> */}
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </>
   );

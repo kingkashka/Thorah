@@ -64,24 +64,17 @@
   .icon-dark:hover {
     scale: 1.2;
   }
-  .header{
+  .kosher--header{
     align-content: center;
     width: 100%;
     padding-bottom: 10px;
   }
-  .header > h2{
+  .kosher--header > h2{
     font-size: 30px;
   }
-  .header > h1{
+  .kosher--header > h1{
     font-size: 45px;
     letter-spacing: 0.5px;
-  }
-  .header > ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 30px;
-    list-style-type: none;
   }
   .card--container{
     display: inline-flex;

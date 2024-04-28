@@ -42,25 +42,32 @@ function LanguageHeader() {
         Modern Hebrew is written from right to left using a script that consists
         of 22 letters, all consonants. Vowels are represented using diacritic
         marks called "nikkud" or are implied by context. Hebrew in anitiquity
-        was written without "nikkud" vowel points in a system refered "matris
-        lectionis". "Matres lectionis" is a Latin term that translates to
-        "mothers of reading" or "mothers of pronunciation." In the context of
+        was written without "nikkud" vowel points in a system refered to as
+        "matris lectionis". "Matres lectionis" is a Latin term that translates
+        to "mothers of reading" or "mothers of pronunciation." In the context of
         the Hebrew language, it refers to certain consonant letters that were
-        used to indicate vowel sounds. These letters are the "aleph", "waw",
-        "yod".
+        used to indicate vowel sounds if not positioned as the first letter of a
+        word. These letters are the "aleph", "waw", "yod".
       </p>
       <div className={`hebrew--list--${context.color}`}>
         <li>
-          א (Aleph): Originally representing a glottal stop, the letter Aleph
-          also came to represent the vowels /a/ or /e/ in various positions
-          within words. For example, in the word אָב (av), meaning "father," the
-          Aleph represents the vowel /a/.
+          א (Aleph): Originally representing a glottal stop sound (/ʔ/), similar
+          to the sound between the syllables of the English word "uh-oh". the
+          letter Aleph also represents a vowel place holder when followed by
+          either of the other vowels /a/ /o/ or /e/ in various positions within
+          words. For example, in the word אור (or), meaning "light," the Aleph
+          represents the vowel placeholder creating the "oh" sound.
         </li>
         <li>
-          ו (Waw): While primarily a consonant representing the /v/ or /w/
-          sound, the letter Vav can also represent the vowel sounds /o/ or /u/.
-          For instance, in the word שׁוֹר (shor), meaning "ox," the Vav
-          represents the vowel /o/.
+          ו (Waw): While primarily a consonant representing the /w/ sound, the
+          letter Waw can also represent the vowel sounds /o/ or /u/. In
+          anitiquity the vowel is primarly an "oh" sound like in the word
+          "coat". Over time with the natural deduction of this vowel we have the
+          "U" sound like in the word "noob". This deduction occurs naturally
+          within speech and can cause the observer to hear a deduction of the
+          natural "O" vowel. For instance, in the word "לרוץ" (la'rotz), meaning
+          "to run" the Waw represents the vowel /o/ and with natural deduction
+          this vowel sounds like the /u/ vowel.
         </li>
         <li>
           י (Yod): Besides functioning as a consonant representing the /y/

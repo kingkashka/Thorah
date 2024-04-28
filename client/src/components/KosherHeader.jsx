@@ -1,6 +1,6 @@
-function Header() {
+function KosherHeader() {
   return (
-    <div className="header">
+    <div className="kosher--header">
       <h1>Unclean Animals according to Thorah</h1>
       <h2>טהור אוכל וטמא אוכל</h2>
       <h2>pure food and impure food</h2>
@@ -17,7 +17,8 @@ function Header() {
         chapter, we embark on a journey to unearth fresh insights and expand our
         comprehension of this ancient sacred text.
       </p>
+      <h2>Our Understanding</h2>
     </div>
   );
 }
-export default Header;
+export default KosherHeader;

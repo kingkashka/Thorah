@@ -1,4 +1,4 @@
-import "/src/css/NonKosher.css";
+import "/src/css/Kosher.css";
 import React from "react";
 import KosherHeader from "../components/KosherHeader.jsx";
 import BeastHeader from "/src/components/BeastHeader.jsx";

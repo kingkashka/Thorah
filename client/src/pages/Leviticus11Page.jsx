@@ -3,7 +3,7 @@ import Leveticus11SmallPage from "../smallpages/Leviticus11SmallPage"
 import Footer from "../components/Footer"
 import { ThemeContext } from "../components/themeContext";
 import { useContext } from "react";
-import "/src/css/NonKosher.css";
+import "/src/css/Kosher.css";
 
 function Leviticus11Page(){
     const context = useContext(ThemeContext)

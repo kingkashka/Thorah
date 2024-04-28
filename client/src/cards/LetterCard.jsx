@@ -9,15 +9,17 @@ function LetterCard(props) {
   const context = useContext(ThemeContext);
   const [isActive, setIsActive] = useState(false);
 
-  function flipCard(){
-    setIsActive(prevState => !prevState);
-  };
-
+  function flipCard() {
+    setIsActive((prevState) => !prevState);
+  }
 
   return (
     <>
       <div className={`letterCard--container`}>
-        <div className={`letterCard ${isActive ? 'active' : ''}`} onClick={flipCard}>
+        <div
+          className={`letterCard ${isActive ? "active" : ""}`}
+          onClick={flipCard}
+        >
           <div className={`letterCard--front--${context.color}`}>
             <label>{props.label}</label>
             <h2>{props.title}</h2>

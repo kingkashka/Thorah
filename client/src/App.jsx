@@ -3,8 +3,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import Leviticus11Page from "./pages/Leviticus11Page.jsx";
-import SacrificePage from "./pages/SacrificePage";
 import LanguagePage from "./pages/LanguagePage.jsx"
+import SacrificePage from "./pages/SacrificePage";
 // import LuminariesPage from "./pages/LuminariesPage.jsx"
 // import CalendarPage from "./pages/CalendarPage.jsx";
 

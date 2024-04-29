@@ -41,13 +41,15 @@ function LanguageHeader() {
       <p>
         Modern Hebrew is written from right to left using a script that consists
         of 22 letters, all consonants. Vowels are represented using diacritic
-        marks called "nikkud" or are implied by context. Hebrew in anitiquity
-        was written without "nikkud" vowel points in a system refered to as
-        "matris lectionis". "Matres lectionis" is a Latin term that translates
-        to "mothers of reading" or "mothers of pronunciation." In the context of
-        the Hebrew language, it refers to certain consonant letters that were
-        used to indicate vowel sounds if not positioned as the first letter of a
-        word. These letters are the "aleph", "waw", "yod".
+        marks called "nikkud" or are implied by context.
+        <br />
+        Hebrew in anitiquity was written without "nikkud" vowel points in a
+        system refered to as "matris lectionis". "Matres lectionis" is a Latin
+        term that translates to "mothers of reading" or "mothers of
+        pronunciation." In the context of the Hebrew language, it refers to
+        certain consonant letters that were used to indicate vowel sounds if not
+        positioned as the first letter of a word. These letters are the "aleph",
+        "waw", "yod".
       </p>
       <div className={`hebrew--list--${context.color}`}>
         <li>
@@ -84,6 +86,49 @@ function LanguageHeader() {
         are not always explicitly marked. This understanding helps us better
         understand the true pronunciation of biblical areas, places, names and
         most importantly the most holiest name in our history YHWH - יהוה.
+        <br />
+        we also do not see the importance or neccesity of the holy language
+        having more than one sound for a single letter. For example the letter
+        shen "ש" in anitiquity only had a single sound in pronunciation. this
+        sound is the "Sh" sound that you get like in the english word Sharp. we
+        already have another letter that represents the "S" sound like in the
+        english word "sing", This letter is the "ס". we can find through a
+        historical context where there became confusion between these letters in
+        the judges 12:6.
+        <li>
+          judges 12:6: Then said they unto him, Say now Shibboleth (שִׁבֹּ֜לֶת):
+          and he said Sibboleth (סִבֹּ֗לֶת): for he could not frame to pronounce
+          it right. Then they took him, and slew him at the passages of Jordan:
+          and there fell at that time of the Ephraimites forty and two thousand.
+        </li>
+        this is also the case for letters "tet" and "Thaw". natrual degradation
+        of the Thaw makes it sound like a T sound like in the word "tea". when
+        in reality it has always represented a th sound. so the word torah which
+        means law and instruction is actually pronounced as Thorah. same goes
+        for the word "shabath". The use of the true Thaw has been lost in modern
+        hebrew and does not exist by mainstream standards/
+      </p>
+      <h3>Heh - </h3>
+      <p>
+        Heh being both an exasperated breath and a vowel placeholder is for the
+        reason of not doubling an additional sound. Heh acts as a way to extend
+        the vowel sounds and even put more emphasis on the vowel. It should be
+        doubled fully as an ah sound being that it is too much like the aleph.
+        Modern hebrew has masked this by making the aleph silent and allowing
+        the heh to take on the role of a cosonant. When in reality the aleph is
+        the inherent vowel sound of all the letters. "Ah" and "hah" sound too
+        much alike so when heh is at the beggining of a word it takes on a
+        consonant but when in the middle of words it acts as a vowel
+        extender/exphasis marker on that specific vowel.
+      </p>
+      <h3>The Signs - האותות</h3>
+      <p>
+        The 22 letters that are used for hebrew literally come from the word
+        meaning "sign" in hebrew "אות" (Oath). from a biblical perpspective,
+        Oaths are the literal manifestations of something physical in
+        understanding. for examply in the book of genesis we are told by elohim
+        that the sun and the moon would be for "אותות" (signs). these are
+        literal physical representations that are to be signs for us.
       </p>
     </div>
   );

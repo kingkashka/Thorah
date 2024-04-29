@@ -10,9 +10,10 @@ function LanguageSmallPage() {
   const renderLetterCard = letterData.map((item) => (
     <LetterCard
       label={item.label}
+      original={item.original}
       image={item.image}
       title={item.title}
-      sound={item.sound}
+      picture={item.picture}
       description={item.description}
       number={item.number}
     />

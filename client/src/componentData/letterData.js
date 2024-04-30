@@ -12,7 +12,7 @@ const letterData = [
     title: "ב",
     number: "2",
     original: "Beith - בית",
-    picture: "/images/letterImages/beith.jpg",
+    picture: "https://images.pexels.com/photos/1862402/pexels-photo-1862402.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
       "בית (Beith) means house in the sense of a home, a household; Elohim, father, wife and children.",
   },
@@ -130,9 +130,9 @@ const letterData = [
     label: "Samech",
     title: "ס",
     number: "60",
-    original: "Sabav - סבב",
-    picture: "https://images.pexels.com/photos/39279/ship-traffic-jams-rope-dew-cordage-39279.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: `The verb סמך (samak) means lean upon, support, uphold. It is the verb that is used in the phrase "laying on of hands."`,
+    original: "Samach - סמך",
+    picture: "https://images.pexels.com/photos/1459530/pexels-photo-1459530.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: `The verb סמך (samach) means lean upon, support, uphold. It is the verb that is used in the phrase "laying on of hands."`,
   },
   {
     label: "Ayin",
@@ -158,7 +158,7 @@ const letterData = [
     label: "Tsade",
     title: "צ",
     number: "90",
-    original: "tsadhe - צדי",
+    original: "tsamach - צמח",
     picture:
       "https://www.360financialliteracy.org/var/ezflow_site/storage/images/360finlit/homepage-herospace-images/sprouting-plant/3313987-1-eng-US/sprouting-plant.jpg",
     description:
@@ -168,7 +168,7 @@ const letterData = [
     label: "Qoph",
     title: "ק",
     number: "100",
-    original: "",
+    original: " - ",
     picture:
       "https://images.pexels.com/photos/544458/pexels-photo-544458.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
@@ -199,7 +199,7 @@ const letterData = [
     title: "ת",
     number: "400",
     original: "Thaw - תו",
-    picture: "",
+    picture: "https://st.depositphotos.com/72990806/61674/v/450/depositphotos_616743436-stock-illustration-close-icon-vector-illustration-delete.jpg",
     description:
    `תו (taw) does indeed signify "mark," and its verb תוה (tawa), meaning "to scribble" or "to limit," is likely derived from this noun. The more ancient form of this letter resembled an X, a shape that naturally lends itself to being a general mark.`,
   },

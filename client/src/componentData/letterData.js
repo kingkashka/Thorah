@@ -32,6 +32,7 @@ const letterData = [
     number: "4",
     original: "Dag - דג",
     picture: "/images/letterImages/dag.jpg",
+    alternate: "",
     description:
       "	",
   },
@@ -40,7 +41,8 @@ const letterData = [
     title: "ה",
     number: "5",
     original: "Halal - הלל",
-    picture: "",
+    picture: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL3Jhd3BpeGVsX29mZmljZV8yNV9waG90b19vZl9zdW5fcmF5X2ZpbG1fYWVzdGhldGljX3JldHJvX21pbmltYV9jZDJhMGJmYy1mZWVjLTQxYTgtOWU2MC1kOTVkNmZmN2EzYTlfMS5qcGc.jpg",
+    alternate: "",
     description:
       "The spelling and thus the meaning of this word is uncertain. Klein spells הא (he), meaning lo! behold! Fuerst holds to הי, and thinks it's a part of the name for heth; letter 8.",
   },
@@ -54,11 +56,11 @@ const letterData = [
       "The word וו (waw) means hook or peg, and is strictly reserved for the hooks/ pegs that kept the curtains of the tabernacle in place.",
   },
   {
-    label: "Zaiyen",
+    label: "Zayin",
     title: "ז",
     number: "7",
     original: "Zara - זרע",
-    picture: "",
+    picture: "https://media.istockphoto.com/id/971038924/vector/farmers-plows-the-land-with-animals.jpg?s=612x612&w=0&k=20&c=5-YdyDQoA7n4cyeA-0PJs6cD1HkimL_DuKUPX8PEJiA=",
     description:
       "he word זין does not occur in Scriptures. Klein suggests that the form of the zayin represents a hand weapon, and explains that zyn means arm, ornament, to arm, to adorn (no references to Scriptures).",
   },
@@ -102,8 +104,8 @@ const letterData = [
     title: "ל",
     number: "30",
     original: "Lamed",
-    picture: "",
-    description: `The verb למד (lamad) means learn or teach. Derivative תלמיד (talmid) means scholar (hence Talmud), and derivative מלמד means ox goad. The letter lamed is said to look like such a device, and when Jesus says to Saul, "it is hard for you to kick against the goads" (Acts 26:14) He may hint at Saul's learning rather than coercion.`,
+    picture: "https://media.bible.art/661717e0-add4-4b97-9de1-16693fdfdb2c-compressed.jpg",
+    description: `The verb למד (lamad) means learn or teach. Derivative תלמיד (talmid) means scholar (hence Talmud), and derivative מלמד means ox goad.`,
   },
   {
     label: "Mem",
@@ -119,7 +121,7 @@ const letterData = [
     title: "נ",
     number: "50",
     original: "Nachash - נחש",
-    picture: "/images/letterImages/nun.jpg",
+    picture: "https://photographylife.com/wp-content/uploads/2021/04/eyelash-viper-is-very-beautiful-snakes-are-misunderstood-.jpg",
     description:
       "The verb נון (nun) means propagate, increase. Derivative נין means offspring, posterity.",
   },
@@ -136,7 +138,7 @@ const letterData = [
     title: "ע",
     number: "70",
     original: "Ayin - עין",
-    picture: "",
+    picture: "https://www.shutterstock.com/image-photo/extreme-closeup-photo-african-womans-600nw-792868357.jpg",
     description:
       "The word עין (ayin) means eye in all regular senses, but also as means of expression (knowledge, character, etc.). The word עין (ayin) means spring or fountain. ",
   },
@@ -145,7 +147,7 @@ const letterData = [
     title: "פ",
     number: "80",
     original: "Panim - פנים",
-    picture: "",
+    picture: "https://t3.ftcdn.net/jpg/03/33/88/90/360_F_333889026_rP8UIHhS2HxzapSuYUVaW6tFxXwXbtpI.jpg",
     description:
       "The word פה (peh) means mouth, but is often synonymous with speech. With a little good will one may recognize a face with a mouth in the shape of this letter.",
   },
@@ -154,7 +156,7 @@ const letterData = [
     title: "צ",
     number: "90",
     original: "tzamach - צמח",
-    picture: "",
+    picture: "https://www.360financialliteracy.org/var/ezflow_site/storage/images/360finlit/homepage-herospace-images/sprouting-plant/3313987-1-eng-US/sprouting-plant.jpg",
     description:
       "Klein derives from the verb צוד (sud), to hunt, and states that צדי means fish hook (no Biblical occurrence). Another name for this letter is צדיק (saddiq), just, righteous, from the verb צדק (sadeq), to be just or righteous.",
   },
@@ -163,23 +165,23 @@ const letterData = [
     title: "ק",
     number: "100",
     original: "",
-    picture: "",
-    description: "picture of an axe or mace head",
+    picture: "https://images.pexels.com/photos/544458/pexels-photo-544458.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "This word occurs in Scriptures only as תקופה (tequpa), meaning a coming around, or circuit of space or time. Klein reports that the root verb קוף (qwp) covers a circular motion and that it also serves to denote the ear of an axe or needle, or the back of the head.",
   },
   {
     label: "Resh",
     title: "ר",
     number: "200",
     original: "R'ash - ראש",
-    picture: "",
-    description: "picture of a head",
+    picture: "https://images.pexels.com/photos/10786228/pexels-photo-10786228.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: "The very common word ראשׁ (rosh) basically means head, but is used to indicate whatever leads or comes first: captain, summit, cap stone.",
   },
   {
     label: "Shen",
     title: "ש",
     number: "300",
     original: "Shen - שן",
-    picture: "https://images.pexels.com/photos/55814/leo-animal-savannah-lioness-55814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    picture: "https://wildlifephotosonline.co.uk/media/catalog/product/cache/7639c15f5bc1b3da150213f0b9d24e06/a/f/african-lion-0781-p.jpg",
     description:
       "As derivation from the verb שׁנן (shanan), sharpen, the word שׁן (shen) means tooth or ivory. Both the verb and the noun are used primarily in a literal sense: sharpening of swords and arrows, but sometimes figuratively: the sharpening of one's tongue (saying sharp, mean words) or the sharpening of one's mind (Deuteronomy 6:7). ",
   },

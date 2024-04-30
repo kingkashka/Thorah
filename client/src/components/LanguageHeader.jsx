@@ -106,7 +106,26 @@ function LanguageHeader() {
         in reality it has always represented a th sound. so the word torah which
         means law and instruction is actually pronounced as Thorah. same goes
         for the word "shabath". The use of the true Thaw has been lost in modern
-        hebrew and does not exist by mainstream standards/
+        hebrew and does not exist by mainstream standards/ In ancient Hebrew,
+        the letter "taw" (ת) is generally believed to have been pronounced as a
+        voiceless dental fricative, which is represented in English by the "th"
+        sound, as in the word "thin" or "thick." This pronunciation is indeed
+        different from the sound of the letter "tet" (ט), which is often
+        pronounced as a voiceless alveolar plosive, similar to the English "t"
+        sound. The distinction between the "taw" and "tet" sounds reflects the
+        phonetic diversity present in ancient Hebrew and other Semitic
+        languages. Shin (שׁ): The letter shin typically represented a sibilant
+        consonant sound. In ancient Hebrew, it was likely pronounced as a
+        voiceless postalveolar fricative, similar to the "sh" sound in English
+        words like "shoe" or "ship." The placement of the dot above or inside
+        the letter distinguishes between the "shin" sound (שׁ) and the "sin"
+        sound (ס), though the exact pronunciation of the "sin" is still debated
+        among scholars. Samekh (ס): The letter samekh represented a different
+        consonantal sound. It is typically pronounced as a voiceless alveolar
+        fricative, similar to the "s" sound in English words like "sit" or
+        "see."Each letter in the Hebrew alphabet typically represented a
+        distinct phoneme, and the differences in pronunciation between letters
+        allowed for a richer and more nuanced expression of speech.
       </p>
       <h3>Heh - </h3>
       <p>

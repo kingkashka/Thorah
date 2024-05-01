@@ -5,7 +5,7 @@ const letterData = [
     number: "1",
     original: "Oath - אות",
     picture: "/images/letterImages/aleph.jpg",
-    description: `Being the first sign, "aleph" initially represented a sign post this is more accurately represented in the Hebrew Seals script where the sign clearly does not represent an ox.`,
+    description: `While "aleph" traditionally represents an ox in the ancient Hebrew script, some scholars suggest that its original pictographic form may have resembled a signpost. This interpretation is particularly evident in certain ancient scripts such as Hebrew Seals.`,
   },
   {
     label: "Beith",
@@ -14,7 +14,7 @@ const letterData = [
     original: "Beith - בית",
     picture: "https://images.pexels.com/photos/1862402/pexels-photo-1862402.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
-      "בית (Beith) means house in the sense of a home, a household; Elohim, father, wife and children.",
+      `Actually, "בית" (Beith) typically refers to a physical house, but it can also symbolize a broader concept of a home, encompassing relationships within a family unit, including the roles of Elohim (God), the father, the wife, and the children.`,
   },
   {
     label: "Gimel",
@@ -32,7 +32,7 @@ const letterData = [
     original: "Dag - דג",
     picture: "/images/letterImages/dag.jpg",
     alternate: "",
-    description: "initially representing a fish and now to represent the door of a tent.	",
+    description: `The Hebrew letter "daleth" initially represented a fish and evolved to represent the door of a tent.`,
   },
   {
     label: "Heh",
@@ -49,7 +49,7 @@ const letterData = [
     title: "ו",
     number: "6",
     original: "Waw - וו",
-    picture: "/images/letterImages/waw.webp",
+    picture: "https://skipandjump.co.uk/wp-content/uploads/2020/08/best_tent_pegs-14.jpg",
     description:
       "The term וו (waw) denotes a hook or peg, specifically designated for the purpose of securing the curtains of the tabernacle. The letter ו (waw) is believed to resemble the shape of a hook or peg, reinforcing its association with this function",
   },
@@ -69,23 +69,23 @@ const letterData = [
     number: "8",
     original: "Choma - חומה",
     picture: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpaintingvalley.com%2Fimages%2Fmoses-red-sea-painting-22.jpg&f=1&nofb=1&ipt=2678fa8d11757d9701ae14d7685500d944bea2f5e03458abaf820fa44faf240a&ipo=images",
-    description: `Wall of a city or a fortress. A true divider like stated in the parting of the ים סוף (yam suph) Exodus 14:22 "and they went the children of israel into the sea on dry ground and the waters to them "חומה" (a wall) on their right and left"`,
+    description: `A wall of a city or fortress, a true divider, as exemplified in the parting of the ים סוף (Yam Suph) as described in Exodus 14:22."`,
   },
   {
-    label: "Tet",
+    label: "Teth",
     title: "ט",
     number: "9",
-    original: "Tor - טור",
-    picture: "",
+    original: "Teth - טית",
+    picture: "https://static.vecteezy.com/system/resources/thumbnails/006/445/863/small_2x/abstract-black-and-white-spiral-with-texture-vector.jpg",
     description:
-      `"to twist into each other," or "to interweave." The appearance of the letter teth does resemble a small vortex or spiral, which aligns with these interpretations.`,
+      `"To twist into each other" or "to interweave." The appearance of the letter teth does indeed resemble a small vortex or spiral, aligning with these interpretations.`,
   },
   {
     label: "Yod",
     title: "י",
     number: "10",
     original: "Yad - יד",
-    picture: "/images/letterImages/yad.jpg",
+    picture: "https://images.pexels.com/photos/3576287/pexels-photo-3576287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
       "The term is synonymous with power or might, signifying the idea of something falling into one's hands. It's intriguing that the smallest letter of the alphabet came to represent power, but perhaps its shape evoked the image of a small fist.",
   },
@@ -96,7 +96,7 @@ const letterData = [
     original: "Kaf - כף",
     picture: "https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjAyMTAwODk3ODMwOTM3NjY4/phrases-to-ask-for-support-according-to-a-therapist.jpg",
     description:
-      "	The noun כף (kap) denotes the hand as outstretched, asking and weak. The word basically encompasses anything that is hollow or outstretched in order to receive something",
+      "	The noun כף (kaf) refers to the hand, often in an outstretched position, connoting a sense of asking or weakness. Essentially, it encompasses anything that is hollow or outstretched to receive something.",
   },
   {
     label: "Lamed",
@@ -105,7 +105,7 @@ const letterData = [
     original: "Lamed",
     picture:
       "https://media.bible.art/661717e0-add4-4b97-9de1-16693fdfdb2c-compressed.jpg",
-    description: `The verb למד (lamad) means learn or teach. Derivative תלמיד (talmid) means scholar (hence Talmud), and derivative מלמד means ox goad.`,
+    description: `The verb למד (lamad) means "to learn" or "to teach." Its derivative תלמיד (thalmid) means "scholar," hence the term Talmud. Another derivative, מלמד (malmad), means "ox goad."`,
   },
   {
     label: "Mem",
@@ -114,7 +114,7 @@ const letterData = [
     original: "Mayim - מים",
     picture: "/images/letterImages/mem.jpg",
     description:
-      "Mem represents waters in the context of larger bodies such as seas or oceans. Some suggest that the letter mem resembles a wave, which aligns with its association with bodies of water.",
+      "Mem represents bodies of water, such as seas or oceans. Some suggest that the letter mem resembles a wave, which aligns with its association with bodies of water.",
   },
   {
     label: "Nun",
@@ -131,8 +131,8 @@ const letterData = [
     title: "ס",
     number: "60",
     original: "Samach - סמך",
-    picture: "https://images.pexels.com/photos/1459530/pexels-photo-1459530.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: `The verb סמך (samach) means lean upon, support, uphold. It is the verb that is used in the phrase "laying on of hands."`,
+    picture: "https://freerangestock.com/sample/132463/back-view-of-young-father-caresses-son-.jpg",
+    description: `The verb סמך (samach) means "to lean upon," "to support," or "to uphold." In modern Hebrew, it is used to express reliance or dependence on someone or something, both in figurative and literal contexts.`,
   },
   {
     label: "Ayin",
@@ -142,7 +142,7 @@ const letterData = [
     picture:
       "https://www.shutterstock.com/image-photo/extreme-closeup-photo-african-womans-600nw-792868357.jpg",
     description:
-      `The word עין (ayin) indeed signifies "eye" in all regular senses, encompassing physical vision as well as metaphorical expressions like knowledge and character. Additionally, עין (ayin) carries the meaning of "spring" or "fountain.`,
+      `The word עין (ayin) indeed signifies "eye" in all regular senses, encompassing physical vision as well as metaphorical expressions like knowledge and character.`,
   },
   {
     label: "Peh",
@@ -152,7 +152,7 @@ const letterData = [
     picture:
       "https://t3.ftcdn.net/jpg/03/33/88/90/360_F_333889026_rP8UIHhS2HxzapSuYUVaW6tFxXwXbtpI.jpg",
     description:
-      "The word פה (peh) means mouth, but is often synonymous with speech. With a little good will one may recognize a face with a mouth in the shape of this letter.",
+      `The word פה (peh) means "mouth," but it's often synonymous with speech. One may recognize a face with a mouth in the shape of this letter.`,
   },
   {
     label: "Tsade",
@@ -162,7 +162,7 @@ const letterData = [
     picture:
       "https://www.360financialliteracy.org/var/ezflow_site/storage/images/360finlit/homepage-herospace-images/sprouting-plant/3313987-1-eng-US/sprouting-plant.jpg",
     description:
-      "Klein derives from the verb צוד (sud), to hunt, and states that צדי means fish hook (no Biblical occurrence).",
+    `"צדי" (Tzadi) has no occurrences in the Bible but seems to symbolize a sprouting plant. The noun means "plant," and the verb means "to sprout." Some also suggest it resembles a fishing hook.`,
   },
   {
     label: "Qoph",
@@ -172,7 +172,7 @@ const letterData = [
     picture:
       "https://images.pexels.com/photos/544458/pexels-photo-544458.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
-      "The root verb קוף (qwp) indeed encompasses the idea of circular motion. Furthermore, it is used to denote the ear of an axe or needle, or even the back of the head.",
+      "The root verb קוף (qwp) indeed embodies the concept of circular motion. Moreover, it is employed to denote the ear of an axe or needle, or even the back of the head.",
   },
   {
     label: "Resh",
@@ -182,7 +182,7 @@ const letterData = [
     picture:
       "https://images.pexels.com/photos/10786228/pexels-photo-10786228.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
-      "The very common word ראשׁ (rosh) basically means head, but is used to indicate whatever leads or comes first: captain, summit, cap stone.",
+      `The widely used word ראשׁ (rosh) primarily means "head," but it's also employed figuratively to denote leadership or what comes first, such as a "captain," "leader," "summit," or "peak."`,
   },
   {
     label: "Shen",

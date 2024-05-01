@@ -58,18 +58,20 @@ function LanguageHeader() {
           letter Aleph also represents a vowel place holder when followed by
           either of the other vowels /a/ /o/ or /e/ in various positions within
           words. For example, in the word אור (or), meaning "light," the Aleph
-          represents the vowel placeholder creating the "oh" sound.
+          represents the vowel placeholder helping the waw create the "oh"
+          sound. If the aleph was not present then this sound could not be
+          achievable with the waw in the first letter position.
         </li>
         <li>
           ו (Waw): While primarily a consonant representing the /w/ sound, the
           letter Waw can also represent the vowel sounds /o/ or /u/. In
-          anitiquity the vowel is primarly an "oh" sound like in the word
-          "coat". Over time with the natural deduction of this vowel we have the
-          "U" sound like in the word "noob". This deduction occurs naturally
-          within speech and can cause the observer to hear a deduction of the
-          natural "O" vowel. For instance, in the word "לרוץ" (la'rotz), meaning
-          "to run" the Waw represents the vowel /o/ and with natural deduction
-          this vowel sounds like the /u/ vowel.
+          antiquity, the vowel is primarily an "Ō" sound, as in the word "coat."
+          Over time, with the natural evolution of this vowel, we have the "U"
+          sound, as in the word "noob." This evolution occurs naturally within
+          speech and can cause the listener to perceive a shift from the natural
+          "Ō" vowel. For instance, in the word "לרוץ" (la'rotz) meaning "to
+          run," the Waw, represents the vowel /o/, but with natural evolution,
+          this vowel may sound like the /u/ vowel.
         </li>
         <li>
           י (Yod): Besides functioning as a consonant representing the /y/
@@ -79,7 +81,7 @@ function LanguageHeader() {
         </li>
       </div>
       <p>
-        The use of matres lectionis became more standardized over time,
+        The use of matres lectionis became less standardized over time,
         particularly during the development of the Masoretic text, which added
         vowel diacritics (nikkud) to Hebrew script. However, even in modern
         Hebrew, matres lectionis are still employed to some extent, though they
@@ -87,58 +89,52 @@ function LanguageHeader() {
         understand the true pronunciation of biblical areas, places, names and
         most importantly the most holiest name in our history YHWH - יהוה.
         <br />
-        we also do not see the importance or neccesity of the holy language
-        having more than one sound for a single letter. For example the letter
-        shen "ש" in anitiquity only had a single sound in pronunciation. this
-        sound is the "Sh" sound that you get like in the english word Sharp. we
-        already have another letter that represents the "S" sound like in the
-        english word "sing", This letter is the "ס". we can find through a
+        We also do not see the importance or necessity of the holy language
+        having more than one sound for a single letter. Shin (שׁ): The letter
+        shin typically represented a sibilant consonant sound. In ancient
+        Hebrew, it was likely pronounced as a voiceless postalveolar fricative,
+        similar to the "sh" sound in English words like "shoe" or "ship." The
+        placement of the dot above or inside the letter distinguishes between
+        the "shin" sound (שׁ) and the "sin" sound (ס), though the exact
+        pronunciation of the "sin" is still debated among scholars. Samekh (ס):
+        The letter samekh represented a different consonantal sound. It is
+        typically pronounced as a voiceless alveolar fricative, similar to the
+        "s" sound in English words like "sit" or "see." We can find through a
         historical context where there became confusion between these letters in
-        the judges 12:6.
+        the book of Judges 12:6.
         <li>
           judges 12:6: Then said they unto him, Say now Shibboleth (שִׁבֹּ֜לֶת):
           and he said Sibboleth (סִבֹּ֗לֶת): for he could not frame to pronounce
           it right. Then they took him, and slew him at the passages of Jordan:
           and there fell at that time of the Ephraimites forty and two thousand.
         </li>
-        this is also the case for letters "tet" and "Thaw". natrual degradation
-        of the Thaw makes it sound like a T sound like in the word "tea". when
-        in reality it has always represented a th sound. so the word torah which
-        means law and instruction is actually pronounced as Thorah. same goes
-        for the word "shabath". The use of the true Thaw has been lost in modern
-        hebrew and does not exist by mainstream standards/ In ancient Hebrew,
-        the letter "taw" (ת) is generally believed to have been pronounced as a
-        voiceless dental fricative, which is represented in English by the "th"
-        sound, as in the word "thin" or "thick." This pronunciation is indeed
-        different from the sound of the letter "tet" (ט), which is often
-        pronounced as a voiceless alveolar plosive, similar to the English "t"
-        sound. The distinction between the "taw" and "tet" sounds reflects the
-        phonetic diversity present in ancient Hebrew and other Semitic
-        languages. Shin (שׁ): The letter shin typically represented a sibilant
-        consonant sound. In ancient Hebrew, it was likely pronounced as a
-        voiceless postalveolar fricative, similar to the "sh" sound in English
-        words like "shoe" or "ship." The placement of the dot above or inside
-        the letter distinguishes between the "shin" sound (שׁ) and the "sin"
-        sound (ס), though the exact pronunciation of the "sin" is still debated
-        among scholars. Samekh (ס): The letter samekh represented a different
-        consonantal sound. It is typically pronounced as a voiceless alveolar
-        fricative, similar to the "s" sound in English words like "sit" or
-        "see."Each letter in the Hebrew alphabet typically represented a
-        distinct phoneme, and the differences in pronunciation between letters
-        allowed for a richer and more nuanced expression of speech.
+        This is also the case for letters "tet" and "Thaw". The use of the true
+        Thaw has been lost in modern hebrew and does not exist by mainstream
+        standards. In ancient Hebrew, the letter "thaw" (ת) is generally
+        believed to have been pronounced as a voiceless dental fricative, which
+        is represented in English by the "th" sound, as in the word "thin" or
+        "thick." This pronunciation is indeed different from the sound of the
+        letter "tet" (ט), which is often pronounced as a voiceless alveolar
+        plosive, similar to the English "t" sound. The distinction between the
+        "taw" and "tet" sounds reflects the phonetic diversity present in
+        ancient Hebrew and other Semitic languages. Each letter in the Hebrew
+        alphabet represented a distinct phoneme, and the differences in
+        pronunciation between letters allowed for a richer and more nuanced
+        expression of speech.
       </p>
-      <h3>Heh - </h3>
+      <h3>Heh - ה</h3>
       <p>
-        Heh being both an exasperated breath and a vowel placeholder is for the
-        reason of not doubling an additional sound. Heh acts as a way to extend
-        the vowel sounds and even put more emphasis on the vowel. It should be
-        doubled fully as an ah sound being that it is too much like the aleph.
-        Modern hebrew has masked this by making the aleph silent and allowing
-        the heh to take on the role of a cosonant. When in reality the aleph is
-        the inherent vowel sound of all the letters. "Ah" and "hah" sound too
-        much alike so when heh is at the beggining of a word it takes on a
-        consonant but when in the middle of words it acts as a vowel
-        extender/exphasis marker on that specific vowel.
+        Heh serves both as an exasperated breath and a vowel placeholder to
+        avoid doubling an additional cosonant sound. It extends vowel sounds and
+        adds emphasis to them. Doubling it fully as an "ah" sound would make it
+        too similar to the aleph. In modern Hebrew, this issue is addressed by
+        making the aleph silent and allowing the heh to function as a consonant.
+        However, in reality, the aleph represents the inherent vowel sound of
+        all letters. "Ah" and "hah" sound too similar, so when heh is at the
+        beginning of a word, it functions as a consonant. When it occurs within
+        words, it serves as a vowel extender or emphasis marker for that
+        specific vowel. When at the end of a word it serves as a silent vowel
+        placeholder to of whatever letter precedes it.
       </p>
       <h3>The Signs - האותות</h3>
       <p>

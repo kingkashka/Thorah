@@ -205,7 +205,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .kosher--page--light, .kosher--page--dark, .uncleanAnimals--page--light, .uncleanAnimals--page--dark, .page-light {
+    .kosher--page--light, .kosher--page--dark, .uncleanAnimals--page--light, .uncleanAnimals--page--dark {
       max-width: 100%;
       min-width: 280px; /* Adjust as needed */
     }
@@ -223,9 +223,12 @@
       height: auto;
       max-width: 90%;
       min-width: 280px; /* Adjust as needed */
+      height: 300px;
       font-size: 14px;
     }
-  
+    .card:hover .card--image{
+      transform: translateY(-150px);
+    }
     .card > img {
       height: 250px;
       width: 90%;
@@ -235,7 +238,7 @@
     .card > p {
       top: 140px;
       width: 90%;
-      font-size: 12px;
+      font-size: 8px;
     }
   
     .card > h2 {
@@ -252,7 +255,7 @@
       width: 90%;
       height: auto;
       max-width: 90%;
-      min-width: 280px; /* Adjust as needed */
+      min-width: 260px; /* Adjust as needed */
     }
   
     .Lilcard > h2 {
@@ -264,9 +267,10 @@
     }
   
     .Lilcard--image {
-      height: 150px;
-      width: 90%;
-      max-width: 90%;
+      height: 200px;
+      width: 1580px;
+      width: 100%;
+     
     }
   
     .lilCardContainer {

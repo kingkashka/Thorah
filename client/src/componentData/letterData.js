@@ -51,7 +51,7 @@ const letterData = [
     original: "Waw - וו",
     picture: "https://skipandjump.co.uk/wp-content/uploads/2020/08/best_tent_pegs-14.jpg",
     description:
-      "The term וו (waw) denotes a hook or peg, specifically designated for the purpose of securing the curtains of the tabernacle. The letter ו (waw) is believed to resemble the shape of a hook or peg, reinforcing its association with this function",
+      "The term וו (waw) denotes a hook or peg, specifically designated for the purpose of securing the curtains of the tabernacle. The letter ו (waw) is believed to resemble the shape of a hook or peg, reinforcing its association with this function.",
   },
   {
     label: "Zayin",
@@ -102,7 +102,7 @@ const letterData = [
     label: "Lamed",
     title: "ל",
     number: "30",
-    original: "Lamed",
+    original: "Lamad - למד",
     picture:
       "https://media.bible.art/661717e0-add4-4b97-9de1-16693fdfdb2c-compressed.jpg",
     description: `The verb למד (lamad) means "to learn" or "to teach." Its derivative תלמיד (thalmid) means "scholar," hence the term Talmud. Another derivative, מלמד (malmad), means "ox goad."`,
@@ -158,7 +158,7 @@ const letterData = [
     label: "Tsade",
     title: "צ",
     number: "90",
-    original: "tsamach - צמח",
+    original: "tzamach - צמח",
     picture:
       "https://www.360financialliteracy.org/var/ezflow_site/storage/images/360finlit/homepage-herospace-images/sprouting-plant/3313987-1-eng-US/sprouting-plant.jpg",
     description:
@@ -168,7 +168,7 @@ const letterData = [
     label: "Qoph",
     title: "ק",
     number: "100",
-    original: " - ",
+    original: "Kardom - קרדום",
     picture:
       "https://images.pexels.com/photos/544458/pexels-photo-544458.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:

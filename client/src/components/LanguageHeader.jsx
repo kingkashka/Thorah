@@ -7,7 +7,7 @@ function LanguageHeader() {
       <h1>The Hebrew Language - השפת העברי</h1>
       <p>
         The Hebrew language holds a unique and sacred status. It stands as the
-        only language known to have been spoken directly between YHWH and the
+        only language known to have been spoken directly between YHWH - יהוה and the
         prophets. Elohim, the sole creator of all existence, including every
         known language in history, imbues Hebrew with unparalleled significance.
         Just as Elohim is set apart in all His being and actions, so too is the

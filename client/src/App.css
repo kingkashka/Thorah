@@ -4,11 +4,23 @@
   height: 100%;
   margin: 0 auto;
 }
-@media screen {
-  .navbar--container--light, .navbar--container--dark{
-    min-width: 478px;
+@media screen and (max-width: 768px) {
+  .navbar--container--light, .navbar--container--dark {
+    min-width: auto;
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+
+  .navbar--container--light > ul,
+  .navbar--container--dark > ul {
+    justify-content: center;
+  }
+
+  .icon-label {
+    margin-left: 0;
   }
 }
+
 .navbar--container--light{
   margin: 0 auto;
   text-align: center;

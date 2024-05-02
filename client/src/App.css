@@ -4,6 +4,11 @@
   height: 100%;
   margin: 0 auto;
 }
+@media screen {
+  .navbar--container--light, .navbar--container--dark{
+    min-width: 478px;
+  }
+}
 .navbar--container--light{
   margin: 0 auto;
   text-align: center;

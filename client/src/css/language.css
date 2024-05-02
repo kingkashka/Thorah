@@ -309,8 +309,63 @@
     font-size: 18px;
   }
 
-  /* @media screen {
-    .letterCard{
-      min-width: 
-    };
-  } */
+  @media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px wide (typical mobile screens) */
+  
+    .bigLanguage--page--light, .bigLanguage--page--dark {
+      width: 100%;
+    }
+  
+    .language--header--light h1, .language--header--dark h1 {
+      font-size: 35px;
+    }
+  
+    .language--header--light h3, .language--header--dark h3 {
+      font-size: 20px;
+    }
+  
+    .language--header--light p, .language--header--dark p {
+      font-size: 16px;
+    }
+  
+    .letterCard--container {
+      height: 300px;
+      width: 200px;
+      margin: 5px;
+    }
+  
+    .letterCard--front--light > label, .letterCard--front--dark > label {
+      font-size: 18px;
+    }
+  
+    .letterCard--front--light > h2, .letterCard--front--dark > h2 {
+      font-size: 60px;
+      height: 100px
+    }
+  
+    .letterCard--front--light > h3, .letterCard--front--dark > h3 {
+      font-size: 20px;
+    }
+  
+    .letterCard--back--light img, .letterCard--back--dark img {
+      height: 200px;
+      width: 210px;
+    }
+  
+    .letterCard--back--light p, .letterCard--back--dark p {
+      font-size: 10px;
+    }
+  
+    /* .letterCard--description--light, .letterCard--description--dark {
+      height: 80px;
+      width: 200px;
+      font-size: 12px;
+    } */
+  
+    .letterCard--audio--light, .letterCard--audio--dark {
+      bottom: 10px;
+      height: 20px;
+      width: 20px;
+    }
+  }
+  

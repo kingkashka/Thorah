@@ -49,20 +49,20 @@
     cursor: pointer;
     height: 50px;
     width: 50px;
-    transition: linear 1s ease;
+    transition: linear 1s ease-in-out;
   }
   .icon-dark{
     width: 50px;
     height: 50px;
     cursor: pointer;
     color: whitesmoke;
-    transition: linear 1s ease;
+    transition: linear 1s ease-in-out;
   }
   .icon-light:hover {
-    scale: 1.2;
+    scale: 1.1;
   }
   .icon-dark:hover {
-    scale: 1.2;
+    scale: 1.1;
   }
   .kosher--header{
     align-content: center;
@@ -203,3 +203,80 @@
     justify-content: center;
     text-align: center;
   }
+
+  @media only screen and (max-width: 600px) {
+    .kosher--page--light, .kosher--page--dark, .uncleanAnimals--page--light, .uncleanAnimals--page--dark, .page-light {
+      max-width: 100%;
+      min-width: 280px; /* Adjust as needed */
+    }
+  
+    .kosher--header > h2 {
+      font-size: 20px;
+    }
+  
+    .kosher--header > h1 {
+      font-size: 35px;
+    }
+  
+    .card {
+      width: 90%;
+      height: auto;
+      max-width: 90%;
+      min-width: 280px; /* Adjust as needed */
+      font-size: 14px;
+    }
+  
+    .card > img {
+      height: 250px;
+      width: 90%;
+      max-width: 90%;
+    }
+  
+    .card > p {
+      top: 140px;
+      width: 90%;
+      font-size: 12px;
+    }
+  
+    .card > h2 {
+      top: 280px;
+      font-size: 20px;
+    }
+  
+    .card > label {
+      top: 130px;
+      font-size: 16px;
+    }
+  
+    .Lilcard {
+      width: 90%;
+      height: auto;
+      max-width: 90%;
+      min-width: 280px; /* Adjust as needed */
+    }
+  
+    .Lilcard > h2 {
+      font-size: 20px;
+    }
+  
+    .Lilcard > label {
+      font-size: 16px;
+    }
+  
+    .Lilcard--image {
+      height: 150px;
+      width: 90%;
+      max-width: 90%;
+    }
+  
+    .lilCardContainer {
+      width: 90%;
+      max-width: 90%;
+    }
+  
+    .animal--paragraph p {
+      max-width: 90%;
+    }
+  }
+  
+  

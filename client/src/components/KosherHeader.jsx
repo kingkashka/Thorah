@@ -9,7 +9,7 @@ function KosherHeader() {
         between clean and unclean animals permissible for consumption. While the
         term "kosher" has gained prevalence in modern parlance, signifying
         acceptability or fitness, it's essential to maintain fidelity to the
-        original terminology found in the Torah of YHWH. The Torah employs the
+        original terminology found in the Thorah of YHWH - יהוה. The Thorah employs the
         terms "tame" and "tahor" to denote impurity and purity respectively,
         offering a nuanced perspective on the significance of these dietary
         laws. This linguistic precision underscores the gravity of adhering to

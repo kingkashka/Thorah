@@ -9,8 +9,8 @@
 /coverage
 
 # production
-# dist 
-# build
+build # COMMENT THIS OUT
+dist
 
 # misc
 .DS_Store

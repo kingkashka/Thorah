@@ -10,7 +10,7 @@ function Button(props) {
   console.log(context.toggleIcon);
 
   return (
-    <div>
+    <div className="icon--box">
         <FaRegLightbulb
           onClick={context.toggleTheme}
           className={`icon-${context.color}`}

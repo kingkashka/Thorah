@@ -1,5 +1,5 @@
 .kosher--page--light{
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   letter-spacing: 2px;
@@ -8,7 +8,7 @@
   font-family: 'Times New Roman', Times, serif;
 }
 .kosher--page--dark{
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   letter-spacing: 2px;
@@ -35,35 +35,13 @@
   font-family: 'Times New Roman', Times, serif;
   }
 
-.page-light{
+/* .page-light{
     background-color: whitesmoke;
-    color-scheme: light dark;
     color: #242424;
     letter-spacing: 2px;
     margin: 0 auto;
-    max-width: 80%;
     text-align: center;
-  }
-  .icon-light{
-    color: black;
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    transition: linear 1s ease-in-out;
-  }
-  .icon-dark{
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    color: whitesmoke;
-    transition: linear 1s ease-in-out;
-  }
-  .icon-light:hover {
-    scale: 1.1;
-  }
-  .icon-dark:hover {
-    scale: 1.1;
-  }
+  } */
   .kosher--header{
     align-content: center;
     width: 100%;
@@ -194,6 +172,7 @@
   .creeperCardContainer{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .animal--paragraph p{
@@ -204,58 +183,51 @@
     text-align: center;
   }
 
-  @media only screen and (max-width: 600px) {
-    .kosher--page--light, .kosher--page--dark, .uncleanAnimals--page--light, .uncleanAnimals--page--dark {
-      max-width: 100%;
-      min-width: 280px; /* Adjust as needed */
+  @media screen and (max-width: 600px) {
+    .kosher--page--light, .kosher--page--dark{
+      width: 100%;
     }
   
-    .kosher--header > h2 {
+  .kosher--header > h2 {
       font-size: 20px;
     }
   
     .kosher--header > h1 {
-      font-size: 35px;
+      font-size: 24px;
     }
   
     .card {
-      width: 90%;
-      height: auto;
-      max-width: 90%;
-      min-width: 280px; /* Adjust as needed */
-      height: 300px;
+      width: 300px;
+      height: 260px;
       font-size: 14px;
     }
     .card:hover .card--image{
-      transform: translateY(-150px);
+      transform: translateY(-200px);
     }
     .card > img {
-      height: 250px;
-      width: 90%;
+      height: 200px;
       max-width: 90%;
     }
   
     .card > p {
-      top: 140px;
+      top: 34px;
       width: 90%;
       font-size: 8px;
     }
   
     .card > h2 {
-      top: 280px;
+      top: 220px;
       font-size: 20px;
     }
   
     .card > label {
-      top: 130px;
+      top: 20px;
       font-size: 16px;
     }
   
     .Lilcard {
-      width: 90%;
-      height: auto;
-      max-width: 90%;
-      min-width: 260px; /* Adjust as needed */
+      width: 300px;
+      height: 300px;
     }
   
     .Lilcard > h2 {
@@ -268,9 +240,7 @@
   
     .Lilcard--image {
       height: 200px;
-      width: 1580px;
       width: 100%;
-     
     }
   
     .lilCardContainer {
@@ -280,7 +250,19 @@
   
     .animal--paragraph p {
       max-width: 90%;
-    }
+      font-size: 12px;
+    } 
   }
   
+  @media screen and (min-width: 602px){
+
+  }
+
+  @media screen and (min-width: 768px){
+
+  }
+
+  @media screen and (min-width: 992px){
+
+  }
   

@@ -4,7 +4,13 @@ import vowelCardData from "../componentData/vowelCardData";
 import { ThemeContext } from "./themeContext";
 function LanguageHeader(props) {
   const context = useContext(ThemeContext);
-  const renderVowelCard = vowelCardData.map(vowelData => <VowelCard title={vowelData.title} info={vowelData.info} />)
+  const renderVowelCard = vowelCardData.map((vowelData) => (
+    <VowelCard
+      title={vowelData.title}
+      info={vowelData.info}
+      sound={vowelData.sound}
+    />
+  ));
   return (
     <div className={`language--header--${context.color}`}>
       <h1>The Hebrew Language - השפת העברי</h1>
@@ -40,7 +46,7 @@ function LanguageHeader(props) {
         aspect of Jewish communities in Central and Eastern Europe, and later,
         in other parts of the world.
       </p>
-      <h3>Our Understanding</h3>
+      <h1>Our Understanding</h1>
       <p>
         Modern Hebrew is written from right to left using a script that consists
         of 22 letters, all consonants. Vowels are represented using diacritic
@@ -54,38 +60,9 @@ function LanguageHeader(props) {
         positioned as the first letter of a word. These letters are the "aleph",
         "waw", "yod".
       </p>
-      <div className="Vowel--container">
-      {/* {renderVowelCard} */}
-      </div>
-      <div className={`hebrew--list--${context.color}`}>
-        <li>
-          א (Aleph): Originally representing a glottal stop sound (/ʔ/), similar
-          to the sound between the syllables of the English word "uh-oh". the
-          letter Aleph also represents a vowel place holder when followed by
-          either of the other vowels /o/ or /e/ in various positions within
-          words. For example, in the word אור (or), meaning "light," the Aleph
-          represents the vowel placeholder helping the waw create the "oh"
-          sound. If the aleph was not present then this sound could not be
-          achievable with the waw in the first letter position.
-        </li>
-        <li>
-          ו (Waw): While primarily a consonant representing the /w/ sound, the
-          letter Waw can also represent the vowel sounds /o/ or /u/. In
-          antiquity, the vowel is primarily an "Ō" sound, as in the word "coat."
-          Over time, with the natural evolution of this vowel, we have the "U"
-          sound, as in the word "noob." This evolution occurs naturally within
-          speech and can cause the listener to perceive a shift from the natural
-          "Ō" vowel. For instance, in the word "לרוץ" (la'rotz) meaning "to
-          run," the Waw, represents the vowel /o/, but with natural evolution,
-          this vowel may sound like the /u/ vowel.
-        </li>
-        <li>
-          י (Yod): Besides functioning as a consonant representing the /y/
-          sound, the letter Yod can indicate the vowel sounds /i/ or /e/. In
-          words like בֵית (beith), meaning "house," the Yod represents the vowel
-          /e/.
-        </li>
-      </div>
+      <h1>Vowels</h1>
+      <div className="Vowel--container">{renderVowelCard}</div>
+      <div>
       <p>
         The use of matres lectionis became less standardized over time,
         particularly during the development of the Masoretic text, which added
@@ -101,8 +78,8 @@ function LanguageHeader(props) {
         Hebrew, it was likely pronounced as a voiceless postalveolar fricative,
         similar to the "sh" sound in English words like "shoe" or "ship." The
         placement of the dot above to the right or to the left above the letter
-        distinguishes between the "shin" sound (שׁ) and the "sin" sound (שׂ),
-        In modern Hebrew the "sin" is pronounced exactly like the Samekh. Samekh
+        distinguishes between the "shin" sound (שׁ) and the "sin" sound (שׂ), In
+        modern Hebrew the "sin" is pronounced exactly like the Samekh. Samekh
         (ס): The letter samekh represented a different consonantal sound. It is
         typically pronounced as a voiceless alveolar fricative, similar to the
         "s" sound in English words like "sit" or "see." We can find through
@@ -128,28 +105,18 @@ function LanguageHeader(props) {
         pronunciation between letters allowed for a richer and more nuanced
         expression of speech.
       </p>
-      <h3>Heh - ה</h3>
+      <h1>The signs - האותות</h1>
       <p>
-        Heh serves both as an exasperated breath and a vowel placeholder to
-        avoid doubling an additional cosonant sound. It extends vowel sounds and
-        adds emphasis to them. Doubling it fully as an "ah" sound would make it
-        too similar to the aleph. In modern Hebrew, this issue is addressed by
-        making the aleph silent and allowing the heh to function as a consonant.
-        However, in reality, the aleph represents the inherent vowel sound of
-        all letters. "Ah" and "hah" sound too similar, so when heh is at the
-        beginning of a word, it functions as a consonant. When it occurs within
-        words, it serves as a vowel extender or emphasis marker for that
-        specific vowel. When at the end of a word it serves as a silent vowel
-        placeholder to of whatever letter precedes it.
+        The 22 letters used in Hebrew are derived from the word "אות" (Oath),
+        meaning "sign" in Hebrew. From a biblical perspective, oaths are
+        tangible manifestations of understanding. For instance, in the book of
+        Genesis, Elohim declares that the sun and the moon would be for "אותות"
+        (signs), indicating literal physical representations serving as signs
+        for us. This suggests that each letter of the Hebrew alphabet,
+        collectively known as "the aleph-bet," carries a sacred individual
+        identity associated with its form.
       </p>
-      <p>
-        The 22 letters that are used for hebrew literally come from the word
-        meaning "sign" in hebrew "אות" (Oath). from a biblical perpspective,
-        Oaths are the literal manifestations of something physical in
-        understanding. for example in the book of genesis we are told by elohim
-        that the sun and the moon would be for "אותות" (signs). these are
-        literal physical representations that are to be signs for us.
-      </p>
+      </div>
     </div>
   );
 }

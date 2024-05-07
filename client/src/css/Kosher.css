@@ -55,12 +55,10 @@
     letter-spacing: 0.5px;
   }
   .card--container{
-    display: inline-flex;
-    flex-direction: row;
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25 saturation, lightness, alpha) ;
-  
+    justify-content: center;  
   }
   .card {
     position: relative;
@@ -69,7 +67,7 @@
     padding: 10px;
     width: 800px;
     margin: 10px;
-    box-shadow: #282d2e;
+    box-shadow: 4px 4px 4px 2px #282d2e;
     display: flex;
     height: 500px;
     max-width: 800px;
@@ -79,9 +77,9 @@
     justify-content: center;
     text-align: center;
     scroll-snap-align: start;
-    transform: translateY(0);
   }
-  .card > img{
+
+  .card--image{
     position: absolute;
     top: 20px;
     justify-self: center;
@@ -134,12 +132,13 @@
     color: black;
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 2px 2px 1px #282d2e;
     font-size: 12px;
     transition: transform 250ms ease-in-out;
   }
   .Lilcard:hover {
     z-index: 10;
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   .Lilcard > h2{
     padding-top: 20px;

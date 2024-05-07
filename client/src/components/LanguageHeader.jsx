@@ -1,14 +1,17 @@
 import { useContext } from "react";
+import VowelCard from "../cards/VowelCard";
+import vowelCardData from "../componentData/vowelCardData";
 import { ThemeContext } from "./themeContext";
-function LanguageHeader() {
+function LanguageHeader(props) {
   const context = useContext(ThemeContext);
+  const renderVowelCard = vowelCardData.map(vowelData => <VowelCard title={vowelData.title} info={vowelData.info} />)
   return (
     <div className={`language--header--${context.color}`}>
       <h1>The Hebrew Language - השפת העברי</h1>
       <p>
         The Hebrew language holds a unique and sacred status. It stands as the
-        only language known to have been spoken directly between YHWH - יהוה and the
-        prophets. Elohim, the sole creator of all existence, including every
+        only language known to have been spoken directly between YHWH - יהוה and
+        the prophets. Elohim, the sole creator of all existence, including every
         known language in history, imbues Hebrew with unparalleled significance.
         Just as Elohim is set apart in all His being and actions, so too is the
         Hebrew language. As His people, we are destined to be set apart like
@@ -51,12 +54,15 @@ function LanguageHeader() {
         positioned as the first letter of a word. These letters are the "aleph",
         "waw", "yod".
       </p>
+      <div className="Vowel--container">
+      {/* {renderVowelCard} */}
+      </div>
       <div className={`hebrew--list--${context.color}`}>
         <li>
           א (Aleph): Originally representing a glottal stop sound (/ʔ/), similar
           to the sound between the syllables of the English word "uh-oh". the
           letter Aleph also represents a vowel place holder when followed by
-          either of the other vowels /a/ /o/ or /e/ in various positions within
+          either of the other vowels /o/ or /e/ in various positions within
           words. For example, in the word אור (or), meaning "light," the Aleph
           represents the vowel placeholder helping the waw create the "oh"
           sound. If the aleph was not present then this sound could not be
@@ -94,14 +100,14 @@ function LanguageHeader() {
         shin typically represented a sibilant consonant sound. In ancient
         Hebrew, it was likely pronounced as a voiceless postalveolar fricative,
         similar to the "sh" sound in English words like "shoe" or "ship." The
-        placement of the dot above or inside the letter distinguishes between
-        the "shin" sound (שׁ) and the "sin" sound (ס), though the exact
-        pronunciation of the "sin" is still debated among scholars. Samekh (ס):
-        The letter samekh represented a different consonantal sound. It is
+        placement of the dot above to the right or to the left above the letter
+        distinguishes between the "shin" sound (שׁ) and the "sin" sound (שׂ),
+        In modern Hebrew the "sin" is pronounced exactly like the Samekh. Samekh
+        (ס): The letter samekh represented a different consonantal sound. It is
         typically pronounced as a voiceless alveolar fricative, similar to the
-        "s" sound in English words like "sit" or "see." We can find through a
-        historical context where there became confusion between these letters in
-        the book of Judges 12:6.
+        "s" sound in English words like "sit" or "see." We can find through
+        historical context where there became confusion of pronunciation between
+        these letters in the book of Judges 12:6.
         <li>
           judges 12:6: Then said they unto him, Say now Shibboleth (שִׁבֹּ֜לֶת):
           and he said Sibboleth (סִבֹּ֗לֶת): for he could not frame to pronounce
@@ -116,8 +122,8 @@ function LanguageHeader() {
         "thick." This pronunciation is indeed different from the sound of the
         letter "tet" (ט), which is often pronounced as a voiceless alveolar
         plosive, similar to the English "t" sound. The distinction between the
-        "taw" and "tet" sounds reflects the phonetic diversity present in
-        ancient Hebrew and other Semitic languages. Each letter in the Hebrew
+        "tet" and "Thaw" sounds reflects the phonetic diversity present in
+        ancient Hebrew and other Shemitic languages. Each letter in the Hebrew
         alphabet represented a distinct phoneme, and the differences in
         pronunciation between letters allowed for a richer and more nuanced
         expression of speech.
@@ -136,12 +142,11 @@ function LanguageHeader() {
         specific vowel. When at the end of a word it serves as a silent vowel
         placeholder to of whatever letter precedes it.
       </p>
-      <h3>The Signs - האותות</h3>
       <p>
         The 22 letters that are used for hebrew literally come from the word
         meaning "sign" in hebrew "אות" (Oath). from a biblical perpspective,
         Oaths are the literal manifestations of something physical in
-        understanding. for examply in the book of genesis we are told by elohim
+        understanding. for example in the book of genesis we are told by elohim
         that the sun and the moon would be for "אותות" (signs). these are
         literal physical representations that are to be signs for us.
       </p>

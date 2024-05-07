@@ -10,7 +10,7 @@ function Card(props) {
   return (
     <>
       <div className="card" onClick={flipCard}>
-        <img className={`card--image ${isActive ? "active" : ""}`} src={image} alt="" />
+        <img className={`card--image ${isActive ? "active" : " "}`} src={image} alt="" />
         <p>{description}</p>
         <label>{label}</label>
         <h2>{title}</h2>

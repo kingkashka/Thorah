@@ -21,7 +21,7 @@ const creeperOnFoursData = [
     },
     {image:"/images/creepersOnFour/monkey.jpg",
     title:"כוח",
-    label:"Primates",
+    label:"The Primate",
     transliteration: `Choakh`
     },
     {image:"/images/creepersOnFour/lizard.jpg",

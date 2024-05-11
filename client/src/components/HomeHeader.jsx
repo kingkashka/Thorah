@@ -41,11 +41,11 @@ function HomeHeader() {
             Language
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link className={`link--${context.color}`} to={"/sacrifices"}>
             Sacrifices
           </Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link className={`link--${context.color}`} to={"/calendar"}>
             Calendar

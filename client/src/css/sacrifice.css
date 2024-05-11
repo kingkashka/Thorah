@@ -20,20 +20,6 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
-/* .sacrifice--page--light{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    background-color: whitesmoke;
-    color: #202124;
-}
-.sacrifice--page--dark{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    color: whitesmoke;
-    background-color: #202124;
-} */
 .sacrificePage--small--light{
     width: 100%;
     margin: 0 auto;
@@ -63,42 +49,78 @@
     color: whitesmoke;
 }
 .sacrifice--header--light{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    width: 100%;
+    justify-content: center;
+    width: 80%;
     text-align: center;
     color: black;
     background-color: whitesmoke;
-    
     font-size: 18px;
 }
 .sacrifice--header--light > h1{
     font-size: 40px;
 }
 .sacrifice--header--dark{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
     color: whitesmoke;
     background-color: #202124;
     font-size: 18px;
 }
 .sacrifice--header--dark > h1{
-    font-size: 40px;
+    font-size: 45px;
+  letter-spacing: 0.5px;
 }
 .sacrifice--paragraph--light{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     font-size: 18px;
     color: #202124;
 }
+.left--sect{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.right--sect{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+}
+.right--sect h1{
+    margin: 0 auto;
+}
+.list--left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+}
+.list--right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+}
+.offering--list{
+    display: flex;
+    justify-content: flex-end;
+}
 .sacrifice--paragraph--dark{
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     font-size: 18px;
     color: whitesmoke;
 }
@@ -119,10 +141,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 .sacrifice--grainimages img{
     height: auto;
-    width: 300px;
+    width: 200px;
+    height: 400px;
 }
 .sacrifice--card--light{
     height: 550px;

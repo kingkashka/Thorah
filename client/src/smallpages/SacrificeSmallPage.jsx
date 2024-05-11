@@ -15,133 +15,104 @@ function SacrificeSmallPage() {
   ));
   return (
     <div className={`sacrificePage--small--${context.color}`}>
+      <p>
+        From a technical perspective, the term for the initial sacrifice to YHWH
+        stems from the Hebrew word "ascend" (עלה). This verb, in its essence,
+        signifies going up, rising, ascending, and even climbing. The prescribed
+        method for offering this sacrifice to YHWH is through the act of burning
+        with fire. As the flames consume the offering, the altar becomes veiled
+        in smoke, which ascends towards the heavens as an offering for Elohim to
+        accept. This is why it is described as a pleasing aroma to YHWH.
+      </p>
+      <div className={`sacrifice--paragraph--${context.color}`}></div>
+      <div className="offering--pic"></div>
       <div className={`sacrifice--paragraph--${context.color}`}>
-        <p>
-          From a technical perspective, the term for the initial sacrifice to
-          YHWH stems from the Hebrew word "ascend" (עלה). This verb, in its
-          essence, signifies going up, rising, ascending, and even climbing. The
-          prescribed method for offering this sacrifice to YHWH is through the
-          act of burning with fire. As the flames consume the offering, the
-          altar becomes veiled in smoke, which ascends towards the heavens as an
-          offering for Elohim to accept. This is why it is described as a
-          pleasing aroma to YHWH.
-        </p>
+        <div className="left--sect">
+          <img
+            src="https://laymansbible.files.wordpress.com/2013/12/a-sacrifice-for-everything-sacrifice.jpg"
+            alt=""
+          />
+        </div>
+        <div className="right--sect">
+          <h1>
+            Ascension Offering to YHWH <br /> קרבן עולה ליהוה
+          </h1>
+          <div className="list--right">
+            <li>Strip the burnt offering and cut it into pieces.</li>
+            <li>Arrange the pieces, including the head and the body, upon the wood on the altar.</li>
+            <li>Wash the innards and legs in water, and the priest will cause all of it to go up in smoke on the altar. It's a burnt offering by fire, a pleasing aroma to YHWH.</li>
+            <li>If the offering is from the flock, a sheep or a goat, for a burnt offering, it should also be an unblemished male.</li>
+            <li>Slaughter it to the north side of the altar before YHWH, and the sons of Aharon, the priests, will sprinkle its blood around the altar.</li>
+            <li>Cut it into pieces, including the head and the fat, and arrange them on the wood on the altar.</li>
+            <li>Wash the innards and the legs in water, and the priest will cause everything to go up in smoke on the altar. It's a burnt offering by fire, a pleasing aroma to YHWH.</li>
+            <li>If the offering is from birds—turtledoves or young pigeons—the priest should bring it to the altar, decapitate it, and drain its blood on the altar's sides.</li>
+            <li>Remove the crop with its feathers and cast it beside the altar to the east, in the place of ash.</li>
+            <li>Split it at its wings without dividing it completely, and the priest will cause it to go up in smoke on the altar upon the wood. It's a burnt offering by fire, a pleasing aroma to YHWH.</li>
+          </div>
+        </div>
       </div>
-      <h1>Ascension Offering to YHWH - קרבן עולה ליהוה</h1>
-      <div className="offering--pic">
-        <img 
-          src="https://laymansbible.files.wordpress.com/2013/12/a-sacrifice-for-everything-sacrifice.jpg"
-          alt=""
-        />
-      </div>
+      <div className="sacrifice--paragraph"></div>
       <div className={`sacrifice--paragraph--${context.color}`}>
-        <h2>Torah - Leviticus 1</h2>
-        <p>
-          1. And He called to Masha, and YHWH spoke to him from the Tent of
-          Meeting, saying,
-        </p>
-        <p>
-          2. Speak to the children of Israel, and say to them: When a man from
-          [among] you brings a sacrifice to YHWH; from animals, from cattle or
-          from the flock you shall bring your sacrifice.
-        </p>
-        <p>
-          3. if his offering is an ascension offering (עולה) from the cattle
-          (בקר) and from the flock (צאן). You all will approach and bring your
-          approach offering. If a burnt offerring is his approach offering from
-          the cattle, an unblemished male (זכר תמים) he will bring it to the
-          opening of the tent of meeting. He will offer it of his own will
-          before YHWH.
-        </p>
-        <p>
-          4. And he will rest his hand upon the head of the ascension offering
-          and its acceptable for him to atone with it.
-        </p>
-        <p>
-          5. And he will slaughter the year old cattle before YHWH and the children of Aharon, the priests (הכהנים) will
-          bring the blood
-          and they will sprinkle the blood upon the alter (המזבח) all around
-          which is at the opening of the tent of meeting.
-        </p>
-        <p>
-          6. And cause to strip the ascension offering and cut it to its pieces.
-        </p>
-        <p>
-          7. And the children of Aharon, the priest will place, fire upon the
-          alter and they will arrange wood upon the fire.
-        </p>
-        <p>
-          8. And the children of Aharon, the priests will arrange the pieces ,
-          the head and the body upon the wood which is upon the fire which is
-          upon the alter.
-        </p>
-        <p>
-          9. and its innards and its legs he will wash in water and the prest
-          will cause to smoke all the alter. It is an ascension offering by
-          fire. It is a comforting smell to YHWH.
-        </p>
-        <p>
-          10. And if from the flock is his approach offer from the sheep or from
-          the goats for an ascension offering. an unblemished male he will
-          approach with it.
-        </p>
-        <p>
-          11. And he will slaughter it to the side of the alter to the north
-          before YHWH and the sons of Aharon the priests, will sprinkle its
-          blood upon the alter all around.
-        </p>
-        <p>
-          12. And he will piece it to its pieces and its head and its fat, and
-          the preist will arrange them upon the wood which is upon the fire that
-          is upon the alter.
-        </p>
-        <p>
-          13. And the innards and the legs he will wash in water and the preist
-          will cause to approach everything and the cause to smoke the alter. An
-          ascension offering it is of fire. It is a comforting smell to YHWH.
-        </p>
-        <p>
-          14. And if from the birds is his approach offering to YHWH and will
-          cause to approach from the turledoves or from the children of the dove
-          is his approach offering.
-        </p>
-        <p>
-          15. the priest will cause to bring to the alter and decaptitate (מלק)
-          its head and cause to smoke the alter and drain () its blood upon
-          walls of the alter.
-        </p>
-        <p>
-          16. And cause to remove its ??? with its wings and cast its beside the
-          alter to the east to the place of ash.
-        </p>
-        <p>
-          17. And he will split it at its wings not will he divide completely.
-          and the preist will cause to smoke it on the alter upon the wood which
-          is upon the fire. An ascension offering it is by fire. It is a
-          comforting smell to YHWH.
-        </p>
+        <div className="left--sect1">
+          <h2>Thorah - Leviticus 2</h2>
+          <h1>
+            Grain Offering to YHWH <br /> קרבן מנחה ליהוה
+          </h1>
+          <div className="list--left">
+            <h3>Rules</h3>
+            <li>
+              Salt every meal offering with salt, as it is part of God's
+              covenant.
+            </li>
+            <li>
+              No leavened ingredients or honey should be used in the meal
+              offering.
+            </li>
+            <h3>instructions</h3>
+            <li>
+              Prepare the offering by taking fine flour, oil, and frankincense.
+            </li>
+            <li>
+              The priest shall take a fistful of the fine flour, oil, and
+              frankincense.
+            </li>
+            <li>
+              Burn the memorial portion of the offering on the altar as a fire
+              offering to YHWH.
+            </li>
+            <li>
+              If baking the meal offering in an oven, use unleavened loaves or
+              wafers made of fine flour mixed with oil.
+            </li>
+            <li>
+              If cooking the meal offering on a pan, use fine flour mixed with
+              oil, and ensure it is unleavened.
+            </li>
+            <li>
+              If using a deep pot, make the meal offering with fine flour and
+              oil.
+            </li>
+            <li></li>
+          </div>
+        </div>
+        <div className="right--sect2">
+          <div className="sacrifice--grainimages">
+            <img
+              src="https://images.pexels.com/photos/6294381/pexels-photo-6294381.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+            <img
+              src="https://images.pexels.com/photos/1600139/pexels-photo-1600139.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+            <img
+              src="https://images.pexels.com/photos/6287581/pexels-photo-6287581.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
-      <div className="sacrifice--paragraph">
-      <h1>Grain offering to YHWH - קרבן מנחה ליהוה</h1>
-      </div>
-      <br />
-      <div className="sacrifice--grainimages">
-        <img
-          src="https://images.pexels.com/photos/6294381/pexels-photo-6294381.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt=""
-        />
-        <img
-          src="https://images.pexels.com/photos/1600139/pexels-photo-1600139.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt=""
-        />
-        <img
-          src="https://images.pexels.com/photos/6287581/pexels-photo-6287581.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt=""
-        />
-      </div>
-      <div className={`sacrifice--paragraph--${context.color}`}>
-        <h2>Torah - Leviticus 2</h2>
-        <p>
+      {/* <p>
           "1. And the soul that will approach to offer a gift (מנחה) to YHWH of
           fine flour will be his offering and he will pour upon it oil and place
           upon it frankincense. and cause to bring it to the children of Aharon,
@@ -221,13 +192,21 @@ function SacrificeSmallPage() {
           16.Then, the kohen shall cause its memorial to [go up in] smoke,
           [taken] from its coarse meal and from its oil, with all its
           frankincense; [it is] a fire offering to YHWH
-        </p>
-      </div>
+        </p> */}
       <div className={`sacrifice--paragraph--${context.color}`}>
-      <h1>Peace offering to YHWH - שלמים קרבן ליהוה</h1>
-      <br />
-      <div className="sacrifice--images">{renderSacrficeCard}</div>
-        <h2>Torah - Leviticus 3</h2>
+        <div className="left--sect">
+          <div className="sacrifice--images">{renderSacrficeCard}</div>
+        </div>
+        <div className="right--sect">
+          <h2>Thorah - Leviticus 3</h2>
+          <h1>
+            Peace offering to YHWH <br /> שלמים קרבן ליהוה
+          </h1>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </div>
         <p>
           1. If his sacrifice is a peace offering, if he brings it from cattle,
           whether male or female, unblemished he shall bring it before YHWH.
@@ -311,7 +290,7 @@ function SacrificeSmallPage() {
         </p>
       </div>
       <div className={`sacrifice--paragraph--${context.color}`}>
-        <h2>Torah - Leviticus 4</h2>
+        <h2>Thorah - Leviticus 4</h2>
         <p>1. And the Lord spoke to Moses, saying,</p>
         <p>
           2.Speak to the children of Israel, saying: If a person sins
@@ -329,8 +308,8 @@ function SacrificeSmallPage() {
           bull's head and slaughter the bull before the Lord.
         </p>
         <p>
-          5. And the anointed kohen shall take from the bull's blood and bring it
-          into the Tent of Meeting.
+          5. And the anointed kohen shall take from the bull's blood and bring
+          it into the Tent of Meeting.
         </p>
         <p>
           6. And the kohen shall dip his finger into the blood and sprinkle some
@@ -348,9 +327,9 @@ function SacrificeSmallPage() {
           the fat covering the innards, and all the fat that is on the innards,
         </p>
         <p>
-          9. and the two kidneys [along] with the fat that is on them, which is on
-          the flanks; and the diaphragm with the liver, along with the kidneys,
-          he shall remove it,
+          9. and the two kidneys [along] with the fat that is on them, which is
+          on the flanks; and the diaphragm with the liver, along with the
+          kidneys, he shall remove it,
         </p>
         <p>
           10. just as was separated from the bull [sacrificed as] a peace
@@ -363,9 +342,9 @@ function SacrificeSmallPage() {
           matter.
         </p>
         <p>
-          12. He shall take out the entire bull to a clean place outside the camp,
-          [namely,] to the ash depository, and he shall burn it in fire on wood.
-          Thus, it shall be burnt in the ash depository.
+          12. He shall take out the entire bull to a clean place outside the
+          camp, [namely,] to the ash depository, and he shall burn it in fire on
+          wood. Thus, it shall be burnt in the ash depository.
         </p>
         <p>
           13. And if the entire community of Israel errs because a matter was
@@ -379,27 +358,27 @@ function SacrificeSmallPage() {
           bring it before the Tent of Meeting.
         </p>
         <p>
-          15. The elders of the community shall lean their hands [forcefully] upon
-          the bull's head, before the Lord, and one shall slaughter the bull
-          before the Lord.
+          15. The elders of the community shall lean their hands [forcefully]
+          upon the bull's head, before the Lord, and one shall slaughter the
+          bull before the Lord.
         </p>
         <p>
           16. The anointed kohen shall bring some of the bull's blood into the
           Tent of Meeting,
         </p>
         <p>
-          17. and the kohen shall dip his finger from the blood, and sprinkle [it]
-          seven times before the Lord, before the dividing curtain.
+          17. and the kohen shall dip his finger from the blood, and sprinkle
+          [it] seven times before the Lord, before the dividing curtain.
         </p>
         <p>
-          18. And he shall then place some of the blood on the horns of the altar
-          that is before the Lord in the Tent of Meeting. And then he shall pour
-          all the blood onto the base of the altar [used] for burnt offerings,
-          which is at the entrance to the Tent of Meeting.
+          18. And he shall then place some of the blood on the horns of the
+          altar that is before the Lord in the Tent of Meeting. And then he
+          shall pour all the blood onto the base of the altar [used] for burnt
+          offerings, which is at the entrance to the Tent of Meeting.
         </p>
         <p>
-          19. And he shall separate all its fat from it and cause it to [go up in]
-          smoke on the altar.
+          19. And he shall separate all its fat from it and cause it to [go up
+          in] smoke on the altar.
         </p>
         <p>
           20. He shall do to the bull just as he did to the bull of the sin
@@ -407,17 +386,17 @@ function SacrificeSmallPage() {
           for them [the community], and they will be forgiven.
         </p>
         <p>
-          21. And he shall take the bull outside the camp and burn it, just as he
-          burned the first bull. It is a sin offering for the congregation.
+          21. And he shall take the bull outside the camp and burn it, just as
+          he burned the first bull. It is a sin offering for the congregation.
         </p>
         <p>
-          22. If a leader [of Israel] sins and unintentionally commits one of all
-          the commandments of the Lord, which may not be committed, incurring
-          guilt;
+          22. If a leader [of Israel] sins and unintentionally commits one of
+          all the commandments of the Lord, which may not be committed,
+          incurring guilt;
         </p>
         <p>
-          23. if his sin that he has committed is made known to him, then he shall
-          bring his offering: an unblemished male goat.
+          23. if his sin that he has committed is made known to him, then he
+          shall bring his offering: an unblemished male goat.
         </p>
         <p>
           24. And he shall lean his hand [forcefully] upon the goat's head and
@@ -425,10 +404,10 @@ function SacrificeSmallPage() {
           the Lord. It is a sin offering.
         </p>
         <p>
-          25. And the kohen shall take some of the blood of the sin offering with
-          his finger, and place [it] on the horns of the altar [used] for burnt
-          offerings. And then he shall pour its blood onto the base of the altar
-          [used] for burnt offerings.
+          25. And the kohen shall take some of the blood of the sin offering
+          with his finger, and place [it] on the horns of the altar [used] for
+          burnt offerings. And then he shall pour its blood onto the base of the
+          altar [used] for burnt offerings.
         </p>
         <p>
           26. And he shall cause all its fat to [go up in] smoke on the altar,
@@ -457,10 +436,10 @@ function SacrificeSmallPage() {
           altar.
         </p>
         <p>
-          31. And he shall remove all of its fat, just as the fat was removed from
-          the peace offering. The kohen shall then cause it to [go up in] smoke
-          on the altar, as a pleasing fragrance to the Lord. Thus the kohen
-          shall make atonement for him, and he will be forgiven.
+          31. And he shall remove all of its fat, just as the fat was removed
+          from the peace offering. The kohen shall then cause it to [go up in]
+          smoke on the altar, as a pleasing fragrance to the Lord. Thus the
+          kohen shall make atonement for him, and he will be forgiven.
         </p>
         <p>
           32. If he brings a sheep for his sin offering, he shall bring an
@@ -472,22 +451,22 @@ function SacrificeSmallPage() {
           slaughters the burnt offering.
         </p>
         <p>
-          34. And the kohen shall take some of the blood of the sin offering with
-          his finger and place [it] on the horns of the altar [used] for burnt
-          offerings. And then he shall pour all of its blood onto the base of
-          the altar.
+          34. And the kohen shall take some of the blood of the sin offering
+          with his finger and place [it] on the horns of the altar [used] for
+          burnt offerings. And then he shall pour all of its blood onto the base
+          of the altar.
         </p>
         <p>
-          35. And he shall remove all its fat, just as the sheep's fat is removed
-          from the peace offering. The kohen shall then cause them to [go up in]
-          smoke on the altar, upon the fires for the Lord. Thus the kohen shall
-          make atonement for him, for his sin which he committed, and he will be
-          forgiven.
+          35. And he shall remove all its fat, just as the sheep's fat is
+          removed from the peace offering. The kohen shall then cause them to
+          [go up in] smoke on the altar, upon the fires for the Lord. Thus the
+          kohen shall make atonement for him, for his sin which he committed,
+          and he will be forgiven.
         </p>
       </div>
-      
+
       <div className={`sacrifice--paragraph--${context.color}`}>
-        <h2>Torah - Leviticus 5</h2>
+        <h2>Thrah - Leviticus 5</h2>
         <p>
           If a person sins, whereby he accepts an oath, and he is a witness [to
           some matter] by seeing or knowing [it], yet he does not testify, he

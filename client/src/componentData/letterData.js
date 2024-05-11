@@ -143,7 +143,7 @@ const letterData = [
     original: "Ayin - עין",
     picture:
       "https://www.shutterstock.com/image-photo/extreme-closeup-photo-african-womans-600nw-792868357.jpg",
-    description: `The word עין (ayin) indeed signifies "eye" in all regular senses, encompassing physical vision as well as metaphorical expressions like knowledge and character.`,
+    description: `The word עין (ayin) signifies "eye", encompassing physical as well as metaphorical expressions like knowledge and character. It's produced by constricting the back of the throat while allowing air to pass through similar to the sound of a gargle (Gh)`,
   },
   {
     label: "Peh",

@@ -81,7 +81,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
-    margin: 0 auto;
+    margin: 1%;
     width: 100%;
     font-size: 18px;
     color: #202124;
@@ -107,6 +107,9 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     text-align: left;
+}
+.list--left h3{
+    font-size: 20px;
 }
 .list--right{
     display: flex;

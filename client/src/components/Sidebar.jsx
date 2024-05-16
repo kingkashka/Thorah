@@ -1,33 +1,35 @@
 import React, { useContext } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useNavigate,
+} from "react-router-dom";
+import { ThemeContext } from "./themeContext";
 
-function Sidebar() {
-
+function Sidebar({isOpen}) {
+  const context = useContext(ThemeContext);
   return (
     <>
       <div id="mySidebar" className="sidebar">
-        <div className="sidebar1">
+        <ul>
           <li>
-            <Link className="link" to={"/"}>
-            יהוה
+            <Link className={`link--${context.color}`} to={"/leviticus11"}>
+              Kosher
             </Link>
           </li>
           <li>
-            <Link className="link" to={"/uncleananimals"}>
-             Thorah 
+            <Link className={`link--${context.color}`} to={"/language"}>
+              Language
             </Link>
           </li>
           <li>
-          <Link className="link" to={"/sacrifices"}>
-          Sacrifices
-          </Link>
+            <Link className={`link--${context.color}`} to={"/sacrifices"}>
+              Sacrifices
+            </Link>
           </li>
-          <Link className="link" to={"/language"}>
-          <li>
-          language
-          </li>
-          </Link>
-        </div>
+        </ul>
       </div>
     </>
   );

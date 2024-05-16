@@ -19,8 +19,8 @@ const vowelCardData = [
         sound, as in the word "noob." This evolution occurs naturally within
         speech and can cause the listener to perceive a shift from the natural
         /ō/ vowel. For instance, in the phrase "לרוץ" (la'rotz) meaning "to
-        run," the Waw, represents the /ō/ vowel , but with natural evolution,
-        this vowel may sound like the /u/ vowel.`,
+        run," the Waw, represents the /ō/ vowel , but with natural vowel reduction,
+        this vowel becomes less distinct and may sound like the /u/ vowel.`,
         sound: `[oʊ]: as in "go"`
   },
   {

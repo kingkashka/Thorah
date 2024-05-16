@@ -60,7 +60,7 @@
     flex-wrap: wrap;
     justify-content: center;  
   }
-  .card {
+  .card--light {
     position: relative;
     border: 3px solid black;
     border-radius: 20px;
@@ -71,8 +71,26 @@
     display: flex;
     height: 500px;
     max-width: 800px;
-    background-color:#f1ddbf;
+    background-color:bisque;
     color: black;
+    font-size: 16;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+  .card--dark {
+    position: relative;
+    border: 3px solid #525e75;
+    border-radius: 20px;
+    padding: 10px;
+    width: 800px;
+    margin: 10px;
+    box-shadow: 2px 2px 8px 2px #9d9ea0;
+    display: flex;
+    height: 500px;
+    max-width: 800px;
+    background-color:bisque;
+    color: #525e75;
     font-size: 16;
     justify-content: center;
     text-align: center;
@@ -90,27 +108,27 @@
     transition: 1s ease;
     z-index: 1;
   }
-  .card:hover .card--image{
+  .card--light:hover .card--image, .card--dark:hover .card--image{
     transform: translateY(-300px);
   }
   /* .active{
     transform: translateY(-300px);
   } */
 
-  .card > p{
+  .card--light p, .card--dark > p{
     position: absolute;
     font-size: 14px;
     top: 195px; 
     width: 700px;
   }
-  .card > h2{
+  .card--light h2, .card--dark > h2{
     position: absolute;
     top: 440px;
     font-size: 30px;
     letter-spacing: 3px;
     font: 'Times New Roman', Times, serif;
   }
-  .card > label{
+  .card--light label, .card--dark > label{
     position: absolute;
     top: 170px;
     font-family: 'Times New Roman', Times, serif;
@@ -120,7 +138,7 @@
     text-decoration-line: underline;
   }
   
-  .Lilcard{
+  .Lilcard--light{
     cursor: pointer;
     border: 3px solid black;
     border-radius: 20px;
@@ -136,17 +154,33 @@
     font-size: 12px;
     transition: transform 250ms ease-in-out;
   }
-  .Lilcard:hover {
+  .Lilcard--dark{
+    cursor: pointer;
+    border: 3px solid #525e75;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    height: 340px;
+    width: 200px;
+    background-color:bisque;
+    color: #525e75;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px 2px #9d9ea0;
+    font-size: 12px;
+    transition: transform 250ms ease-in-out;
+  }
+  .Lilcard--light:hover, .Lilcard--dark:hover {
     z-index: 10;
     transform: scale(1.05);
   }
-  .Lilcard > h2{
+  .Lilcard--light > h2, .Lilcard--dark h2{
     padding-top: 20px;
     letter-spacing: 3px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
   }
-  .Lilcard > label{
+  .Lilcard--light > label, .Lilcard--dark label{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding-top: 6px;
@@ -195,45 +229,45 @@
       font-size: 24px;
     }
   
-    .card {
+    .card--light, .card--dark {
       width: 300px;
       height: 260px;
       font-size: 14px;
     }
-    .card:hover .card--image{
+    .card--light:hover .card--image, .card--dark:hover .card--image{
       transform: translateY(-200px);
     }
-    .card > img {
+    .card--light > img, .card--dark img{
       height: 200px;
       max-width: 90%;
     }
   
-    .card > p {
+    .card--light > p, .card--dark p {
       top: 34px;
       width: 90%;
       font-size: 8px;
     }
   
-    .card > h2 {
+    .card--light > h2, .card--dark h2 {
       top: 220px;
       font-size: 20px;
     }
   
-    .card > label {
+    .card--light > label, .card--dark label {
       top: 20px;
       font-size: 16px;
     }
   
-    .Lilcard {
+    .Lilcard--light, .Lilcard--dark {
       width: 300px;
       height: 300px;
     }
   
-    .Lilcard > h2 {
+    .Lilcard--light > h2, .Lilcard--dark h2 {
       font-size: 20px;
     }
   
-    .Lilcard > label {
+    .Lilcard > label, .Lilcard  label {
       font-size: 16px;
     }
   

@@ -104,7 +104,7 @@
     height: 100%;
     border: 3px solid #525e75;
     color: #525e75;
-    background-color: #e8d8c9;
+    background-color: bisque;
     backface-visibility: hidden;
   }
   .letterCard--front--light > label{
@@ -186,7 +186,7 @@
     height: 100%;
     border: 3px solid #525e75;
     color: #525e75;
-    background-color: #e8d8c9;
+    background-color: bisque;
     height: 100%;
     width: 100%;
     transform: rotateY(180deg);
@@ -318,7 +318,7 @@
     flex-direction: column;
     justify-content: center;
     color: #525e75;
-    background-color: #e8d8c9;
+    background-color: bisque;
     color: black;
     border: solid #525e75 3px;
     border-radius: 16px;

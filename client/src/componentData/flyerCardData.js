@@ -51,7 +51,7 @@ const flyerCardData = [
      image: '/images/small images/seagull.jpg', 
      title: 'שחף',
      label: 'The Seagull',
-     transliteration: `Shakaph`
+     transliteration: `Shachaf`
     },
     { 
      image: '/images/small images/osprey.jpg', 
@@ -75,7 +75,7 @@ const flyerCardData = [
      image: '/images/small images/barnOwl.jpg', 
      title: 'ינשוף',
      label: 'The Barn Owl',
-     transliteration: `Yanshoph`
+     transliteration: `Yanshof`
     },
     {
      image: '/images/small images/lemur.jpg', 
@@ -93,13 +93,13 @@ const flyerCardData = [
      image: '/images/small images/crane.jpg', 
      title: 'רחם',
      label: 'The Crane',
-     transliteration: `Rakham`
+     transliteration: `Racham`
     },
     { 
      image: '/images/small images/stork3.jpg', 
      title: `חסידה`,
      label: 'The Stork',
-     transliteration: `Khasidah`
+     transliteration: `Chasidah`
     },
     {image:'/images/small images/heron.jpg', 
      title: 'אנפה',
@@ -115,7 +115,7 @@ const flyerCardData = [
     {image: '/images/small images/bat.jpg',
      title: 'עטלף',
      label: 'The Bat',
-    transliteration: `Aghtlaph`
+    transliteration: `Aghtalaf`
     }
      
 ]

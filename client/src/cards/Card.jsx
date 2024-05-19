@@ -13,7 +13,7 @@ function Card(props) {
   }
   return (
     <>
-      <div className={`card--${context.color}`} onClick={flipCard}>
+      <div className={`card--${context.color} ${isActive ? "slide" : ""}`} onClick={flipCard}>
         <img className="card--image" src={image} alt="" />
         <p>{description}</p>
         <label>{label}</label>

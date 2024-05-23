@@ -3,12 +3,18 @@
   width: 100%;
   margin: auto;
   background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .bigLanguage--page--dark{
   height: 100%;
   width: 100%;
   margin: auto;
   background-color: #202124;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .language--header--light{
   color: #202124;
@@ -293,10 +299,15 @@
     height: 600px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
   }
+  .other-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; /* Example style */
+}
   .VCard--front--light{
     height: 500px;
     width: 300px;
@@ -444,6 +455,7 @@
     }
     .Vowel--container{
       height: 200vh;
+      flex-wrap: wrap;
     }
     .VCard--front--light, .VCard--front--dark{
       height: 300px;
@@ -473,12 +485,13 @@
   
   @media screen and (min-width: 602px) {
     
+    
   }
 
   @media screen and (min-width: 768px){
-
+    
   }
 
-  @media screen and (min-width: 992px){
-
+  @media screen and (max-width: 992px){
+    
   }

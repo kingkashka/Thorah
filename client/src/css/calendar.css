@@ -1,117 +1,109 @@
-/* *body{
-    height: 100vh;
+.buttonLeft {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.buttonRight {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.calendar {
     width: 100%;
-} */
-.calendar{
+    max-width: 600px;
     margin: 0 auto;
-    position: relative;
-    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.calendar-header {
     display: flex;
-    flex-wrap: wrap;
-    align-self: center;
-    border: solid black 3px;
-    border-radius: 10px;
-    height: 800px;
-    width: 1000px;
-    color: black;
-    background-color: whitesmoke;
-    padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
-.year{
-    position: absolute;
-    font-size: 45px;
-    top: -45px;
-}
-.month{
-    position: absolute;
-    font-size: 45px;
-    top: 0;
-}
-.buttonLeft{
-    position: absolute;
-    top: 45px;
-    left: 20px;
-    cursor: pointer;
-    height: 40px;
-    width: 40px;
-}
-.buttonRight{
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    cursor: pointer;
-    height: 40px;
-    width: 40px;
-}
-.days{
-    position: absolute;
-    top: 50px;
-    justify-content: center;
-    border-radius: 5px;
+
+.header-text {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    list-style: none;
+}
+
+.days {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
 }
-.days > li{
-    margin: 20px;
+
+.days li {
+    width: 14.28%; /* 100% / 7 days */
+    text-align: center;
 }
-/* .dates{
-    height: 80px;
-    width:80px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: solid black 3px;
-    border-radius: 5px;
-} */
-.evenDay--container{
-    position: absolute;
-    top: 150px;
+
+.evenDay--container {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* gap: 10px; */
-    height: 630px;
-    width: 950px;
-    border: solid 3px black;
-    border-radius: 10px;
+    gap: 5px;
 }
-.evenDay--container{
+
+.day, .empty-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    height: 50px;
+    position: relative;
+}
+
+.empty-day {
+    background-color: whitesmoke;
+}
+
+.holyday {
+    background-color: #bdb2ff;
+    color: black;
+}
+
+.festival {
+    background-color: #fa0014;
+    color: whitesmoke;
+}
+
+.birthday {
+    background-color: green;
+    color: white;
+}
+
+.tooltip {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
     position: absolute;
-    top: 150px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    /* gap: 10px; */
-    height: 630px;
-    width: 950px;
-    border: solid 3px black;
-    border-radius: 10px;
+    z-index: 1;
+    bottom: 125%; /* Position above the day box */
+    left: 50%;
+    margin-left: -50px;
+    height: 50px;
+    width: 100px;
 }
-.oddDay--container{
-    position: absolute;
-    top: 150px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    /* gap: 10px; */
-    height: 630px;
-    width: 950px;
-    border: solid 3px black;
-    border-radius: 10px;
+
+.day:hover .tooltip {
+    visibility: visible;
 }
-.evenDay--container > div{
-    height: 100%;
-    width: 100%;
-    border: solid black 1px;
-    border-radius: 5px;
-    display: inline-block;
+
+/* Add this to your CSS file (calendar.css) */
+
+.today {
+    background-color: #ff6361; /* Highlight with a yellow background */
+    border: 2px solid #ff6361;    /* Add a red border */
+    border-radius: none;       /* Make it a circle, if you want */
+    color: black;             /* Set text color */
 }
-.oddDay--container > div{
-    height: 100%;
-    width: 100%;
-    border: solid black 1px;
-    border-radius: 5px;
-    display: inline-block;
+
+.today .gregorian-day {
+    font-weight: bold;        /* Make the day number bold */
 }

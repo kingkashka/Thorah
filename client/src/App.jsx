@@ -5,8 +5,7 @@ import HomePage from "./pages/HomePage.jsx";
 import Leviticus11Page from "./pages/Leviticus11Page.jsx";
 import LanguagePage from "./pages/LanguagePage.jsx"
 import SacrificePage from "./pages/SacrificePage";
-// import LuminariesPage from "./pages/LuminariesPage.jsx"
-// import CalendarPage from "./pages/CalendarPage.jsx";
+import CalendarPage from "./pages/CalendarPage.jsx";
 
 function App() {
   return (
@@ -16,8 +15,7 @@ function App() {
         <Route path="/leviticus11" element={<Leviticus11Page />} />
         <Route path="/language" element={<LanguagePage />} />
         <Route path="/sacrifices" element={<SacrificePage />} />
-        {/* <Route path="/luminaries" element={<LuminariesPage />} /> */}
-        {/* <Route path="/calendar" element={<CalendarPage />} /> */}
+        <Route path="/calendar" element={<CalendarPage />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </>

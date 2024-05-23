@@ -62,7 +62,7 @@ function LanguageHeader(props) {
       </p>
       <h1>Vowels</h1>
       <div className="Vowel--container">{renderVowelCard}</div>
-      <div>
+      <div className="other-content">
       <p>
         The use of matres lectionis became less standardized over time,
         particularly during the development of the Masoretic text, which added

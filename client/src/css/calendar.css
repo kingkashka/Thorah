@@ -1,3 +1,36 @@
+.calendar--smallPage--light{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: black;
+}
+.calendar--smallPage--dark{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+  background-color: #202124;
+}
+.calendar--light {
+    padding-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+.calendar--dark{
+    padding-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color:#202124;
+    color: whitesmoke;
+}
 .buttonLeft {
     height: 40px;
     width: 40px;
@@ -9,14 +42,6 @@
     width: 40px;
     cursor: pointer;
 }
-
-.calendar {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-}
-
 .calendar-header {
     display: flex;
     justify-content: space-between;
@@ -34,11 +59,13 @@
     padding: 0;
     margin: 0;
     list-style-type: none;
+    
 }
 
 .days li {
     width: 14.28%; /* 100% / 7 days */
     text-align: center;
+    
 }
 
 .evenDay--container {
@@ -78,9 +105,9 @@
 .tooltip {
     visibility: hidden;
     background-color: black;
-    color: #fff;
+    color: whitesmoke;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: 5px;
     position: absolute;
     z-index: 1;
@@ -94,8 +121,6 @@
 .day:hover .tooltip {
     visibility: visible;
 }
-
-/* Add this to your CSS file (calendar.css) */
 
 .today {
     background-color: #ff6361; /* Highlight with a yellow background */

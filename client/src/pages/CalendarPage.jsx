@@ -7,7 +7,7 @@ function CalendarPage(){
         <>
         <HomeHeader />
         <CalendarSmallPage />
-        <Footer />
+        {/* <Footer /> */}
         </>
     )
 }

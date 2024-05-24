@@ -1,8 +1,11 @@
 import '/src/css/calendar.css';
-import React from 'react';
+import React, { useState } from 'react';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import { useContext } from 'react';
+import { ThemeContext } from '../components/themeContext';
 
 function CalendarSmallPage() {
+    const context = useContext(ThemeContext)
     const [currentDate, setCurrentDate] = React.useState(new Date());
     const [month, setMonth] = React.useState(new Date().getMonth());
     const [year, setYear] = React.useState(new Date().getFullYear());
@@ -17,7 +20,7 @@ function CalendarSmallPage() {
     function subMonth() {
         setMonth((prevState) => (prevState - 1 + 12) % 12);
         if (month === 0) {
-            setYear((prevState) => prevState - 1);
+        setYear((prevState) => prevState - 1);
         }
     }
 
@@ -33,7 +36,7 @@ function CalendarSmallPage() {
     const firstDayOfMonth = new Date(year, month, 1).getDay();
 
     const markedDays = [
-        { month: 2, day: 20, type: 'holyday', description: 'New Year' },
+        { month: 2, day: 20, type: 'holyday', description: 'New Year - ראש השנה' },
         { month: 3, day: 2, type: 'festival', description: 'Pesach - פסח' },
         { month: 3, startDay: 3, endDay: 9, type: 'holyday', description: `Chag Ha'Matzoth - חג המצות` },
         { month: 8, startDay: 26, endDay: 27, type: 'holyday', description: 'Yom Kipurim - יום כפרים' },
@@ -59,15 +62,17 @@ function CalendarSmallPage() {
         
         // Add more mappings for other months as needed
     };
+    console.log(context.color);
 
     return (
-        <div className="calendar">
+        <div className={`calendar--smallPage--${context.color}`}>
+        <div className={`calendar--${context.color}`}>
             <div className="calendar-header">
                 <FaArrowLeft className='buttonLeft' onClick={subMonth} />
                 <div className="header-text">
                     <h2 className='year'>{year}</h2>
-                    <h2 className='month'>{months[month]}</h2>
                     <h2 className='greg--month'>{gregMonths[month]}</h2>
+                    <h2 className='month'>{months[month]}</h2>
                 </div>
                 <FaArrowRight className='buttonRight' onClick={addMonth} />
             </div>
@@ -85,9 +90,9 @@ function CalendarSmallPage() {
                     const markedDay = markedDays.find(d => d.month === month && d.day === currentDay);
                     const markedWeek = markedDays.find(d => d.month === month && d.startDay <= currentDay && d.endDay >= currentDay);
                     const secondaryDay = secondaryDays[month] ? secondaryDays[month][currentDay] : null;
-    
+                    
                     const isToday = currentDate.getDate() === currentDay && currentDate.getMonth() === month && currentDate.getFullYear() === year;
-    
+                    
                     return (
                         <div key={currentDay} className={`day ${markedDay ? markedDay.type : ''} ${markedWeek ? markedWeek.type : ''} ${isToday ? 'today' : ''}`}>
                             <div className="day-number">
@@ -104,6 +109,7 @@ function CalendarSmallPage() {
                 ))}
             </div>
         </div>
+    </div>
     );    
 }
 

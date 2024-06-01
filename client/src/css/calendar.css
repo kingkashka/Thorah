@@ -88,18 +88,13 @@
 }
 
 .holyday {
-    background-color: #bdb2ff;
+    background-color: #8fb6ff;
     color: black;
 }
 
 .festival {
-    background-color: #fa0014;
+    background-color: #bdb2ff;
     color: whitesmoke;
-}
-
-.birthday {
-    background-color: green;
-    color: white;
 }
 
 .tooltip {

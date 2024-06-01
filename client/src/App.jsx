@@ -6,6 +6,7 @@ import Leviticus11Page from "./pages/Leviticus11Page.jsx";
 import LanguagePage from "./pages/LanguagePage.jsx"
 import SacrificePage from "./pages/SacrificePage";
 import CalendarPage from "./pages/CalendarPage.jsx";
+import DNAPage from "./pages/DNAPage.jsx";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/language" element={<LanguagePage />} />
         <Route path="/sacrifices" element={<SacrificePage />} />
         <Route path="/calendar" element={<CalendarPage />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/DNA" element={<DNAPage />} />
       </Routes>
     </>
   );

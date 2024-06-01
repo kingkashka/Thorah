@@ -51,7 +51,7 @@ function Leveticus11SmallPage() {
   ));
 
   return (
-    <>
+    <div  className={`kosher--page--${context.color}`}>
       <div className={`uncleanAnimals--page--${context.color}`}>
         <KosherHeader />
         <BeastHeader />
@@ -63,7 +63,7 @@ function Leveticus11SmallPage() {
         <OnFourAnimals />
         <div className="lilCardContainer">{renderCreeperOnFourCard}</div>
       </div>
-    </>
+    </div>
   );
 }
 export default Leveticus11SmallPage;

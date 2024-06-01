@@ -42,15 +42,20 @@ function HomeHeader() {
           </Link>
         </li>
         {/* <li>
+          <Link className={`link--${context.color}`} to={"/DNA"}>
+            DNA
+          </Link>
+        </li> */}
+        {/* <li>
           <Link className={`link--${context.color}`} to={"/sacrifices"}>
             Sacrifices
           </Link>
         </li> */}
-        {/* <li>
+        <li>
           <Link className={`link--${context.color}`} to={"/calendar"}>
             Calendar
           </Link>
-        </li> */}
+        </li>
         {/* <li>
           <Link className={`link--${context.color}`} to={"/luminaries"}>
             Luminaries

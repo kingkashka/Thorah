@@ -1,0 +1,59 @@
+.DNABig--Page{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+.DNASmall--Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Add this line to center horizontally */
+  text-align: center;
+  margin: 2%;
+  width: 80%;
+}
+
+.DNAchart {
+  margin: 0 auto;
+  
+}
+
+.node text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.link {
+  stroke: steelblue;
+  stroke-width: 4;
+  fill: none;
+}
+
+.DNACard--Container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this line to center vertically */
+  flex-wrap: wrap; /* Ensure it wraps if there are multiple cards */
+
+}
+.plusSign{
+  height: 40px;
+  width: 40px;
+}
+.DNA--Card {
+  height: 300px;
+  width: 400px;
+  margin: 5%; /* Add margin for spacing between cards */
+  /* border: 3px solid black; */
+  border-radius: 8px;
+}
+
+.DNA--Card img {
+  height: 200px;
+  width: 400px;
+  border-radius: 8px;
+  margin: 0 auto; /* Center image inside the card */
+}

@@ -206,7 +206,7 @@
   }
   .navbar--container--light > ul > li,
   .navbar--container--dark > ul > li{
-    font-size: 22px;
+    font-size: 18px;
   }
   .icon-light, .icon-dark{
     height: 35px;

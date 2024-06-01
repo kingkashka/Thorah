@@ -9,10 +9,10 @@ import "/src/css/Kosher.css";
 function Leviticus11Page(){
     const context = useContext(ThemeContext)
     return(
-        <div className={`kosher--page--${context.color}`}>
+        <>
         <HomeHeader />
         <Leveticus11SmallPage />
-        </div>
+        </>
     )
 }
 export default Leviticus11Page

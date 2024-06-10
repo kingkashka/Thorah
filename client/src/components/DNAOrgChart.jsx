@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
-import '/src/css/DNA.css';
 import * as d3 from 'd3';
+import '/src/css/DNA.css';
 
 const DNAOrgChart = ({ data }) => {
   const d3Container = useRef(null);
@@ -10,9 +10,9 @@ const DNAOrgChart = ({ data }) => {
       const svg = d3.select(d3Container.current);
       svg.selectAll('*').remove(); // Clear previous content
 
-      const width = 1000; // Increase width for more horizontal space
+      const width = 1400; // Increase width for more horizontal space
       const height = 1500; // Increase height for more vertical space
-      const margin = { top: 20, right: 120, bottom: 20, left: 120 };
+      const margin = { top: 100, right: 120, bottom: 20, left: 120 }; // Increased top margin
 
       svg.attr('width', width).attr('height', height);
 
@@ -27,7 +27,6 @@ const DNAOrgChart = ({ data }) => {
         d.y = d.depth * 100; // Increase vertical spacing
       });
 
-
       // Links
       g.selectAll('.link')
         .data(root.links())
@@ -38,7 +37,7 @@ const DNAOrgChart = ({ data }) => {
         .attr('y1', d => d.source.y)
         .attr('x2', d => d.target.x)
         .attr('y2', d => d.target.y)
-        .style('stroke', 'black');
+        .style('stroke', '#a4a4a4');
 
       // Nodes
       const node = g.selectAll('.node')
@@ -56,13 +55,14 @@ const DNAOrgChart = ({ data }) => {
         .attr('rx', 12) // Horizontal radius for rounded corners
         .attr('ry', 12) // Vertical radius for rounded corners
         .style('stroke', 'black')
-        .style('fill', '#d6e6ff');
+        .style('fill', d => d.data.color || '#8fb6ff'); // Apply the color from the data or a default color
 
       node.append('text')
         .attr('x', 0)
         .attr('y', -20)
         .attr('dy', '1em') // Vertical alignment
         .style('text-anchor', 'middle')
+        .style('fill', d => d.data.textColor || '#202124') // Apply text color from the data or default to black
         .text(d => d.data.name);
 
       node.append('text')
@@ -70,6 +70,7 @@ const DNAOrgChart = ({ data }) => {
         .attr('y', 0)
         .attr('dy', '1em') // Vertical alignment
         .style('text-anchor', 'middle')
+        .style('fill', d => d.data.mutationColor || '#202124')
         .text(d => d.data.mutation);
     }
   }, [data]);
@@ -78,4 +79,3 @@ const DNAOrgChart = ({ data }) => {
 };
 
 export default DNAOrgChart;
-

@@ -1,24 +1,143 @@
-.DNABig--Page{
+/* Ensure the parent of DNABig--Page is set up correctly for flex centering */
+.parent-container {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
 }
-.DNASmall--Page {
+
+.DNABig--Page--light {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; /* Add this line to center horizontally */
+  color: #202124;
+  background-color: whitesmoke;
+}
+.DNABig--Page--dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Add this line to center horizontally */
+  color: whitesmoke;
+  background-color: #202124;
+}
+
+.DNASmall--Page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
   text-align: center;
   margin: 2%;
   width: 80%;
+  padding-bottom: 20px; /* Add padding at the bottom */
+}
+/* Define the custom property for the gradient angle */
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+/* Define the rotation keyframes */
+@keyframes rotation {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 3600deg;
+  }
+}
+
+/* Style theFlood element */
+.theFlood {
+  height: 600px;
+  width: 1000px;
+  border-radius: 16px;
+  background: #fff; /* Adjust the background color as needed */
+  position: relative; /* Ensure it is positioned relative to the container */
+  z-index: 1; /* Ensure it is above the gradient */
+}
+
+/* Style theFloodContainer element */
+.theFloodContainer {
+  position: relative;
+  padding: 16px; /* Ensure padding to show the gradient around the element */
+  display: inline-block; /* Ensure it wraps around the content */
+}
+
+/* Create the rotating gradient background */
+.theFloodContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit; /* Match the border radius of theFlood */
+  background: linear-gradient(
+    var(--gradient-angle),
+    #ff00c4,
+    #ff0000,
+    #ffff00,
+    #0033ff,
+    #ff00c4,
+    #800080
+  );
+  animation: rotation 20s linear infinite;
+  z-index: -2;
+}
+
+/* Apply the blur effect */
+.theFloodContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit; /* Match the border radius of theFlood */
+  background: inherit;
+  filter: blur(3.5rem);
+  z-index: -1;
+}
+
+.DNAHeader--light {
+  background-color: whitesmoke;
+  color: #202124;
+}
+.DNAHeader--dark {
+  background-color: #202124;
+  color: whitesmoke;
+}
+.DNAHeader--light h1 {
+  font-size: 45px;
+  letter-spacing: 0.5px;
+}
+.DNAHeader--light h3 {
+  font-size: 35px;
+}
+.DNAHeader--light p {
+  font-size: 20px;
+}
+.DNAHeader--dark h1 {
+  font-size: 45px;
+  letter-spacing: 0.5px;
+}
+.DNAHeader--dark h3 {
+  font-size: 30px;
+}
+.DNAHeader--dark p {
+  font-size: 20px;
+}
+.DNAOrgChart {
+  margin-top: 20px; /* Optional: Add margin at the top if needed */
 }
 
 .DNAchart {
   margin: 0 auto;
-  
 }
 
 .node text {
@@ -35,25 +154,128 @@
 .DNACard--Container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Add this line to center vertically */
-  flex-wrap: wrap; /* Ensure it wraps if there are multiple cards */
-
+  align-items: center; /* Already correctly added */
+  flex-wrap: wrap;
 }
-.plusSign{
+
+.plusSign {
   height: 40px;
   width: 40px;
 }
+
 .DNA--Card {
-  height: 300px;
+  height: 500px;
   width: 400px;
-  margin: 5%; /* Add margin for spacing between cards */
-  /* border: 3px solid black; */
+  margin: 5%;
   border-radius: 8px;
 }
 
-.DNA--Card img {
+.chromosome {
   height: 200px;
   width: 400px;
   border-radius: 8px;
-  margin: 0 auto; /* Center image inside the card */
+  margin: 0 auto;
+  position: relative;
+}
+
+.chromosomeFacts {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+}
+.chromosomeFacts ul li {
+  margin: 2%;
+}
+.DNABase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.equalContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 300px;
+}
+
+.equalSign {
+  height: 40px;
+  width: 40px;
+}
+
+.DNA--div {
+  height: 300px;
+  width: 400px;
+  margin: 5%;
+  border-radius: 8px;
+}
+
+.DNA--div img {
+  height: 200px;
+  width: 400px;
+  border-radius: 8px;
+  margin: 0 auto; /* Already correctly added */
+  position: relative;
+}
+
+.DNA2Container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  margin: 5px;
+  justify-content: center;
+  padding-bottom: 250px;
+}
+.chromosome2 {
+  height: 400px;
+  width: 400px;
+}
+
+.DNACard {
+  height: 460px;
+  width: 250px;
+  border: solid #202124 3px;
+  margin: 2%;
+}
+.DNACard title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: inherit;
+  font-size: 35px;
+}
+.DNACard img{
+  height: 350px;
+  width: inherit;
+  border-top: solid #202124 3px;
+  border-bottom: solid #202124 3px;
+}
+.DNACard label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: inherit;
+  font-size: 25px;
+  text-decoration: underline;
+  font-style: italic;
+}
+.containerOne{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+.containerOne img{
+  height: 400px;
+  width: 700px;
+  border: solid #202124 3px;
+  border-radius: 16px;
 }

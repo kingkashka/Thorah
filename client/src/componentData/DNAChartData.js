@@ -1,109 +1,90 @@
+import { color } from "d3";
 import { Children } from "react";
 
 const DNAData = {
-    name: "Noach - נוח",
-    mutation: "A0-T",
-    children: [
+  name: "Noach - נוח",
+  mutation: "",
+  color: "#a6cca3",
+  children: [
+    {
+      name: "Kham - חם",
+      mutation: "A/B (YAP-)",
+      color: "#ff4031",
+      // textColor: "whitesmoke",
+      // mutationColor: "whitesmoke"
+    },
+    {
+      name: "Sham - שם",
+      mutation: "D/E (YAP+)",
+      color: "#8fb6ff",
+      children: [
         {
-            name: "Kham - חם",
-            mutation: "A0-T",
-            children: [
+          name: "Tharach - תרח",
+          mutation: "",
+          children: [
+            {
+              name: "Nachor - נחור",
+              mutation: "D1a1 (D-M174)",
+            },
+            {
+              name: "Haran - הרן",
+              mutation: "D1b1 (D-M174)",
+              children: [
                 {
-                    name: ""
+                  name: "Lot - לוט",
+                  mutation: "D (D-M174)",
+                  children: [
+                    {
+                      name: "Moab - מואב",
+                      mutation: "D1 (D-M15)",
+                    },
+                    {
+                      name: "Ammon - עמון",
+                      mutation: "D2 (D-M55)",
+                    },
+                  ],
                 },
-            ]
-        },
-        {
-            name: "Shem - שם",
-            mutation: "A1",
-            children: [
+              ],
+            },
+            {
+              name: "Abraham",
+              mutation: "E (E-M96)",
+              children: [
                 {
-                    name: "Shalach - שלך",
-                    mutation: "A1b2",
-                    children: [
-                        {
-                            name: "Ghabar - עבר",
-                            mutation: "CT / M168",
-                            children: [
-                                {
-                                    name: "Palag - ",
-                                    mutation: "",
-                                    children: [
-                                        {
-                                            name: "Tharach",
-                                            mutation: "DE / YAP",
-                                            children: [
-                                                {
-                                                    name: "Nachor - ",
-                                                    mutation: "",
-                                                },
-                                                {
-                                                    name: "Haran - ",
-                                                    mutation: "",
-                                                    children: [
-                                                        {
-                                                          name: "Lot - לוט", 
-                                                          children: [
-                                                            {
-                                                                name: "Moab - מואב"
-                                                            },
-                                                            {
-                                                                name: "Ghammon - עמון"
-                                                            }
-                                                          ] 
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    name: "Abraham",
-                                                    mutation: "E-M96",
-                                                    children: [
-                                                        {
-                                                            name: "Yashmael - ישמעאל",
-                                                            mutation: "E1a1",
-                                                        },
-                                                        {
-                                                            name: "Yastachak - יצחק",
-                                                            mutation: "E1b1",
-                                                            children: [
-                                                                {
-                                                                    name: "Yaghakav - יעקב",
-                                                                    mutation: "E1b1a"
-                                                                },
-                                                                {
-                                                                    name: "Ghaso - עשו",
-                                                                    mutation: "E1b1b"
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    name: "Yaktan - ",
-                                    mutation: "CF / P143"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-
-        },
-        {
-            name: "Yapheth - יפת",
-            mutation: "A00",
-            children: [
+                  name: "Ishmael - ישמעאל",
+                  mutation: "E1a1 (E-M44)",
+                },
                 {
-                    name: ""
-                }
-            ]
-
-        }
-    ]
-}
+                  name: "Issac - יצחק",
+                  mutation: "E1b1 (E-M35)",
+                  children: [
+                    {
+                      name: "Jacob - יעקב",
+                      mutation: "E1b1a (E-M2)",
+                      color: "#ff6361",
+                    },
+                    {
+                      name: "Esau - עשו",
+                      mutation: "E1b1b (E-M215)",
+                    },
+                  ],
+                },
+                {
+                  name: "Other Children",
+                  mutation: "E2 (E-M75)",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "Yaphath - יפת",
+      mutation: "C/F (YAP-)",
+      color: "#ffdc45",
+    },
+  ],
+};
 
 export default DNAData;

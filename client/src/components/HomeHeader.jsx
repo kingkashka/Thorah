@@ -56,11 +56,6 @@ function HomeHeader() {
             Calendar
           </Link>
         </li>
-        {/* <li>
-          <Link className={`link--${context.color}`} to={"/luminaries"}>
-            Luminaries
-          </Link>
-        </li> */}
         <div>
           <Button />
         </div>

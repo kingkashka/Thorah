@@ -29,13 +29,11 @@ function CalendarSmallPage() {
 
     const markedDays = [
         { month: 2, day: 20, type: 'holyday', description: 'New Year - ראש השנה' },
-        { month: 3, day: 2, type: 'festival', description: 'Pesach - פסח' },
-        { month: 3, startDay: 3, endDay: 9, type: 'holyday', description: `Chag Ha'Matzoth - חג המצות` },
-        { month: 3, startDay: 3, endDay: 9, type: 'holyday', description: `Shabuoth - חג המצות` },
-        { month: 8, startDay: 26, endDay: 27, type: 'holyday', description: 'Yom Kipurim - יום כפרים' },
+        { month: 3, day: 2, type: 'holyday', description: 'Pesach - פסח' },
+        { month: 3, startDay: 3, endDay: 9, type: 'festival', description: `Chag Ha'Matzoth - חג המצות` },
         { month: 8, day: 18, type: 'holyday', description: 'Yom Tharuah - יום תרועה' },
-        { month: 8, day: 27, type: 'holyday', description: 'Day of Atonement - יום כיפרים' },
-        { month: 9, startDay: 2, endDay: 9, type: 'holyday', description: 'Succoth - חג הסוכות' }
+        { month: 8, startDay: 26, endDay: 27, type: 'holyday', description: 'Yom Kipurim - יום כפרים' },
+        { month: 9, startDay: 2, endDay: 9, type: 'festival', description: 'Succoth - חג הסוכות' }
         // Add more marked days as needed
     ];
 
@@ -78,6 +76,9 @@ function CalendarSmallPage() {
                     ))}
                     {[...Array(daysInMonth).keys()].map((day) => {
                         const currentDay = day + 1;
+                        const date = new Date(currentYear, month, currentDay);
+                        const isSaturday = date.getDay() === 6;
+
                         const markedDay = markedDays.find(d => d.month === month && d.day === currentDay);
                         const markedWeek = markedDays.find(d => d.month === month && d.startDay <= currentDay && d.endDay >= currentDay);
                         const secondaryDay = secondaryDays[month] ? secondaryDays[month][currentDay] : null;
@@ -85,7 +86,7 @@ function CalendarSmallPage() {
                         const isToday = new Date().getDate() === currentDay && new Date().getMonth() === month && new Date().getFullYear() === currentYear;
                         
                         return (
-                            <div key={currentDay} className={`day ${markedDay ? markedDay.type : ''} ${markedWeek ? markedWeek.type : ''} ${isToday ? 'today' : ''}`}>
+                            <div key={currentDay} className={`day ${markedDay ? markedDay.type : ''} ${markedWeek ? markedWeek.type : ''} ${isSaturday ? 'sabbath' : ''} ${isToday ? 'today' : ''}`}>
                                 <div className="day-number">
                                     <span className="gregorian-day">{currentDay}</span>
                                     {secondaryDay && <span className="secondary-day">{secondaryDay}</span>}
@@ -105,4 +106,3 @@ function CalendarSmallPage() {
 }
 
 export default CalendarSmallPage;
-

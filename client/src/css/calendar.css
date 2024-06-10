@@ -81,6 +81,10 @@
     border: 1px solid #ccc;
     height: 50px;
     position: relative;
+    color: #000000; /* Optional: adjust text color for better readability */
+    border-radius: 5px; /* Optional: add rounded corners */
+    padding: 5px; /* Optional: add some padding */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
 }
 
 .empty-day {
@@ -122,8 +126,19 @@
     border: 2px solid #ff6361;    /* Add a red border */
     border-radius: none;       /* Make it a circle, if you want */
     color: black;             /* Set text color */
+    border-radius: 5px; /* Optional: add rounded corners */
+    padding: 5px; /* Optional: add some padding */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
 }
 
 .today .gregorian-day {
     font-weight: bold;        /* Make the day number bold */
 }
+.sabbath {
+    background-color: #ADD8E6; /* Light Blue, change to any of the suggested colors */
+    color: #000000; /* Optional: adjust text color for better readability */
+    border-radius: 5px; /* Optional: add rounded corners */
+    padding: 5px; /* Optional: add some padding */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+}
+

@@ -2,6 +2,7 @@ import '/src/css/calendar.css';
 import React, { useState, useContext } from 'react';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { ThemeContext } from '../components/themeContext';
+import CalenderBody from '../components/CalenderBody';
 
 function CalendarSmallPage() {
     const context = useContext(ThemeContext);
@@ -56,6 +57,9 @@ function CalendarSmallPage() {
     return (
         <div className={`calendar--smallPage--${context.color}`}>
             <div className={`calendar--${context.color}`}>
+                <div className='calenderTitle'>
+                <h1>The Calender - לוח הימים</h1>
+                </div>
                 <div className="calendar-header">
                     <FaArrowLeft className='buttonLeft' onClick={subMonth} />
                     <div className="header-text">
@@ -101,6 +105,7 @@ function CalendarSmallPage() {
                     ))}
                 </div>
             </div>
+            {/* <CalenderBody /> */}
         </div>
     );    
 }

@@ -141,4 +141,26 @@
     padding: 5px; /* Optional: add some padding */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
 }
+.calenderTitle{
+    display: flex;
+    justify-content: center;
 
+}
+.calenderBody--light{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: whitesmoke;
+    color: #202124;
+}
+.calenderBody--dark{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #202124;
+    color: whitesmoke;
+}

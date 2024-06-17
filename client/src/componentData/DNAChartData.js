@@ -7,14 +7,14 @@ const DNAData = {
   color: "#a6cca3",
   children: [
     {
-      name: "Kham - חם",
+      name: "Cham - חם",
       mutation: "A/B (YAP-)",
       color: "#ff4031",
       // textColor: "whitesmoke",
       // mutationColor: "whitesmoke"
     },
     {
-      name: "Sham - שם",
+      name: "Shem - שם",
       mutation: "D/E (YAP+)",
       color: "#8fb6ff",
       children: [
@@ -24,15 +24,15 @@ const DNAData = {
           children: [
             {
               name: "Nachor - נחור",
-              mutation: "D1a1 (D-M174)",
+              mutation: "D (D-F974)",
             },
             {
               name: "Haran - הרן",
-              mutation: "D1b1 (D-M174)",
+              mutation: "D1b1 (D-F974)",
               children: [
                 {
                   name: "Lot - לוט",
-                  mutation: "D (D-M174)",
+                  mutation: "D (D-M174) ",
                   children: [
                     {
                       name: "Moab - מואב",
@@ -52,7 +52,7 @@ const DNAData = {
               children: [
                 {
                   name: "Ishmael - ישמעאל",
-                  mutation: "E1a1 (E-M44)",
+                  mutation: "E1b1 (E-M44)",
                 },
                 {
                   name: "Issac - יצחק",
@@ -65,7 +65,7 @@ const DNAData = {
                     },
                     {
                       name: "Esau - עשו",
-                      mutation: "E1b1b (E-M215)",
+                      mutation: "E1b1a2 (E-M123)",
                     },
                   ],
                 },
@@ -80,7 +80,7 @@ const DNAData = {
       ],
     },
     {
-      name: "Yaphath - יפת",
+      name: "Yapheth - יפת",
       mutation: "C/F (YAP-)",
       color: "#ffdc45",
     },

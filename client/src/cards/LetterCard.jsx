@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { AiFillSound } from "react-icons/ai";
-import letterSoundData from "../componentData/soundData";
 import { useContext } from "react";
 import { ThemeContext } from "/src/components/themeContext.jsx";
 

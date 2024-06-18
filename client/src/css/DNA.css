@@ -35,49 +35,34 @@
   padding-bottom: 20px; /* Add padding at the bottom */
 }
 
-/* Define the rotation keyframes */
-@keyframes rotation {
-  0% {
-    --gradient-angle: 0deg;
-  }
-  100% {
-    --gradient-angle: 360deg;
-  }
-}
-
-/* Root level or parent element */
-:root {
-  --gradient-angle: 0deg;
-}
 
 /* Style theFlood element */
 .theFlood {
   height: 500px;
   width: 1000px;
   border-radius: 16px;
-  background: #fff; /* Adjust the background color as needed */
   position: relative; /* Ensure it is positioned relative to the container */
   z-index: 1; /* Ensure it is above the gradient */
+}
+
+.bigFloodContainer {
+  height: 540px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* Style theFloodContainer element */
 .theFloodContainer {
   position: relative; /* Set to relative to contain the pseudo-elements */
-  padding: 16px; /* Ensure padding to show the gradient around the element */
-  display: inline-block; /* Ensure it wraps around the content */
-}
-
-/* Create the rotating gradient background */
-.theFloodContainer::before {
-  content: "";
-  position: absolute;
-  top: -16px; /* Extend the gradient beyond the padding */
-  left: -16px; /* Extend the gradient beyond the padding */
-  right: -16px; /* Extend the gradient beyond the padding */
-  bottom: -16px; /* Extend the gradient beyond the padding */
-  border-radius: inherit; /* Match the border radius of theFlood */
-  background: linear-gradient(
-    var(--gradient-angle),
+  padding: 4px; 
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 1000px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: conic-gradient(
     #ff00c4,
     #ff0000,
     #ffff00,
@@ -85,24 +70,57 @@
     #ff00c4,
     #800080
   );
-  animation: rotation 20s linear infinite;
-  z-index: -2;
+  
+}
+
+/* Create the rotating gradient background */
+.theFloodContainer::before {
+  content: "";
+  position: absolute;
+  box-shadow: 0 0 20px rgb(8, 8, 8);
+  border-radius: 16px; /* Match the border radius of theFlood */
+  /* background: conic-gradient(
+    #ff00c4,
+    #ff0000,
+    #ffff00,
+    #0033ff,
+    #ff00c4,
+    #800080
+  ); */
+  /* animation: rotate 4s linear infinite; */
 }
 
 /* Apply the blur effect */
 .theFloodContainer::after {
   content: "";
   position: absolute;
-  top: -16px; /* Extend the blur effect beyond the padding */
-  left: -16px; /* Extend the blur effect beyond the padding */
-  right: -16px; /* Extend the blur effect beyond the padding */
-  bottom: -16px; /* Extend the blur effect beyond the padding */
-  border-radius: inherit; /* Match the border radius of theFlood */
-  background: inherit;
-  filter: blur(35px); /* Adjust blur effect as needed */
-  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: conic-gradient(
+    #ff00c4,
+    #ff0000,
+    #ffff00,
+    #0033ff,
+    #4b0082,
+    #ff00c4,
+    #800080
+  );
+  filter: blur(4px);
+  border-radius: 16px;
+  animation: rotate 12s linear infinite;
 }
 
+/* Define the rotation keyframes */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 
@@ -119,7 +137,7 @@
   letter-spacing: 0.5px;
 }
 .DNAHeader--light h3 {
-  font-size: 35px;
+  font-size: 30px;
 }
 .DNAHeader--light p {
   font-size: 20px;
@@ -172,10 +190,19 @@
   border-radius: 8px;
 }
 
-.chromosome {
+.chromosome--light {
   height: 200px;
   width: 400px;
   border-radius: 8px;
+  border: #202124 solid 3px;
+  margin: 0 auto;
+  position: relative;
+}
+.chromosome--dark {
+  height: 200px;
+  width: 400px;
+  border-radius: 8px;
+  border: #525e75 solid 3px;
   margin: 0 auto;
   position: relative;
 }
@@ -237,18 +264,18 @@
   width: 400px;
 }
 
-.DNACard {
+.DNACard--light {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   height: 460px;
   width: 400px;
   border: solid #202124 3px;
-  background-color: #f1ddbf;
+  background-color: bisque;
   border-radius: 16px;
   margin: 2%;
 }
-.DNACard title{
+.DNACard--light title{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,14 +283,14 @@
   width: inherit;
   font-size: 30px;
 }
-.DNACard p{
+.DNACard--light p{
   font-size: 16px;
   height: 350px;
   width: inherit;
   border-top: solid #202124 3px;
   border-bottom: solid #202124 3px;
 }
-.DNACard label{
+.DNACard--light label{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,13 +299,55 @@
   font-size: 25px;
   font-style: italic;
 }
-.DNACard img{
+.DNACard--light img{
   height: 350px;
   width: inherit;
   border-radius: 16px;
   border: #202124 solid 3px;
 }
-.containerOne{
+.DNACard--dark {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 460px;
+  width: 400px;
+  color: #525e75;
+  border: solid #525e75 3px;
+  background-color: bisque;
+  border-radius: 16px;
+  margin: 2%;
+}
+.DNACard--dark title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: inherit;
+  font-size: 30px;
+}
+.DNACard--dark p{
+  font-size: 16px;
+  height: 350px;
+  width: inherit;
+  border-top: solid #525e75 3px;
+  border-bottom: solid #525e75 3px;
+}
+.DNACard--dark label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: inherit;
+  font-size: 25px;
+  font-style: italic;
+}
+.DNACard--dark img{
+  height: 350px;
+  width: inherit;
+  border-radius: 16px;
+  border: #525e75 solid 3px;
+}
+.containerOne--light{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -286,10 +355,24 @@
   width: 100%;
   height: 600px;
 }
-.containerOne img{
+.containerOne--dark{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+}
+.containerOne--light img{
   height: 400px;
   width: 700px;
   border: solid #202124 3px;
+  border-radius: 16px;
+}
+.containerOne--dark img{
+  height: 400px;
+  width: 700px;
+  border: solid #525e75 3px;
   border-radius: 16px;
 }
 .baseContainer2{
@@ -307,4 +390,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 600px){
+  
 }

@@ -24,7 +24,7 @@ const DNAData = {
           children: [
             {
               name: "Nachor - נחור",
-              mutation: "D (D-F974)",
+              mutation: "D",
             },
             {
               name: "Haran - הרן",
@@ -52,16 +52,15 @@ const DNAData = {
               children: [
                 {
                   name: "Ishmael - ישמעאל",
-                  mutation: "E1b1 (E-M44)",
+                  mutation: "E1b1b (E-M215)",
                 },
                 {
                   name: "Issac - יצחק",
-                  mutation: "E1b1 (E-M35)",
+                  mutation: "E1b1a (E-V38)",
                   children: [
                     {
                       name: "Jacob - יעקב",
                       mutation: "E1b1a (E-M2)",
-                      color: "#ff6361",
                     },
                     {
                       name: "Esau - עשו",

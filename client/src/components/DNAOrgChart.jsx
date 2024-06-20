@@ -1,18 +1,35 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import * as d3 from 'd3';
 import '/src/css/DNA.css';
 
 const DNAOrgChart = ({ data }) => {
   const d3Container = useRef(null);
+  const [dimensions, setDimensions] = useState({ width: 1400, height: 800 });
+
+  const handleResize = () => {
+    if (window.innerWidth <= 600) {
+      setDimensions({ width: 300, height: 600 }); // Adjust dimensions for small screens
+    } else {
+      setDimensions({ width: 1400, height: 800 }); // Default dimensions for larger screens
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initial check on component mount
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     if (d3Container.current && data) {
       const svg = d3.select(d3Container.current);
       svg.selectAll('*').remove(); // Clear previous content
 
-      const width = 1400; // Increase width for more horizontal space
-      const height = 1500; // Increase height for more vertical space
-      const margin = { top: 100, right: 120, bottom: 20, left: 120 }; // Increased top margin
+      const { width, height } = dimensions;
+      const margin = { top: 100, right: 100, bottom: 20, left: 100 }; // Increased top margin
 
       svg.attr('width', width).attr('height', height);
 
@@ -73,9 +90,10 @@ const DNAOrgChart = ({ data }) => {
         .style('fill', d => d.data.mutationColor || '#202124')
         .text(d => d.data.mutation);
     }
-  }, [data]);
+  }, [data, dimensions]);
 
   return <svg className="DNAchart" ref={d3Container} />;
 };
 
 export default DNAOrgChart;
+

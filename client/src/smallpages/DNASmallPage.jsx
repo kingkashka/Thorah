@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import DNAHeader from "../components/DNAHeader";
 import DNAOrgChart from "../components/DNAOrgChart";
 import DNAData from "../componentData/DNAChartData";
+import Nephilim from "../components/Nephilim";
 import '/src/css/DNA.css';
 
 function DNASmallPage() {
@@ -9,6 +10,7 @@ function DNASmallPage() {
       <div className="DNASmall--Page">
       <DNAHeader />
       <DNAOrgChart data={DNAData}/>
+      {/* <Nephilim /> */}
       </div>
     )
   

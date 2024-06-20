@@ -28,7 +28,7 @@ const DNAData = {
             },
             {
               name: "Haran - הרן",
-              mutation: "D1b1 (D-F974)",
+              mutation: "D (D-F974)",
               children: [
                 {
                   name: "Lot - לוט",

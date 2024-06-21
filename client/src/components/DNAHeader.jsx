@@ -20,7 +20,7 @@ function DNAHeader() {
       label: "Haplogroup: DE (YAP+)",
       image:
         "https://cdn.aarp.net/content/dam/aarp/research/surveys_statistics/life-leisure/2021/black-man-hat.jpg",
-      info: "Haplogroup DE is a pivotal branch of the human paternal lineage, characterized by the YAP (Y Alu polymorphic) insertion, a unique genetic marker that defines this haplogroup as YAP positive. Haplogroup DE provides essential insights into early human migrations and genetic diversification. Haplogroup D is found primarily in East Asia, Central Asia, and the Andaman Islands, with notable regions including Japan, Tibet, and parts of Southeast Asia. Haplogroup E is predominantly found in Africa, most notably associated with the Bantu expansion and the Trans-Atlantic slave trade, which has displaced many individuals carrying this haplogroup to the Americas. This haplogroup also includes significant branches in Europe and the Middle East. The presence of the YAP insertion and the widespread geographical distribution of its descendants underscore the importance of haplogroup DE in understanding the genetic history and evolution of modern human populations.",
+      info: "Haplogroup DE is a pivotal branch of the human paternal lineage, characterized by the YAP (Y Alu Polymorphic) insertion, a unique genetic marker that defines this haplogroup as YAP positive. Haplogroup DE provides essential insights into early human migrations and genetic diversification. Haplogroup D is found primarily in East Asia, Central Asia, and the Andaman Islands, with notable regions including Japan, Tibet, and parts of Southeast Asia. Haplogroup E is predominantly found in Africa, most notably associated with the Bantu expansion and the Trans-Atlantic slave trade, which has displaced many individuals carrying this haplogroup to the Americas. This haplogroup also includes significant branches in Europe and the Middle East. The presence of the YAP insertion and the widespread geographical distribution of its descendants underscore the importance of haplogroup DE in understanding the genetic history and evolution of modern human populations.",
     },
     {
       title: "Yapheth",
@@ -47,10 +47,10 @@ function DNAHeader() {
             className="theFlood"
             src="/images/DNA images/ai-generated-8452637_1280.webp"
             alt="https://cdn.pixabay.com/photo/2023/12/16/14/56/ai-generated-8452637_1280.png"
-            />
+          />
         </div>
       </div>
-            <h3>The Flood - המבול</h3>
+      <h3>The Flood - המבול</h3>
       <p>
         During the time of Noach, YHWH (יהוה) destroyed all life on Earth,
         eradicating all existing lineages. However, Noach found grace in the
@@ -237,10 +237,8 @@ function DNAHeader() {
           sons. Scientifically, this is echoed in the breakdown of different
           Y-chromosome haplogroups, which cannot independently give rise to each
           other. Each haplogroup, such as AB, DE, and CF, is distinct and has
-          its own unique characteristics and specific genetic markers.
-        </p>
-        <p>
-          For instance, haplogroups A and B share a common ancestor in the BT
+          its own unique characteristics and specific genetic markers. For
+          instance, haplogroups A and B share a common ancestor in the BT
           haplogroup but cannot produce haplogroups DE and CF. Similarly,
           haplogroups DE and CF are genetically distinct and cannot generate
           haplogroups A or B. This genetic diversity aligns with the biblical
@@ -248,6 +246,7 @@ function DNAHeader() {
           sons, forming distinct groups that populated various regions of the
           world.
         </p>
+
         <p>
           In summary, while the Out of Africa theory explains the global
           dispersion of modern humans from Africa based on genetic evidence, it
@@ -270,24 +269,24 @@ function DNAHeader() {
           </div>
         </div>
         <div className="TheFamilyTree">
-        <h1>The Family Tree - עץ המשפחה</h1>
-        <p>
-          This phylogenetic tree depicts the breakdown of haplogroups in today's
-          population. Claims regarding the lineage of Israel are not based on
-          fallacies or hypotheticals. The most logical approach is to analyze
-          each contemporary haplogroup, comparing and contrasting them to
-          identify which one aligns with the historical curses that were
-          foretold. These curses do not miss their mark, affecting the survivors
-          of the Trans-Atlantic slave trade whose ancestors and descendants are
-          now scattered across the Earth. These individuals have endured the
-          loss of heritage, language, and customs, often marginalized in every
-          society they have been dispersed to, as outlined in Deuteronomy
-          chapter 28 of the Thorah. It is not my position to tell other people
-          who they are and who they descend from, but with the help of
-          YHWH-יהוה, we can all use the tools of DNA and historical proof to
-          come closer to recognizing who we are. Bless His name forever and
-          always, YHWH-יהוה.
-        </p>
+          <h1>The Family Tree - עץ המשפחה</h1>
+          <p>
+            This phylogenetic tree depicts the breakdown of haplogroups in
+            today's population. Claims regarding the lineage of Israel are not
+            based on fallacies or hypotheticals. The most logical approach is to
+            analyze each contemporary haplogroup, comparing and contrasting them
+            to identify which one aligns with the historical curses that were
+            foretold. These curses do not miss their mark, affecting the
+            survivors of the Trans-Atlantic slave trade whose ancestors and
+            descendants are now scattered across the Earth. These individuals
+            have endured the loss of heritage, language, and customs, often
+            marginalized in every society they have been dispersed to, as
+            outlined in Deuteronomy chapter 28 of the Thorah. It is not my
+            position to tell other people who they are and who they descend
+            from, but with the help of YHWH-יהוה, we can all use the tools of
+            DNA and historical proof to come closer to recognizing who we are.
+            Bless His name forever and always, YHWH-יהוה.
+          </p>
         </div>
       </div>
     </div>

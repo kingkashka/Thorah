@@ -52,7 +52,7 @@ const DNAData = {
               children: [
                 {
                   name: "Ishmael - ישמעאל",
-                  mutation: "E1b1b (E-M215)",
+                  mutation: "E1a (E-M33)",
                 },
                 {
                   name: "Issac - יצחק",
@@ -60,11 +60,11 @@ const DNAData = {
                   children: [
                     {
                       name: "Jacob - יעקב",
-                      mutation: "E1b1a (E-M2)",
+                      mutation: "E1b1a1 (E-M2)",
                     },
                     {
                       name: "Esau - עשו",
-                      mutation: "E1b1a2 (E-M123)",
+                      mutation: "E1b1b (E-M215)",
                     },
                   ],
                 },

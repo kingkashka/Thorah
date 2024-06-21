@@ -259,7 +259,7 @@ function DNAHeader() {
           observed in scientific studies, where each haplogroup has unique
           characteristics and cannot independently give rise to others.
         </p>
-        <div className="baseContainer2">
+        <div className="noahContainer">
           <h3>Sons of Noach - בני נח</h3>
           <div className="HaploContainer">{renderDNAHaploCard}</div>
           <div className="disclaimer">
@@ -282,7 +282,7 @@ function DNAHeader() {
           now scattered across the Earth. These individuals have endured the
           loss of heritage, language, and customs, often marginalized in every
           society they have been dispersed to, as outlined in Deuteronomy
-          chapter 28 of the Torah. It is not my position to tell other people
+          chapter 28 of the Thorah. It is not my position to tell other people
           who they are and who they descend from, but with the help of
           YHWH-יהוה, we can all use the tools of DNA and historical proof to
           come closer to recognizing who we are. Bless His name forever and

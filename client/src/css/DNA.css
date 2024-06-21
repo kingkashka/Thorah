@@ -1,50 +1,47 @@
-
-.parent-container {
+/* General Container Styles */
+/* .parent-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-}
+} */
 
-.DNABig--Page--light {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; /* Add this line to center horizontally */
-  color: #202124;
-  background-color: whitesmoke;
-  
-}
+/* Page Styles for Light and Dark Themes */
+.DNABig--Page--light,
 .DNABig--Page--dark {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Add this line to center horizontally */
+  align-items: center;
+  color: #202124;
+  background-color: whitesmoke;
+}
+
+.DNABig--Page--dark {
   color: whitesmoke;
   background-color: #202124;
 }
 
+/* Small Page Styles */
 .DNASmall--Page {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center horizontally */
+  align-items: center;
   text-align: center;
   margin: 2%;
   width: 80%;
-  padding-bottom: 20px; /* Add padding at the bottom */
-  
+  padding-bottom: 20px;
 }
 
-
-/* Style theFlood element */
+/* Flood Elements */
 .theFlood {
   height: 500px;
   width: 1000px;
   border-radius: 16px;
-  position: relative; /* Ensure it is positioned relative to the container */
-  z-index: 1; /* Ensure it is above the gradient */
+  position: relative;
+  z-index: 1;
 }
 
 .bigFloodContainer {
@@ -55,13 +52,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
 }
 
-/* Style theFloodContainer element */
 .theFloodContainer {
-  position: relative; /* Set to relative to contain the pseudo-elements */
-  padding: 4px; 
+  position: relative;
+  padding: 4px;
   display: flex;
   justify-content: center;
   height: 500px;
@@ -76,20 +71,20 @@
     #ff00c4,
     #800080
   );
-  
 }
 
-/* Create the rotating gradient background */
-.theFloodContainer::before {
-  content: "";
-  position: absolute;
-  box-shadow: 0 0 20px rgb(8, 8, 8);
-  border-radius: 16px; /* Match the border radius of theFlood */
-}
-
+.theFloodContainer::before,
 .theFloodContainer::after {
   content: "";
   position: absolute;
+  border-radius: 16px;
+}
+
+.theFloodContainer::before {
+  box-shadow: 0 0 20px rgb(8, 8, 8);
+}
+
+.theFloodContainer::after {
   top: 0;
   left: 0;
   right: 0;
@@ -104,7 +99,6 @@
     #800080
   );
   filter: blur(4px);
-  border-radius: 16px;
   animation: rotate 12s linear infinite;
 }
 
@@ -118,61 +112,65 @@
   }
 }
 
+/* Header Styles for Light and Dark Themes */
+.DNAHeader--light,
+.DNAHeader--dark {
+  font-family: 'Times New Roman', Times, serif;
+}
 
 .DNAHeader--light {
   background-color: whitesmoke;
   color: #202124;
-  font-family: 'Times New Roman', Times, serif;
 }
+
 .DNAHeader--dark {
   background-color: #202124;
   color: whitesmoke;
-  font-family: 'Times New Roman', Times, serif;
 }
-.DNAHeader--light h1 {
-  font-size: 45px;
-  letter-spacing: 0.5px;
-}
-.DNAHeader--light h3 {
-  font-size: 30px;
-}
-.DNAHeader--light p {
-  font-size: 20px;
-}
+
+.DNAHeader--light h1,
 .DNAHeader--dark h1 {
-  font-size: 45px;
+  font-size: 48px;
   letter-spacing: 0.5px;
 }
+
+.DNAHeader--light h3,
 .DNAHeader--dark h3 {
-  font-size: 30px;
+  font-size: 36px;
 }
+
+.DNAHeader--light p,
 .DNAHeader--dark p {
   font-size: 20px;
 }
-.DNAOrgChart {
-  
+
+/* Container One Styles for Light and Dark Themes */
+.containerOne--light,
+.containerOne--dark {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 600px;
 }
 
-.DNAchart {
-  margin-top: 20px;
-  margin: 0 auto;
+.containerOne--light img,
+.containerOne--dark img {
+  height: 400px;
+  width: 700px;
+  border-radius: 16px;
 }
 
-.node text {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+.containerOne--light img {
+  border: solid #202124 3px;
 }
 
-.link {
-  stroke: steelblue;
-  stroke-width: 4;
-  fill: none;
-}
-
+/* Card Styles */
 .DNACard--Container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Already correctly added */
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -183,49 +181,40 @@
   border-radius: 8px;
 }
 
-.chromosome--light {
-  height: 200px;
-  width: 400px;
-  border-radius: 8px;
-  border: #202124 solid 3px;
-  margin: 0 auto;
-  position: relative;
-}
+/* Chromosome Styles for Light and Dark Themes */
+.chromosome--light,
 .chromosome--dark {
   height: 200px;
   width: 400px;
-  border-radius: 8px;
+  border-radius: 16px;
   margin: 0 auto;
   position: relative;
 }
 
+.chromosome--light {
+  border: #202124 solid 3px;
+}
+
+/* Chromosome Facts */
 .chromosomeFacts {
   height: 100%;
   width: 100%;
   font-size: 16px;
   text-align: left;
 }
+
 .chromosomeFacts ul li {
   margin: 2%;
 }
+
+/* DNA Base Styles */
 .DNABase {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   width: 100%;
-}
-
-.equalContainer {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding-top: 300px;
-}
-
-.equalSign {
-  height: 40px;
-  width: 40px;
+  height: 2100px;
 }
 
 .DNA--div {
@@ -239,10 +228,11 @@
   height: 200px;
   width: 400px;
   border-radius: 8px;
-  margin: 0 auto; /* Already correctly added */
+  margin: 0 auto;
   position: relative;
 }
 
+/* Additional Containers */
 .DNA2Container {
   display: flex;
   width: 100%;
@@ -251,169 +241,222 @@
   justify-content: center;
   padding-bottom: 250px;
 }
+
 .chromosome2 {
   height: 400px;
   width: 400px;
 }
 
-.DNACard--light {
+.noahContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.HaploContainer {
+  width: inherit;
+  height: 940px;
+  display: flex;
+  justify-content: center;
+}
+
+.DNACard--light, .DNACard--dark {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 460px;
+  height: 900px;
   width: 400px;
-  border: solid #202124 3px;
-  background-color: bisque;
-  border-radius: 16px;
   margin: 2%;
 }
-.DNACard--light title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: inherit;
+
+/* Light Theme DNACard Styles */
+.DNACard--light h2 {
   font-size: 30px;
 }
-.DNACard--light p{
-  font-size: 16px;
-  height: 350px;
-  width: inherit;
-  border-top: solid #202124 3px;
-  border-bottom: solid #202124 3px;
+
+.DNACard--light label {
+  font-size: 25px;
 }
-.DNACard--light label{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: inherit;
+
+.DNACard--light p {
+  font-size: 16px;
+}
+.DNACard--light label {
   font-size: 25px;
   font-style: italic;
 }
-.DNACard--light img{
-  height: 350px;
+
+/* Dark Theme DNACard Styles */
+.DNACard--dark {
+  color: #525e75;
+}
+
+.DNACard--dark h2 {
+  font-size: 30px;
+}
+
+.DNACard--dark p {
+  font-size: 16px;
+}
+
+.DNACard--dark label {
+  font-size: 25px;
+  font-style: italic;
+}
+/* Haplo Title Styles */
+.haploTitle--light, .haploTitle--dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: inherit;
-  border-radius: 16px;
+  height: 140px;
+  background-color: bisque;
+  border-radius: 16px 16px 0 0;
+}
+
+.haploTitle--light{
+  border-top: #202124 solid 3px;
+  border-left: #202124 solid 3px;
+  border-right: #202124 solid 3px;
+}
+.haploTitle--dark{
+  border-top: #525e75 solid 3px;
+  border-left: #525e75 solid 3px;
+  border-right: #525e75 solid 3px;
+}
+
+
+/* Haplo Info Styles */
+.haploInfo--light, .haploInfo--dark {
+  height: 360px;
+  border-radius: 0 0 16px 16px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+.haploInfo--light{
   border: #202124 solid 3px;
 }
-.DNACard--dark {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  height: 460px;
-  width: 400px;
-  color: #525e75;
-  border: solid #525e75 3px;
-  background-color: bisque;
-  border-radius: 16px;
-  margin: 2%;
-}
-.DNACard--dark title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: inherit;
-  font-size: 30px;
-}
-.DNACard--dark p{
-  font-size: 16px;
-  height: 350px;
-  width: inherit;
-  border-top: solid #525e75 3px;
-  border-bottom: solid #525e75 3px;
-}
-.DNACard--dark label{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: inherit;
-  font-size: 25px;
-  font-style: italic;
-}
-.DNACard--dark img{
-  height: 350px;
-  width: inherit;
-  border-radius: 16px;
+.haploInfo--dark {
   border: #525e75 solid 3px;
 }
-.containerOne--light{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 600px;
-}
-.containerOne--dark{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: 600px;
-}
-.containerOne--light img{
-  height: 400px;
-  width: 700px;
-  border: solid #202124 3px;
-  border-radius: 16px;
-}
-.containerOne--dark img{
-  height: 400px;
-  width: 700px;
-  border-radius: 16px;
-}
-.baseContainer2{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-.HaploContainer{
-  width: 100%;
-  height: 900px;
-  display: flex;
-  justify-content: center;
-}
-.disclaimer{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.TheFamilyTree{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: inherit;
-  height: 300px;
-}
-/* .theBigNeanderthal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: inherit;
-  height: 600px;
+
+.DNACard--light p {
+  font-size: 16px;
 }
 
-.neanderthalContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
+.divider--light, .divider--dark {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  height: 0px;
   width: inherit;
 }
+.divider--light{
+  border: #202124 solid 2px;
+}
+.divider--dark {
+  border: #525e75 solid 2px;
+}
 
-.theNeanderthal {
-  height: 500px;
-  width: 1000px;
+.haploImage--light {
+  height: 360px;
+  width: inherit;
+}
+.haploImage--dark {
+  height: 360px;
+  width: inherit;
+}
+.haploFaces--light, .haploFaces--dark{
+  height: 360px;
+  width: inherit;
+  border-radius: 16px;
+}
+.haploFaces--light{
   border: #202124 solid 3px;
-  border-radius: 16px; 
-} */
+}
+.haploFaces--dark{
+  border: #525e75 solid 3px;
+}  
+
+
+
+/* Disclaimer Styles */
+.disclaimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+
+/* Family Tree Styles */
+.TheFamilyTree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 1200px; */
+  width: 100%;
+}
+
+.TFT--Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 80%;
+  border: #202124 solid 3px;
+}
+
+.TFT--Member {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 300px;
+  border: #202124 solid 3px;
+}
+
+.TFT--Member img {
+  height: 350px;
+  width: inherit;
+  border: #202124 solid 3px;
+  border-radius: 16px;
+  margin: 2%;
+}
+
+/* Table Styles */
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #202124;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+thead {
+  background-color: #202124;
+  color: whitesmoke;
+}
 
 @media screen and (max-width: 600px){
   .theFlood {
@@ -422,6 +465,7 @@
   }
   .bigFloodContainer {
     height: 300px;
+    width: inherit;
   }
   .theFloodContainer {
     height: 250px;
@@ -449,8 +493,8 @@
   }
   
   .DNAchart {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
   }
   
   .node text {
@@ -486,57 +530,26 @@
     width: 100%;
     height: 4000px;
   }
+  /* .noahContainer{
+
+  } */
   .HaploContainer{
-    width: 100%;
-    height: 1400px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .DNACard--light {
-    height: 500px;
     width: 300px;
   }
-  .DNACard--light title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20px;
-    width: inherit;
-    font-size: 14px;
-  }
-  .DNACard--light p{
-    font-size: 12px;
-    height: 350px;
-    width: inherit;
-    border-top: solid #202124 3px;
-    border-bottom: solid #202124 3px;
+  .DNACard--light h2{
+    font-size: 28px;
   }
   .DNACard--light label{
     height: 20px;
   }
-  .DNACard--light img{
-    height: 350px;
-    width: inherit;
-    border-radius: 16px;
-    border: #202124 solid 3px;
-  }
   .DNACard--dark {
-    height: 300px;
     margin: 1%;
   }
   .DNACard--dark title{
     height: 30px;
-  }
-  .DNACard--dark p{
-    font-size: 16px;
-    height: 350px;
-  }
-  .DNACard--dark img{
-    height: 350px;
-    width: inherit;
-    border-radius: 16px;
-    border: #525e75 solid 3px;
   }
   .containerOne--light img{
     height: 200px;
@@ -546,14 +559,7 @@
     height: 200px;
     width: 300px;
   }
-  
-  
-  /* .DNAchart {
-    
-      width: 600px;
-      height: auto;
-    }
-    .DNACard--Container {
-      height: 4000px;
-    } */
+  .DNABase{
+    /* height: 1800px;00 */
+  }
 }

@@ -30,10 +30,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 2%;
-  width: 80%;
+  margin: 2% auto; /* Center horizontally with auto margin */
+  width: 80%; /* Adjust as necessary */
   padding-bottom: 20px;
 }
+
 
 /* Flood Elements */
 .theFlood {
@@ -43,7 +44,9 @@
   position: relative;
   z-index: 1;
 }
+.theFlood h3{
 
+}
 .bigFloodContainer {
   height: 540px;
   width: 100%;
@@ -53,7 +56,15 @@
   align-items: center;
   text-align: center;
 }
-
+.floodParagraph{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 600px;
+  /* width: inherit; */
+  align-self: stretch;
+}
 .theFloodContainer {
   position: relative;
   padding: 4px;
@@ -467,6 +478,17 @@ thead {
     height: 300px;
     width: inherit;
   }
+  .floodParagraph {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 600px;
+    width: 100%; /* Use a specific value or 100% */
+}
+
   .theFloodContainer {
     height: 250px;
     width: 375px;

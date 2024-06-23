@@ -50,6 +50,7 @@ function DNAHeader() {
           />
         </div>
       </div>
+      <div className="floodParagraph">
       <h3>The Flood - המבול</h3>
       <p>
         During the time of Noach, YHWH (יהוה) destroyed all life on Earth,
@@ -97,6 +98,7 @@ function DNAHeader() {
         Israel as outlined in the Thorah, and understanding how it corresponds
         to contemporary haplogroups.
       </p>
+      </div>
 
       <div className="DNACard--Container">
         <div className={`containerOne--${context.color}`}>

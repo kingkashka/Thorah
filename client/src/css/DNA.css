@@ -485,8 +485,11 @@ thead {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    height: 600px;
-    width: 100%; /* Use a specific value or 100% */
+    height: 1000px;
+    width: 360px; /* Use a specific value or 100% */
+}
+.floodParagraph h3{
+  font-size: 20px;
 }
 
   .theFloodContainer {
@@ -552,11 +555,14 @@ thead {
     width: 100%;
     height: 4000px;
   }
-  /* .noahContainer{
-
-  } */
+  .noahContainer{
+    height: 5000px;
+  }
   .HaploContainer{
-    /* flex-wrap: wrap; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    height: 1000px;
   }
   .DNACard--light {
     width: 300px;
@@ -582,6 +588,7 @@ thead {
     width: 300px;
   }
   .DNABase{
-    /* height: 1800px;00 */
+    width: 360px;
+    /* height: 1000px; */
   }
 }

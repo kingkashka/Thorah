@@ -8,7 +8,7 @@ const DNAOrgChart = ({ data }) => {
 
   const handleResize = () => {
     if (window.innerWidth <= 600) {
-      setDimensions({ width: 300, height: 600 }); // Adjust dimensions for small screens
+      setDimensions({ width: 600, height: 400 }); // Adjust dimensions for small screens
     } else {
       setDimensions({ width: 1400, height: 800 }); // Default dimensions for larger screens
     }

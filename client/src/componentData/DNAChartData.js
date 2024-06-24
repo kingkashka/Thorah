@@ -48,23 +48,23 @@ const DNAData = {
             },
             {
               name: "Abraham",
-              mutation: "E1b1 (E-P2)",
+              mutation: "E (E-M96)",
               children: [
                 {
                   name: "Ishmael - ישמעאל",
-                  mutation: "E1b1b (E-M215)",
+                  mutation: "E1a1 (E-M44)",
                 },
                 {
                   name: "Issac - יצחק",
-                  mutation: "E1b1a (E-V38)",
+                  mutation: "E1b1 (E-P2)",
                   children: [
                     {
                       name: "Jacob - יעקב",
-                      mutation: "E1b1a1 (E-M2)",
+                      mutation: "E1b1a (E-V38)",
                     },
                     {
                       name: "Esau - עשו",
-                      mutation: "E1b1a2 (E-M329)",
+                      mutation: "E1b1b (E-M215)",
                     },
                   ],
                 },

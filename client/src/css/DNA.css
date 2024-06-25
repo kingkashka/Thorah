@@ -35,7 +35,6 @@
   padding-bottom: 20px;
 }
 
-
 /* Flood Elements */
 .theFlood {
   height: 500px;
@@ -44,8 +43,7 @@
   position: relative;
   z-index: 1;
 }
-.theFlood h3{
-
+.theFlood h3 {
 }
 .bigFloodContainer {
   height: 540px;
@@ -56,7 +54,7 @@
   align-items: center;
   text-align: center;
 }
-.floodParagraph{
+.floodParagraph {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -126,7 +124,7 @@
 /* Header Styles for Light and Dark Themes */
 .DNAHeader--light,
 .DNAHeader--dark {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .DNAHeader--light {
@@ -272,7 +270,8 @@
   justify-content: center;
 }
 
-.DNACard--light, .DNACard--dark {
+.DNACard--light,
+.DNACard--dark {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -316,7 +315,8 @@
   font-style: italic;
 }
 /* Haplo Title Styles */
-.haploTitle--light, .haploTitle--dark {
+.haploTitle--light,
+.haploTitle--dark {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -327,20 +327,20 @@
   border-radius: 16px 16px 0 0;
 }
 
-.haploTitle--light{
+.haploTitle--light {
   border-top: #202124 solid 3px;
   border-left: #202124 solid 3px;
   border-right: #202124 solid 3px;
 }
-.haploTitle--dark{
+.haploTitle--dark {
   border-top: #525e75 solid 3px;
   border-left: #525e75 solid 3px;
   border-right: #525e75 solid 3px;
 }
 
-
 /* Haplo Info Styles */
-.haploInfo--light, .haploInfo--dark {
+.haploInfo--light,
+.haploInfo--dark {
   height: 360px;
   border-radius: 0 0 16px 16px;
   width: inherit;
@@ -350,7 +350,7 @@
   align-items: center;
   background-color: bisque;
 }
-.haploInfo--light{
+.haploInfo--light {
   border: #202124 solid 3px;
 }
 .haploInfo--dark {
@@ -361,14 +361,15 @@
   font-size: 16px;
 }
 
-.divider--light, .divider--dark {
+.divider--light,
+.divider--dark {
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 12px;
   height: 0px;
   width: inherit;
 }
-.divider--light{
+.divider--light {
   border: #202124 solid 2px;
 }
 .divider--dark {
@@ -383,19 +384,18 @@
   height: 360px;
   width: inherit;
 }
-.haploFaces--light, .haploFaces--dark{
+.haploFaces--light,
+.haploFaces--dark {
   height: 360px;
   width: inherit;
   border-radius: 16px;
 }
-.haploFaces--light{
+.haploFaces--light {
   border: #202124 solid 3px;
 }
-.haploFaces--dark{
+.haploFaces--dark {
   border: #525e75 solid 3px;
-}  
-
-
+}
 
 /* Disclaimer Styles */
 .disclaimer {
@@ -447,11 +447,14 @@ table {
   border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #202124;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: center;
 }
@@ -469,7 +472,14 @@ thead {
   color: whitesmoke;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
+  .DNASmall--Page {
+    display: flex;
+    width: 430px;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: flex-start;
+  }
   .theFlood {
     height: 250px;
     width: 375px;
@@ -487,10 +497,16 @@ thead {
     align-items: center;
     height: 1000px;
     width: 360px; /* Use a specific value or 100% */
-}
-.floodParagraph h3{
-  font-size: 20px;
-}
+  }
+  .floodParagraph h3 {
+    color: #000;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
   .theFloodContainer {
     height: 250px;
@@ -516,17 +532,17 @@ thead {
   .DNAHeader--dark p {
     font-size: 14px;
   }
-  
+
   .DNAchart {
     width: 100%;
     height: auto;
   }
-  
+
   .node text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
   }
-  
+
   .link {
     stroke: steelblue;
     stroke-width: 4;
@@ -539,7 +555,7 @@ thead {
     margin: 5%;
     border-radius: 8px;
   }
-  
+
   .chromosome--light {
     height: 200px;
     width: 300px;
@@ -548,47 +564,110 @@ thead {
     height: 200px;
     width: 300px;
   }
-  .baseContainer2{
+  .noahContainer {
     display: flex;
+    width: 430px;
+    padding-top: 100px;
+    padding: 40px 0px;
+    align-items: center;
+    gap: 40px;
+    margin: 1%;
+  }
+  .HaploContainer {
+    display: flex;
+    justify-content: center;
+    width: 430px;
+    padding: 40px 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+  }
+  .divider--light,
+  .divider--dark {
+    display: flex;
+    width: 334px;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: 4000px;
+    align-items: center;
+    gap: 40px;
+    border-radius: 8px;
   }
-  .noahContainer{
-    height: 5000px;
+  .divider--light {
+    color: #202124;
   }
-  .HaploContainer{
+  .divider--dark {
+    color: #525e75;
+  }
+  .disclaimer {
+    width: 334px;
+    color: #000;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .haploInfo--light {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
-    height: 1000px;
+    flex-direction: column;
+    width: 334px;
+    border-radius: 0 0 16px 16px;
+    gap: 16px;
+    align-items: center;
+    background-color: bisque;
+  }
+  .haploImage--light {
+    width: 318px;
+    height: 286.67px;
+    border-radius: 8px;
   }
   .DNACard--light {
     width: 300px;
   }
-  .DNACard--light h2{
+  .DNACard--light h2 {
     font-size: 28px;
   }
-  .DNACard--light label{
+  .DNACard--light label {
     height: 20px;
   }
   .DNACard--dark {
     margin: 1%;
   }
-  .DNACard--dark title{
+  .DNACard--dark title {
     height: 30px;
   }
-  .containerOne--light img{
+  .containerOne--light img {
     height: 200px;
     width: 300px;
   }
-  .containerOne--dark img{
+  .containerOne--dark img {
     height: 200px;
     width: 300px;
   }
-  .DNABase{
-    width: 360px;
-    /* height: 1000px; */
+  .DNABase {
+    width: 382px;
+    color: #000;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+  }
+  .TheFamilyTree {
+    width: 382px;
+    color: #202124;
+    display: flex;
+    justify-content: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 2500px;
   }
 }

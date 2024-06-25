@@ -219,9 +219,11 @@
 
 @media screen and (min-width: 601px){
   .navbar--container--light, .navbar--container--dark, .homePage--light, .homePage--dark{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    width: 430px;
+    padding: 24px 16px 0px 16px;
+    justify-content: space-between;
+    align-items: center;
 }
 .home--link--light, .home--link--dark{
   font-size: 60px;

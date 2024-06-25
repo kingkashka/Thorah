@@ -51,53 +51,55 @@ function DNAHeader() {
         </div>
       </div>
       <div className="floodParagraph">
-      <h3>The Flood - המבול</h3>
-      <p>
-        During the time of Noach, YHWH (יהוה) destroyed all life on Earth,
-        eradicating all existing lineages. However, Noach found grace in the
-        eyes of Elohim and was instructed to build an ark ("תבה") to preserve
-        life. This ark protected Noach, his wife, his three sons, their wives,
-        seven pairs of all clean animals, and pairs of all unclean animals. This
-        was necessary due to the extermination that occurred on Earth. The flood
-        did not affect just one region but destroyed life across the entire
-        Earth. As a sign, Elohim made a covenant between Himself, the Earth,
-        people, and all living creatures to never again flood the Earth to
-        destroy all flesh, represented through the visual of what we know today
-        as the rainbow. As it is written in Thorah-Genesis 9:13-15: "I do set my
-        bow in the cloud, and it shall be for a sign of the covenant between me
-        and the earth. And it shall come to pass, when I bring a cloud over the
-        earth, that the bow shall be seen in the cloud. And I will remember my
-        covenant, which is between me and you and every living creature of all
-        flesh; and the waters shall no more become a flood to destroy all
-        flesh." hence the rainbow visuals in the image above.
-      </p>
-      <p>
-        In restarting civilization and repopulating the land, Elohim allowed the
-        nations of the world today to descend directly from Noach and his three
-        sons. This narrative underscores the belief that, like all nations
-        today, the set-apart seed of Israel can be traced back to a single
-        lineage. Understanding these lineages and their origins through DNA can
-        help recognize the descent and heritage of the people of Israel. This is
-        supported by the Thorah in Numbers 1:18, which states, "and all the
-        congregation assembled on the first of the second month, and they
-        established their genealogy according to their families by the house of
-        their fathers, by the number of names from age twenty years and above."
-        This is an important detail because it highlights the recounting of
-        households by the fathers.
-      </p>
-      <p>
-        Contrary to modern Judaism, which believes that the seedline is
-        determined by the mother's lineage, this concept has no foundation in
-        Thorah. The latter directly correlates with scientific findings
-        regarding the Y haplogroup, which is passed down through the paternal
-        line—exclusively from father to son. Hence the phrase "like father, like
-        son." This unbroken chain through generations serves as a crucial tool
-        provided by YHWH (יהוה), allowing us to trace our lineage and determine
-        the nation from which our forefathers descend. Today, our focus is on
-        deducing the biblical family tree lineage, particularly the lineage of
-        Israel as outlined in the Thorah, and understanding how it corresponds
-        to contemporary haplogroups.
-      </p>
+        <h3>The Flood - המבול</h3>
+        <p>
+          During the time of Noach, YHWH (יהוה) destroyed all life on Earth,
+          eradicating all existing lineages. However, Noach found grace in the
+          eyes of Elohim and was instructed to build an ark ("תבה") to preserve
+          life. This ark protected Noach, his wife, his three sons, their wives,
+          seven pairs of all clean animals, and pairs of all unclean animals.
+          This was necessary due to the extermination that occurred on Earth.
+          The flood did not affect just one region but destroyed life across the
+          entire Earth. As a sign, Elohim made a covenant between Himself, the
+          Earth, people, and all living creatures to never again flood the Earth
+          to destroy all flesh, represented through the visual of what we know
+          today as the rainbow. As it is written in Thorah-Genesis 9:13-15: "I
+          do set my bow in the cloud, and it shall be for a sign of the covenant
+          between me and the earth. And it shall come to pass, when I bring a
+          cloud over the earth, that the bow shall be seen in the cloud. And I
+          will remember my covenant, which is between me and you and every
+          living creature of all flesh; and the waters shall no more become a
+          flood to destroy all flesh." hence the rainbow visuals in the image
+          above.
+        </p>
+        <p>
+          In restarting civilization and repopulating the land, Elohim allowed
+          the nations of the world today to descend directly from Noach and his
+          three sons. This narrative underscores the belief that, like all
+          nations today, the set-apart seed of Israel can be traced back to a
+          single lineage. Understanding these lineages and their origins through
+          DNA can help recognize the descent and heritage of the people of
+          Israel. This is supported by the Thorah in Numbers 1:18, which states,
+          "and all the congregation assembled on the first of the second month,
+          and they established their genealogy according to their families by
+          the house of their fathers, by the number of names from age twenty
+          years and above." This is an important detail because it highlights
+          the recounting of households by the fathers.
+        </p>
+        <p>
+          By recounting the lineage based on the fathers, which is contrary to
+          modern Judaism that believes the seedline is determined by the
+          mother's lineage, this concept has no foundation in the Thorah. The
+          latter directly correlates with scientific findings regarding the Y
+          haplogroup, which is passed down through the paternal line—exclusively
+          from father to son. Hence the phrase "like father, like son." This
+          unbroken chain through generations serves as a crucial tool provided
+          by YHWH (יהוה), allowing us to trace our lineage and determine the
+          nation from which our forefathers descend. Today, our focus is on
+          deducing the biblical family tree lineage, particularly the lineage of
+          Israel as outlined in the Thorah, and understanding how it corresponds
+          to contemporary haplogroups.
+        </p>
       </div>
 
       <div className="DNACard--Container">
@@ -279,15 +281,15 @@ function DNAHeader() {
             analyze each contemporary haplogroup, comparing and contrasting them
             to identify which one aligns with the historical curses that were
             foretold. These curses do not miss their mark, affecting the
-            survivors of the Trans-Atlantic slave trade whose ancestors and
-            descendants are now scattered across the Earth. These individuals
-            have endured the loss of heritage, language, and customs, often
-            marginalized in every society they have been dispersed to, as
-            outlined in Deuteronomy chapter 28 of the Thorah. It is not my
-            position to tell other people who they are and who they descend
-            from, but with the help of YHWH-יהוה, we can all use the tools of
-            DNA and historical proof to come closer to recognizing who we are.
-            Bless His name forever and always, YHWH-יהוה.
+            survivors of the Trans-Atlantic and Trans-Saharan slave trade whose
+            ancestors and descendants are now scattered across the Earth. These
+            individuals have endured the loss of heritage, language, and
+            customs, often marginalized in every society they have been
+            dispersed to, as outlined in Deuteronomy chapter 28 of the Thorah.
+            It is not my position to tell other people who they are and who they
+            descend from, but with the help of YHWH (יהוה), we can all use the
+            tools of DNA and historical proof to come closer to recognizing who
+            we are. Bless His name forever and always, YHWH(יהוה).
           </p>
         </div>
       </div>

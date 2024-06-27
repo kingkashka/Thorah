@@ -533,12 +533,12 @@ thead {
     width: 100%;
     height: auto;
   }
-
+  
   .node text {
     font-family: 'Times New Roman', Times, serif;
     /* font-size: 12px; */
   }
-
+  
   .link {
     stroke: steelblue;
     stroke-width: 4;
@@ -578,26 +578,16 @@ thead {
   .HaploContainer h3{
     font-size: 26px;
   }
-  .divider--light,
-  .divider--dark {
-    display: flex;
-    width: 334px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    border-radius: 8px;
-  }
-  .divider--light {
-    color: #202124;
-  }
-  .divider--dark {
-    color: #525e75;
-  }
   .disclaimer--light h3, .disclaimer--dark h3{
     font-size: 20px;
   }
-
+  
+  .haploTitle--light label {
+    font-size: 24px;
+  }
+  .haploTitle--dark label {
+    font-size: 24px;
+  }
   .haploInfo--light {
     display: flex;
     justify-content: center;
@@ -607,28 +597,63 @@ thead {
     align-items: center;
     background-color: bisque;
   }
+  .haploInfo--dark {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: inherit;
+    border-radius: 0 0 16px 16px;
+    align-items: center;
+    background-color: bisque;
+  }
+  .divider--light,
+  .divider--dark {
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+  .divider--light {
+    color: #202124;
+  }
+  .divider--dark {
+    color: #525e75;
+  }
   .haploImage--light {
+    width: 250px;
+  }
+  .haploImage--dark {
     width: 250px;
   }
   .haploFaces--light{
     height: 250px;
     width: 250px;
   }
+  .haploFaces--dark{
+    height: 250px;
+    width: 250px;
+  }
   .DNACard--light {
+    width: 250px;
+  }
+  .DNACard--dark {
     width: 250px;
   }
   .DNACard--light p{
     font-size: 12px;
   }
+  .DNACard--dark p{
+    font-size: 12px;
+  }
   .DNACard--light h2 {
     font-size: 28px;
   }
-  .haploTitle--light label {
-    font-size: 24px;
+  .DNACard--dark h2 {
+    font-size: 28px;
   }
-  .DNACard--dark {
-    margin: 1%;
-  }
+
   .DNACard--dark title {
     height: 30px;
   }
@@ -645,7 +670,6 @@ thead {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-top: 50px; */
   }
   .DNABase--Paragraph{
     height: 600px;

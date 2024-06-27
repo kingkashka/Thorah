@@ -53,7 +53,7 @@ function DNAHeader() {
       <div className="floodParagraph">
         <h3>The Flood - המבול</h3>
         <p>
-          During the time of Noach, YHWH (יהוה) destroyed all life on Earth,
+          During the time of Noach, YHWH-יהוה destroyed all life on Earth,
           eradicating all existing lineages. However, Noach found grace in the
           eyes of Elohim and was instructed to build an ark ("תבה") to preserve
           life. This ark protected Noach, his wife, his three sons, their wives,
@@ -94,7 +94,7 @@ function DNAHeader() {
           haplogroup, which is passed down through the paternal line—exclusively
           from father to son. Hence the phrase "like father, like son." This
           unbroken chain through generations serves as a crucial tool provided
-          by YHWH (יהוה), allowing us to trace our lineage and determine the
+          by YHWH-יהוה, allowing us to trace our lineage and determine the
           nation from which our forefathers descend. Today, our focus is on
           deducing the biblical family tree lineage, particularly the lineage of
           Israel as outlined in the Thorah, and understanding how it corresponds
@@ -220,8 +220,6 @@ function DNAHeader() {
           </h3>
         </div>
         </div>
-      {/* <div className="noahContainer">
-      </div> */}
       <div className={`theFamilyTree--${context.color}`}>
         <h1>The Family Tree - עץ המשפחה</h1>
         <p>
@@ -237,10 +235,13 @@ function DNAHeader() {
           marginalized in every society they have been dispersed to, as outlined
           in Deuteronomy chapter 28 of the Thorah. It is not my position to tell
           other people who they are and who they descend from, but with the help
-          of YHWH (יהוה), we can all use the tools of DNA and historical proof
+          of YHWH-יהוה, we can all use the tools of DNA and historical proof
           to come closer to recognizing who we are. Bless His name forever and
-          always, YHWH(יהוה).
+          always, YHWH-יהוה.
         </p>
+        <div className={`disclaimer--${context.color}`}>
+        <h3>*Disclaimer: If entire graph is not visible switch to desktop mode.*</h3>
+        </div>
       </div>
     </div>
   );

@@ -256,20 +256,17 @@
   width: 400px;
 }
 
-.noahContainer {
+.HaploContainer {
+  width: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
 }
-
-.HaploContainer {
-  width: inherit;
-  height: 940px;
+.smallHaploContainer{
   display: flex;
   justify-content: center;
-}
 
+}
 .DNACard--light,
 .DNACard--dark {
   display: flex;
@@ -398,23 +395,32 @@
 }
 
 /* Disclaimer Styles */
-.disclaimer {
+.disclaimer--light, .disclaimer--dark {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 150px;
   width: 100%;
 }
-
+.disclaimer--light h3{
+  color: #202124;
+}
+.disclaimer--dark h3{
+  color: whitesmoke;
+}
 /* Family Tree Styles */
-.TheFamilyTree {
+.TheFamilyTree--light, .TheFamilyTree--dark {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* height: 1200px; */
   width: 100%;
 }
-
+.TheFamilyTree--light{
+  color: #202124;
+}
+.TheFamilyTree--dark{
+  color: whitesmoke;
+}
 .TFT--Container {
   display: flex;
   justify-content: center;
@@ -498,16 +504,6 @@ thead {
     height: 1000px;
     width: 360px; /* Use a specific value or 100% */
   }
-  .floodParagraph h3 {
-    color: #000;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-
   .theFloodContainer {
     height: 250px;
     width: 375px;
@@ -517,7 +513,7 @@ thead {
     letter-spacing: 0.5px;
   }
   .DNAHeader--light h3 {
-    font-size: 20px;
+    font-size: 26px;
   }
   .DNAHeader--light p {
     font-size: 14px;
@@ -539,8 +535,8 @@ thead {
   }
 
   .node text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 12px; */
   }
 
   .link {
@@ -548,14 +544,24 @@ thead {
     stroke-width: 4;
     fill: none;
   }
-
-  .DNA--Card {
-    height: 600px;
+  .DNACard--Container{
     width: 400px;
-    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerOne--light, .containerOne--dark{
+    width: inherit;
+    height: 400px;
+  }
+  .DNA--Card {
+    height: 550px;
+    width: inherit;
     border-radius: 8px;
   }
-
+  .chromosomeFacts{
+    height: 300px;
+  }
   .chromosome--light {
     height: 200px;
     width: 300px;
@@ -564,23 +570,13 @@ thead {
     height: 200px;
     width: 300px;
   }
-  .noahContainer {
-    display: flex;
-    width: 430px;
-    padding-top: 100px;
-    padding: 40px 0px;
-    align-items: center;
-    gap: 40px;
-    margin: 1%;
-  }
   .HaploContainer {
-    display: flex;
-    justify-content: center;
-    width: 430px;
-    padding: 40px 0px;
-    flex-wrap: wrap;
+    width: inherit;
+    flex-direction: column;
     align-items: center;
-    gap: 40px;
+  }
+  .HaploContainer h3{
+    font-size: 26px;
   }
   .divider--light,
   .divider--dark {
@@ -598,39 +594,37 @@ thead {
   .divider--dark {
     color: #525e75;
   }
-  .disclaimer {
-    width: 334px;
-    color: #000;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  .disclaimer--light h3, .disclaimer--dark h3{
+    font-size: 20px;
   }
+
   .haploInfo--light {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 334px;
+    width: inherit;
     border-radius: 0 0 16px 16px;
-    gap: 16px;
     align-items: center;
     background-color: bisque;
   }
   .haploImage--light {
-    width: 318px;
-    height: 286.67px;
-    border-radius: 8px;
+    width: 250px;
+  }
+  .haploFaces--light{
+    height: 250px;
+    width: 250px;
   }
   .DNACard--light {
-    width: 300px;
+    width: 250px;
+  }
+  .DNACard--light p{
+    font-size: 12px;
   }
   .DNACard--light h2 {
     font-size: 28px;
   }
-  .DNACard--light label {
-    height: 20px;
+  .haploTitle--light label {
+    font-size: 24px;
   }
   .DNACard--dark {
     margin: 1%;
@@ -647,27 +641,50 @@ thead {
     width: 300px;
   }
   .DNABase {
-    width: 382px;
-    color: #000;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: Roboto;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 50px; */
   }
-  .TheFamilyTree {
-    width: 382px;
+  .DNABase--Paragraph{
+    height: 600px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .smallHaploContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .noahContainer{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .TheFamilyTree--light, .TheFamilyTree--dark {
+    width: inherit;
     color: #202124;
     display: flex;
     justify-content: center;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: Roboto;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding-top: 2500px;
+  }
+  .DNAchart{
+    height: 800px;
+    width: inherit;
+  }
+  .node text {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+  .link {
+    stroke: steelblue;
+    stroke-width: 4;
+    fill: none;
   }
 }

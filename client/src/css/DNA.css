@@ -506,7 +506,7 @@ thead {
   }
   .theFloodContainer {
     height: 250px;
-    width: 375px;
+    width: inherit;
   }
   .DNAHeader--light h1 {
     font-size: 30px;

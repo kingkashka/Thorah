@@ -13,7 +13,7 @@ function LanguageHeader(props) {
   ));
   return (
     <div className={`language--header--${context.color}`}>
-      <h1>The Hebrew Language - השפת העברי</h1>
+      <h1>The Hebrew Language - השפת העברית</h1>
       <p>
         The Hebrew language holds a unique and sacred status. It stands as the
         only language known to have been spoken directly between YHWH - יהוה and

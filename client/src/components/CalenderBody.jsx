@@ -6,6 +6,24 @@ function CalenderBody() {
   return (
     <div className={`calenderBody--${context.color}`}>
       <h1>Understanding the Calender</h1>
+      <h2>The New Year - ראש השנה</h2>
+      <p>
+
+      </p>
+      <h2>Passover - פסח</h2>
+      <p>
+
+      </p>
+      <h2>The Feast of Unleavened Bread - חג המצות</h2>
+      <p>
+
+      </p>
+      
+      <h2>Day of Rejoicing - יום תרועה</h2>
+      <p></p>
+      <h2>Day of Atonement - יום כפורים</h2>
+      <p></p>
+      <h2>Celebration of Succoth - חג הסוכות</h2>
       <h3>Day and night - יום ולילה</h3>
       <p>
         YHWH created the world in its entirety in six literal days and rested on

@@ -63,59 +63,65 @@ function LanguageHeader(props) {
       <h1>Vowels</h1>
       <div className="Vowel--container">{renderVowelCard}</div>
       <div className="other-content">
-      <p>
-        The use of matres lectionis became less standardized over time,
-        particularly during the development of the Masoretic text, which added
-        vowel diacritics (nikkud) to Hebrew script. However, even in modern
-        Hebrew, matres lectionis are still employed to some extent, though they
-        are not always explicitly marked. This understanding helps us better
-        understand the true pronunciation of biblical areas, places, names and
-        most importantly the most holiest name in our history YHWH - יהוה.
-        <br />
-        We also do not see the importance or necessity of the holy language
-        having more than one sound for a single letter. Shin (שׁ): The letter
-        shin typically represented a sibilant consonant sound. In ancient
-        Hebrew, it was likely pronounced as a voiceless postalveolar fricative,
-        similar to the "sh" sound in English words like "shoe" or "ship." The
-        placement of the dot above to the right or to the left above the letter
-        distinguishes between the "shin" sound (שׁ) and the "sin" sound (שׂ), In
-        modern Hebrew the "sin" is pronounced exactly like the Samekh. Samekh
-        (ס): The letter samekh represented a different consonantal sound. It is
-        typically pronounced as a voiceless alveolar fricative, similar to the
-        "s" sound in English words like "sit" or "see." We can find through
-        historical context where there became confusion of pronunciation between
-        these letters in the book of Judges 12:6.
-        <li>
-          judges 12:6: Then said they unto him, Say now Shibboleth (שִׁבֹּ֜לֶת):
-          and he said Sibboleth (סִבֹּ֗לֶת): for he could not frame to pronounce
-          it right. Then they took him, and slew him at the passages of Jordan:
-          and there fell at that time of the Ephraimites forty and two thousand.
-        </li>
-        This is also the case for letters "tet" and "Thaw". The use of the true
-        Thaw has been lost in modern hebrew and does not exist by mainstream
-        standards. In ancient Hebrew, the letter "thaw" (ת) is generally
-        believed to have been pronounced as a voiceless dental fricative, which
-        is represented in English by the "th" sound, as in the word "thin" or
-        "thick." This pronunciation is indeed different from the sound of the
-        letter "tet" (ט), which is often pronounced as a voiceless alveolar
-        plosive, similar to the English "t" sound. The distinction between the
-        "tet" and "Thaw" sounds reflects the phonetic diversity present in
-        ancient Hebrew and other Shemitic languages. Each letter in the Hebrew
-        alphabet represented a distinct phoneme, and the differences in
-        pronunciation between letters allowed for a richer and more nuanced
-        expression of speech.
-      </p>
-      <h1>The signs - האותות</h1>
-      <p>
-        The 22 letters used in Hebrew are derived from the word "אות" (Oath),
-        meaning "sign" in Hebrew. From a biblical perspective, oaths are
-        tangible manifestations of understanding. For instance, in the book of
-        Genesis, Elohim declares that the sun and the moon would be for "אותות"
-        (signs), indicating literal physical representations serving as signs
-        for us. This suggests that each letter of the Hebrew alphabet,
-        collectively known as "the aleph-bet," carries a sacred individual
-        identity associated with its form.
-      </p>
+        <p>
+          The use of matres lectionis became less standardized over time,
+          particularly during the development of the Masoretic text, which added
+          vowel diacritics (nikkud) to Hebrew script. However, even in modern
+          Hebrew, matres lectionis are still employed to some extent, though
+          they are not always explicitly marked. This understanding helps us
+          better understand the true pronunciation of biblical areas, places,
+          names and most importantly the most holiest name in our history YHWH -
+          יהוה.
+          <br />
+          We also do not see the importance or necessity of the holy language
+          having more than one sound for a single letter. Shin (שׁ): The letter
+          shin typically represented a sibilant consonant sound. In ancient
+          Hebrew, it was likely pronounced as a voiceless postalveolar
+          fricative, similar to the "sh" sound in English words like "shoe" or
+          "ship." The placement of the dot above to the right or to the left
+          above the letter distinguishes between the "shin" sound (שׁ) and the
+          "sin" sound (שׂ), In modern Hebrew the "sin" is pronounced exactly
+          like the Samekh. Samekh (ס): The letter samekh represented a different
+          consonantal sound. It is typically pronounced as a voiceless alveolar
+          fricative, similar to the "s" sound in English words like "sit" or
+          "see." We can find through historical context where there became
+          confusion of pronunciation between these letters in the book of Judges
+          12:6.
+          <li>
+            "Then said they unto him, Say now Shibboleth (שִׁבֹּ֜לֶת): and he
+            said Sibboleth (סִבֹּ֗לֶת): for he could not frame to pronounce it
+            right. Then they took him, and slew him at the passages of Jordan:
+            and there fell at that time of the Ephraimites forty and two
+            thousand."
+          <footer>
+            - Judges <cite>Chapter 12:6</cite>
+          </footer>
+          </li>
+          This is also the case for letters "tet" and "Thaw". The use of the
+          true Thaw has been lost in modern hebrew and does not exist by
+          mainstream standards. In ancient Hebrew, the letter "thaw" (ת) is
+          generally believed to have been pronounced as a voiceless dental
+          fricative, which is represented in English by the "th" sound, as in
+          the word "thin" or "thick." This pronunciation is indeed different
+          from the sound of the letter "tet" (ט), which is often pronounced as a
+          voiceless alveolar plosive, similar to the English "t" sound. The
+          distinction between the "tet" and "Thaw" sounds reflects the phonetic
+          diversity present in ancient Hebrew and other Shemitic languages. Each
+          letter in the Hebrew alphabet represented a distinct phoneme, and the
+          differences in pronunciation between letters allowed for a richer and
+          more nuanced expression of speech.
+        </p>
+        <h1>The signs - האותות</h1>
+        <p>
+          The 22 letters used in Hebrew are derived from the word "אות" (Oath),
+          meaning "sign" in Hebrew. From a biblical perspective, oaths are
+          tangible manifestations of understanding. For instance, in the book of
+          Genesis, Elohim declares that the sun and the moon would be for
+          "אותות" (signs), indicating literal physical representations serving
+          as signs for us. This suggests that each letter of the Hebrew
+          alphabet, collectively known as "the aleph-bet," carries a sacred
+          individual identity associated with its form.
+        </p>
       </div>
     </div>
   );

@@ -58,14 +58,12 @@
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
 
 .days li {
     width: 14.28%; /* 100% / 7 days */
     text-align: center;
-    
 }
 
 .evenDay--container {
@@ -74,20 +72,34 @@
     gap: 5px;
 }
 
-.day, .empty-day {
+
+.day--light, .empty-day--light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #202124;
+    height: 50px;
+    position: relative;
+    background-color: whitesmoke;
+    color: #202124;
+    border-radius: 4px;
+    padding: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.day--dark, .empty-day--dark{
+    background-color: #202124;
+    color: whitesmoke;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #ccc;
     height: 50px;
     position: relative;
-    color: #000000; /* Optional: adjust text color for better readability */
-    border-radius: 5px; /* Optional: add rounded corners */
-    padding: 5px; /* Optional: add some padding */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    border-radius: 4px; 
+    padding: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
-
-.empty-day {
+.empty-day--light {
     background-color: whitesmoke;
 }
 
@@ -103,8 +115,9 @@
 
 .tooltip {
     visibility: hidden;
-    background-color: black;
+    background-color: #202124;
     color: whitesmoke;
+    border: #ccc solid 1px;
     text-align: center;
     border-radius: 4px;
     padding: 5px;
@@ -117,7 +130,7 @@
     width: 100px;
 }
 
-.day:hover .tooltip {
+.day--light:hover .tooltip, .day--dark:hover .tooltip  {
     visibility: visible;
 }
 

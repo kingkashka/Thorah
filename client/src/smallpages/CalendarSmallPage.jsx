@@ -76,7 +76,7 @@ function CalendarSmallPage() {
                 </ul>
                 <div className='evenDay--container'>
                     {[...Array(firstDayOfMonth).keys()].map((emptyDay) => (
-                        <div key={`empty-${emptyDay}`} className="empty-day"></div>
+                        <div key={`empty-${emptyDay}`} className={`empty-day--${context.color}`}></div>
                     ))}
                     {[...Array(daysInMonth).keys()].map((day) => {
                         const currentDay = day + 1;
@@ -90,7 +90,7 @@ function CalendarSmallPage() {
                         const isToday = new Date().getDate() === currentDay && new Date().getMonth() === month && new Date().getFullYear() === currentYear;
                         
                         return (
-                            <div key={currentDay} className={`day ${markedDay ? markedDay.type : ''} ${markedWeek ? markedWeek.type : ''} ${isSaturday ? 'sabbath' : ''} ${isToday ? 'today' : ''}`}>
+                            <div key={currentDay} className={`day--${context.color} ${markedDay ? markedDay.type : ''} ${markedWeek ? markedWeek.type : ''} ${isSaturday ? 'sabbath' : ''} ${isToday ? 'today' : ''}`}>
                                 <div className="day-number">
                                     <span className="gregorian-day">{currentDay}</span>
                                     {secondaryDay && <span className="secondary-day">{secondaryDay}</span>}
@@ -101,7 +101,7 @@ function CalendarSmallPage() {
                         );
                     })}
                     {[...Array(42 - firstDayOfMonth - daysInMonth).keys()].map((emptyDay) => (
-                        <div key={`fill-${emptyDay}`} className="empty-day"></div>
+                        <div key={`fill-${emptyDay}`} className={`empty-day--${context.color}`}></div>
                     ))}
                 </div>
             </div>

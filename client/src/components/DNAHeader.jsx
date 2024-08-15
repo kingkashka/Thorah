@@ -63,14 +63,18 @@ function DNAHeader() {
           entire Earth. As a sign, Elohim made a covenant between Himself, the
           Earth, people, and all living creatures to never again flood the Earth
           to destroy all flesh, represented through the visual of what we know
-          today as the rainbow. As it is written in "I do set my bow in the
+          today as the rainbow. 
+          <br />As it is written <em>"I do set my bow in the
           cloud, and it shall be for a sign of the covenant between me and the
           earth. And it shall come to pass, when I bring a cloud over the earth,
           that the bow shall be seen in the cloud. And I will remember my
           covenant, which is between me and you and every living creature of all
           flesh; and the waters shall no more become a flood to destroy all
-          flesh." - Thorah <cite>Genesis 9:13-15</cite>, hence the rainbow visuals
-          in the image above.
+          flesh."</em> 
+          <footer>
+          - Thorah <cite>Genesis 9:13-15</cite>
+          </footer>Hence the rainbow
+          visuals in the image above.
         </p>
         <p>
           In restarting civilization and repopulating the land, Elohim allowed
@@ -79,16 +83,24 @@ function DNAHeader() {
           nations today, the set-apart seed of Israel can be traced back to a
           single lineage. Understanding these lineages and their origins through
           DNA can help recognize the descent and heritage of the people of
-          Israel. This is supported by the Thorah in the book of Numbers, which states,
-          "and all the congregation assembled on the first of the second month,
-          and they established their genealogy according to their families by
-          the house of their fathers, by the number of names from age twenty
-          years and above." - Thorah <cite>Genesis 9:13-15</cite> This is an important detail because it highlights
-          the recounting of households by the fathers.
+          Israel. This is supported by the Thorah in the book of Numbers, which
+          states, 
+          <br />
+          <em>
+            "And all the congregation assembled on the first of the second
+            month, and they established their genealogy according to their
+            families by the house of their fathers, by the number of names from
+            age twenty years and above."
+          </em> 
+          <footer>
+          - Thorah <cite>Numbers 1:18</cite>
+          </footer>
+          This is an important detail
+          because it highlights the recounting of households by the fathers.
         </p>
         <p>
           By recounting the lineage based on the fathers, which is contrary to
-          modern Judaism that believes the seedline is determined by the
+          modern Judaism that believes the seed-line is determined by the
           mother's lineage, this concept has no foundation in the Thorah. The
           latter directly correlates with scientific findings regarding the Y
           haplogroup, which is passed down through the paternal line—exclusively
@@ -104,7 +116,7 @@ function DNAHeader() {
 
       <div className="DNACard--Container">
         <div className={`containerOne--${context.color}`}>
-          <h3>Inhereting DNA</h3>
+          <h3>Inheriting DNA</h3>
           <img
             src="https://i2.wp.com/nebula.org/blog/wp-content/uploads/2020/04/Screen-Shot-2020-04-01-at-3.18.16-PM-1024x607.png"
             alt=""

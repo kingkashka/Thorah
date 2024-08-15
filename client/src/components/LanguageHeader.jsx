@@ -52,8 +52,8 @@ function LanguageHeader(props) {
         of 22 letters, all consonants. Vowels are represented using diacritic
         marks called "nikkud" or are implied by context.
         <br />
-        Hebrew in anitiquity was written without "nikkud" vowel points in a
-        system refered to as "matris lectionis". "Matres lectionis" is a Latin
+        Hebrew in antiquity was written without "nikkud" vowel points in a
+        system referred to as "matris lectionis". "Matres lectionis" is a Latin
         term that translates to "mothers of reading" or "mothers of
         pronunciation." In the context of the Hebrew language, it refers to
         certain consonant letters that were used to indicate vowel sounds if not
@@ -85,18 +85,19 @@ function LanguageHeader(props) {
           consonantal sound. It is typically pronounced as a voiceless alveolar
           fricative, similar to the "s" sound in English words like "sit" or
           "see." We can find through historical context where there became
-          confusion of pronunciation between these letters in the book of Judges
-          12:6.
-          <li>
+          confusion of pronunciation between these letters in the book of Judges.
+          <br />
+            <em>
             "Then said they unto him, Say now Shibboleth (שִׁבֹּ֜לֶת): and he
             said Sibboleth (סִבֹּ֗לֶת): for he could not frame to pronounce it
             right. Then they took him, and slew him at the passages of Jordan:
             and there fell at that time of the Ephraimites forty and two
             thousand."
+            </em>
           <footer>
-            - Judges <cite>Chapter 12:6</cite>
+            - Prophets <cite>Judges 12:6</cite>
           </footer>
-          </li>
+          <br />
           This is also the case for letters "tet" and "Thaw". The use of the
           true Thaw has been lost in modern hebrew and does not exist by
           mainstream standards. In ancient Hebrew, the letter "thaw" (ת) is

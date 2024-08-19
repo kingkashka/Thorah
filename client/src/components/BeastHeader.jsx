@@ -14,10 +14,11 @@ function BeastHeader() {
           Euungulata "True ungulates". Ungulate is from the Late Latin adjective
           ungulatus, "hoofed". Ungulatus is a diminutive form of Latin unguis,
           "nail". 
-          <br />
+          <br /> <em>
           “Whatever is dividing hoof, and is the one cleaving cleft
           hooves, the one causing to take up foliage, among the land animals, it
           will you all eat.” 
+          </em>
           <footer>
           -Thorah <cite>Leviticus 11:3</cite>
           </footer>

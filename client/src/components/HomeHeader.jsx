@@ -7,7 +7,7 @@ import Button from "/src/components/Button.jsx";
 function HomeHeader() {
   const context = useContext(ThemeContext);
   const [toggle, setToggle] = React.useState(true);
-  
+
   // function openNav() {
   //   document.getElementById("mySidebar").style.width = "220px";
   // }
@@ -24,13 +24,22 @@ function HomeHeader() {
   // }
 
   return (
-    <div className={`navbar--container--${context.color}`}>
+    <div className={`navbar--container--${context.color} col-sm-`}>
       <div className="headerleft--box">
-      <Link className={`home--link--${context.color}`} to={"/"}>
-        יהוה
-      </Link>
+        <Link className={`home--link--${context.color}`} to={"/"}>
+          יהוה
+        </Link>
       </div>
       <ul>
+        {/* <li>Laws
+        <ul className="submenu">
+          <li>
+          <Link className={`link--${context.color}`} to={"/leviticus11"}>
+            Kosher
+          </Link> 
+          </li>
+        </ul>   
+        </li> */}
         <li>
           <Link className={`link--${context.color}`} to={"/leviticus11"}>
             Kosher

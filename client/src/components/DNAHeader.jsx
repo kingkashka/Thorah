@@ -39,7 +39,7 @@ function DNAHeader() {
     />
   ));
   return (
-    <div className={`DNAHeader--${context.color}`}>
+    <div className={`DNAHeader--${context.color} col-sm- h-auto w-auto`}>
       <h1>The Holy Seed - זרע הקודש</h1>
       <div className="bigFloodContainer">
         <div className="theFloodContainer">

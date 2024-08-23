@@ -1,6 +1,6 @@
 function KosherHeader() {
   return (
-    <div className="kosher--header">
+    <div className="kosher--header col-sm-">
       <h1>Unclean Animals according to Thorah</h1>
       <h2>טהור אוכל וטמא אוכל</h2>
       <h2>pure food and impure food</h2>

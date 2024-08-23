@@ -6,7 +6,7 @@ import '/src/css/DNA.css';
 
 function DNASmallPage() {
     return(
-      <div className="DNASmall--Page">
+      <div className="DNASmall--Page col-sm- h-auto">
       <DNAHeader />
       <DNAOrgChart data={DNAData}/>
       </div>

@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div>
     <HomeHeader />
-      <div id="myHomePage" className={`homePage--${context.color}`}>
+      <div id="myHomePage" className={`homePage--${context.color} h-auto w-auto`}>
     {/* <Sidebar /> */}
         <h1 className="theName">יהוה</h1>
       </div>

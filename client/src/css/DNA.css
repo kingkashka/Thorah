@@ -139,18 +139,18 @@
 
 .DNAHeader--light h1,
 .DNAHeader--dark h1 {
-  font-size: 48px;
+  font-size: 2.4rem;
   letter-spacing: 0.5px;
 }
 
 .DNAHeader--light h3,
 .DNAHeader--dark h3 {
-  font-size: 36px;
+  font-size: 2rem;
 }
 
 .DNAHeader--light p,
 .DNAHeader--dark p {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /* Container One Styles for Light and Dark Themes */
@@ -208,7 +208,7 @@
 .chromosomeFacts {
   height: 100%;
   width: 100%;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: left;
 }
 
@@ -279,19 +279,16 @@
 
 /* Light Theme DNACard Styles */
 .DNACard--light h2 {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 .DNACard--light label {
-  font-size: 25px;
+  font-size: 1.6rem;
+  font-style: italic;
 }
 
 .DNACard--light p {
-  font-size: 16px;
-}
-.DNACard--light label {
-  font-size: 25px;
-  font-style: italic;
+  font-size: 1rem;
 }
 
 /* Dark Theme DNACard Styles */
@@ -300,17 +297,17 @@
 }
 
 .DNACard--dark h2 {
-  font-size: 30px;
-}
-
-.DNACard--dark p {
-  font-size: 16px;
+  font-size: 2rem;
 }
 
 .DNACard--dark label {
-  font-size: 25px;
+  font-size: 1.6rem;
   font-style: italic;
 }
+.DNACard--dark p {
+  font-size: 1rem;
+}
+
 /* Haplo Title Styles */
 .haploTitle--light,
 .haploTitle--dark {
@@ -321,7 +318,7 @@
   width: inherit;
   height: 140px;
   background-color: bisque;
-  border-radius: 16px 16px 0 0;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .haploTitle--light {
@@ -355,7 +352,7 @@
 }
 
 .DNACard--light p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .divider--light,
@@ -502,31 +499,31 @@ thead {
     text-align: center;
     align-items: center;
     height: 1000px;
-    width: 360px; /* Use a specific value or 100% */
+    width: 360px;
   }
   .theFloodContainer {
     height: 250px;
     width: inherit;
   }
   .DNAHeader--light h1 {
-    font-size: 30px;
+    font-size: 2rem;
     letter-spacing: 0.5px;
   }
   .DNAHeader--light h3 {
-    font-size: 26px;
+    font-size: 1.6rem;
   }
   .DNAHeader--light p {
-    font-size: 14px;
+    font-size: .9rem;
   }
   .DNAHeader--dark h1 {
-    font-size: 30px;
+    font-size: 2rem;
     letter-spacing: 0.5px;
   }
   .DNAHeader--dark h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .DNAHeader--dark p {
-    font-size: 14px;
+    font-size: .9rem;
   }
 
   .DNAchart {
@@ -583,10 +580,10 @@ thead {
   }
   
   .haploTitle--light label {
-    font-size: 24px;
+    font-size: 1.6rem;
   }
   .haploTitle--dark label {
-    font-size: 24px;
+    font-size: 1.6rem;
   }
   .haploInfo--light {
     display: flex;

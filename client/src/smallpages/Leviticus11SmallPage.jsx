@@ -14,7 +14,7 @@ import creeperOnFoursData from "../componentData/creepersOnEarth.js";
 import { useContext } from "react";
 import { ThemeContext } from "/src/components/themeContext.jsx";
 
-function Leveticus11SmallPage() {
+function Leviticus11SmallPage() {
   const context = useContext(ThemeContext);
 
   const renderFlyerCard = flyerCardData.map((animal) => (
@@ -51,19 +51,19 @@ function Leveticus11SmallPage() {
   ));
 
   return (
-    <div  className={`kosher--page--${context.color}`}>
-      <div className={`uncleanAnimals--page--${context.color}`}>
+    <div  className={`kosher--page--${context.color} col-sm-`}>
+      <div className={`uncleanAnimals--page--${context.color} col-sm-`}>
         <KosherHeader />
         <BeastHeader />
-        <div className="card--container">{renderBeastCard}</div>
+        <div className="card--container col-sm-">{renderBeastCard}</div>
         <FlyerHeader />
-        <div className="lilCardContainer">{renderFlyerCard}</div>
+        <div className="lilCardContainer col-sm-">{renderFlyerCard}</div>
         <CreeperHeader />
-        <div className="creeperCardContainer">{renderCreeperCard}</div>
+        <div className="creeperCardContainer col-sm-">{renderCreeperCard}</div>
         <OnFourAnimals />
-        <div className="lilCardContainer">{renderCreeperOnFourCard}</div>
+        <div className="lilCardContainer col-sm-">{renderCreeperOnFourCard}</div>
       </div>
     </div>
   );
 }
-export default Leveticus11SmallPage;
+export default Leviticus11SmallPage;
